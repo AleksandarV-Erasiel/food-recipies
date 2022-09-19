@@ -1,0 +1,165 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+/* General aesthetic */
+#wrapper {
+    margin: 1rem 10%;
+    font-family: Raleway;
+    font-size: 1em;
+    text-align: center;
+    background-color: azure;
+}
+
+/* Index - Main aesthetic */
+
+.page-wrap {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: aliceblue;
+    margin-top: 0.2%;
+}
+
+.mamarmite {
+    text-decoration: underline orange;
+    font-style: italic;
+}
+
+.index-main {
+    margin: 1%;
+    display: flex;
+}
+
+.index-left-section, .index-right-section {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+.index-left-section {
+    float: left;
+    width: 60%;
+    margin-right: 1%;
+    border: 2px solid black;
+    border-radius: 10px 30px;
+}
+
+.index-right-section {
+    float: right;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 30px 10px;
+}
+
+/* Navbar aesthetic */
+#navbar_container {
+    font-size: 2em;
+    background-color: orange;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.navbar {
+    font-family: Raleway;
+    padding: 0.5%;
+}
+
+.navbar_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.navbar_item {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    padding: 0.3rem 0;
+}
+
+.navbar_logo, .navbar_link {
+    text-decoration: none;
+    padding: 2px 6px;
+}
+
+.navbar_logo {
+    font-family: 'Ms Madi', cursive;
+    color: purple;
+}
+
+.navbar_link {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease-out;
+    border-radius: 30px;
+}
+
+.navbar_link:hover, .navbar_link:focus {
+    background-color: #333;
+    border-radius: 30px;
+    border: 2px solid #333;
+    color: orange;
+}
+
+/* Footer aesthetic */
+.site-footer {
+    margin-top: 1%;
+    background-color: orange;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* Logo's Movement on Hover */
+@-webkit-keyframes hover {
+    50% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes hover {
+    50% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+}
+
+.hover {
+    display: inline-block;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hover:hover {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-name: hover;
+    animation-name: hover;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
