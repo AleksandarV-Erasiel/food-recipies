@@ -3,6 +3,9 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 from re import sub
+import re
+import unicodedata
+import unidecode
 
 def snake_case(s) :
     return '-'.join(
@@ -10,7 +13,8 @@ def snake_case(s) :
         sub('([A-Z\u00C0-\u024F\u1E00-\u1EFF]+)', r' \1',
         s.replace('\'', '').replace('à', 'a').replace('ç', 'c').replace('é', 'e').replace('è', 'e'))).split()).lower()
 
-print(snake_case("glaçon d'eau pétillante"))
+def remove_accents(text):
+    return unidecode.unidecode(text).replace('A(c)', 'e').replace('ASS', 'c').replace('A"', 'e').replace('AC/', 'a').replace('Aa', 'e').replace("A(r)", "i").replace("A>>", "u")
 
 def stringNumberSeparator(s) :
     text=""
@@ -25,19 +29,25 @@ def stringNumberSeparator(s) :
     res.append(numbers)
     return res
 
+print(snake_case("glaçon d'eau pétillante"))
+print(snake_case("glaçon"))
+print(remove_accents("glaçon"))
+
 recipeTypeList = ["aperitif-ou-buffet","entree","plat-principal","dessert"]
 recipeCounter = 0
 
-fData = open("fData.txt", "w")
+fData = open("scraping/fData.txt", "w")
 
 fData.write("@prefix mm: <http://mamarmite.com/> .\n@prefix dc: <http://purl.org/dc/elements/1.1> .\n\nmm:index dc:creator <http://vasiljevic.alwaysdata.net/> .\nmm:index dc:language \"fr\" .\n<http://vasiljevic.alwaysdata.net/> mm:name \"Aleksandar VASILJEVIC\" .\nmm:index mm:recipes mm:recipes-list .\n")
 
 for recipeType in recipeTypeList :
     urlPage = "https://www.marmiton.org/recettes/index/categorie/{}?rcp=0".format(recipeType)
     page = urlopen(urlPage)
-    html = page.read().decode("iso8859-1")
+    #html = page.read().decode("iso8859-1")
+    html = page.read().decode("utf-8")
     soup = BeautifulSoup(html, "html.parser")
     soupCode = soup.encode('iso8859-1')
+    #soupCode = soup.encode('utf-8')
 
     recipeTitleList, recipeLinkList = [], []
 
@@ -47,7 +57,7 @@ for recipeType in recipeTypeList :
     for recipeLink in soup.find_all("a", "recipe-card-link") :
         recipeLinkList.append(recipeLink.get('href'))
 
-    f = open("url-extraction/url-extraction{}.txt".format(recipeType), "w")
+    f = open("scraping/url-extraction/url-extraction-{}.txt".format(recipeType), "w")
     for i in range(0, len(recipeTitleList)) :
         f.write(recipeTitleList[i]+";"+recipeLinkList[i]+"\n")
     f.close()
@@ -154,13 +164,16 @@ for recipeType in recipeTypeList :
         for x in range(0, len(ingredientsName)) :
             try: 
                 fData.write("mm:component mm:property---ingredient--quantity--properties--{} mm:ingredient-quantity-{} .\n".format(x, x))
-                fData.write("mm:component mm:property---ingredient--name--{} mm:ingredient-{} .\n".format(snake_case(ingredientsName[x]), snake_case(ingredientsName[x])))
+                fData.write("mm:component mm:property---ingredient--name--{} mm:ingredient-{} .\n".format(snake_case(remove_accents(ingredientsName[x])), snake_case(remove_accents(ingredientsName[x]))))
                 
                 ingredientsQuantitySeparatorList = stringNumberSeparator(ingredientsQuantity[x])
 
                 fData.write("mm:ingredient-quantity-{} mm:quantity \"{}\" .\n".format(x, ingredientsQuantitySeparatorList[1]))
                 fData.write("mm:ingredient-quantity-{} mm:mesurement-value \"{}\" .\n".format(x, ingredientsQuantitySeparatorList[0].strip()))
-                fData.write("mm:ingredient-{} mm:name \"{}\" .\n".format(snake_case(ingredientsName[x]), ingredientsName[x]))
+                #print(str(ingredientsName[x]))
+                #print(remove_accents(ingredientsName[x]))
+                #print(snake_case(remove_accents(ingredientsName[x])))
+                fData.write("mm:ingredient-{} mm:name \"{}\" .\n".format(snake_case(remove_accents(ingredientsName[x])), ingredientsName[x]))
             except:
                 a = 1
 

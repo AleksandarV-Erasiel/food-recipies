@@ -64,6 +64,7 @@ while(ingredientsCounter>=0 & toolsCounter>=0 & commentsCounter>=0):
             commentsInformation.append(soup.select('p.SHRD__sc-10plygc-0.bzAHrL')[commentsCounter].text.strip())
             commentsDate.append(soup.select('p.MuiTypography-root.MuiTypography-body2')[commentsCounter].text.strip())
             commentsCounter = commentsCounter+1
+            
     except :
         commentsCounter = -1
         print('Comments extracted from the input document\n')
