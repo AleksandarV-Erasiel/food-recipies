@@ -17,7 +17,7 @@ Brownies;https://www.marmiton.org/recettes/recette_brownies_16951.aspx
 Pain d'épices;https://www.marmiton.org/recettes/recette_pain-d-epices_11087.aspx
 Gâteau au yaourt facile;https://www.marmiton.org/recettes/recette_gateau-au-yaourt-facile_73370.aspx
 Véritable moelleux au chocolat;https://www.marmiton.org/recettes/recette_veritable-moelleux-au-chocolat_12825.aspx
-'The' tarte au citron meringuée;https://www.marmiton.org/recettes/recette_the-tarte-au-citron-meringuee_22082.aspx
+Tarte au citron meringuée;https://www.marmiton.org/recettes/recette_the-tarte-au-citron-meringuee_22082.aspx
 Crumble aux pommes;https://www.marmiton.org/recettes/recette_crumble-aux-pommes_15265.aspx
 Crème anglaise réussie, onctueuse à souhait;https://www.marmiton.org/recettes/recette_creme-anglaise-reussie-onctueuse-a-souhait_37391.aspx
 Crème pâtissière;https://www.marmiton.org/recettes/recette_creme-patissiere_35195.aspx

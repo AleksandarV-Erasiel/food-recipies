@@ -302,6 +302,7 @@ for recipeType in recipeTypeList :
                 if (referencedIngredient.endswith("s")):
                     referencedIngredient = referencedIngredient[:-1]
                 #print(ingredientsOrderList[ingredientNumber]+" - "+referencedIngredient)
+                #TODO: add a triplet from mm:ingredient-{snake_case(remove_accents(referencedIngredient))} to the name of the ingredient [see test with aperol and deau-petillante] MISSING NAME
                 fData.write("mm:step mm:property---step--ingredients--{}-{} mm:ingredient-{} .\n".format(recipeUri, i, snake_case(remove_accents(referencedIngredient))))
                 if (numberOfIngredientsPerStep[i] == firstValue) :
                     value = "{}".format(ingredientsOrderList[ingredientNumber])
