@@ -97,8 +97,6 @@ def stringNumberSeparator(s) :
     res.append(numbers)
     return res
 
-print(stringNumberSeparator("1/2 verre"))
-
 recipeTypeList = ["aperitif-ou-buffet","entree","plat-principal","dessert"]
 recipeCounter = 0
 

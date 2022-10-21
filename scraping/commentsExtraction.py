@@ -19,6 +19,41 @@ from bs4 import BeautifulSoup
 def funidecode(s):
     return unidecode.unidecode(s)
 
+def commentsDataExtraction():
+    for commentAuthorName in soup.find_all("p", "MuiTypography-root MuiTypography-h6"):
+        commentAuthorName = commentAuthorName.text.strip()
+        if (commentAuthorName == ""):
+            commentAuthorName = "Inconnu"
+        commentAuthorNameList.append(funidecode(commentAuthorName))
+
+    for commentAuthorNote in soup.find_all("span", "SHRD__sc-10plygc-0 jHwZwD"):
+        commentAuthorNote = commentAuthorNote.text.strip()
+        if (commentAuthorNote == ""):
+            commentAuthorNote = "Inconnu"
+        commentAuthorNoteList.append(funidecode(commentAuthorNote))
+    
+    for commentAuthorInformation in soup.find_all("p", "SHRD__sc-10plygc-0 bzAHrL"):
+        commentAuthorInformation = commentAuthorInformation.text.strip()
+        if (commentAuthorInformation == ""):
+            commentAuthorInformation = "Inconnu"
+        commentAuthorInformationList.append(funidecode(commentAuthorInformation))
+
+    for commentAuthorDate in soup.find_all("p", "MuiTypography-root MuiTypography-body2"):
+        commentAuthorDate = commentAuthorDate.text.strip()
+        if (commentAuthorDate == ""):
+            commentAuthorDate = "Inconnu"
+        commentAuthorDateList.append(funidecode(commentAuthorDate))
+
+def commentsDataFileWriter():
+    # fCommentsData.write("{}\n".format(str(commentAuthorInformationList)))
+    for i in range(0, len(commentAuthorNameList)):
+        fCommentsData.write("mm:comment mm:comment-author-name-{} \"{}\" .\n".format(i, commentAuthorNameList[i]))
+        fCommentsData.write("mm:comment mm:comment-author-note-{} \"{}\" .\n".format(i, commentAuthorNoteList[i]))
+        fCommentsData.write("mm:comment mm:comment-author-information-{} \"{}\" .\n".format(i, commentAuthorInformationList[i]))
+        fCommentsData.write("mm:comment mm:comment-author-date-{} \"{}\" .\n".format(i, commentAuthorDateList[i]))
+
+fCommentsData = open("scraping/fCommentsData.txt", "w")
+commentAuthorNameList, commentAuthorNoteList, commentAuthorInformationList, commentAuthorDateList = [], [], [], []
 recipeTypeList = ["aperitif-ou-buffet", "entree", "plat-principal", "dessert"]
 recipeCounter = 0
 
@@ -53,8 +88,10 @@ for recipeType in recipeTypeList:
         soup = BeautifulSoup(driver.page_source, "html.parser")
         soupCode = soup.encode('iso8859-1')
 
-        commentAuthorNameList, commentAuthorNoteList, commentAuthorInformationList, commentAuthorDateList = [], [], [], []
-
+        commentAuthorNameList.clear()
+        commentAuthorNoteList.clear()
+        commentAuthorInformationList.clear()
+        commentAuthorDateList.clear()
         recipeTitle = soup.select('h1.itJBWW')[0].text.strip()
 
         #for commentAuthor in soup.find_all("p", "MuiTypography-root MuiTypography-h6"):
@@ -101,60 +138,18 @@ for recipeType in recipeTypeList:
 
             soup = BeautifulSoup(driver.page_source, "html.parser")
             #soupCode = soup.encode('iso8859-1')
-
-            for commentAuthorName in soup.find_all("p", "MuiTypography-root MuiTypography-h6"):
-                commentAuthorName = commentAuthorName.text.strip()
-                if (commentAuthorName == ""):
-                    commentAuthorName = "Inconnu"
-                commentAuthorNameList.append(funidecode(commentAuthorName))
-
-            for commentAuthorNote in soup.find_all("span", "SHRD__sc-10plygc-0 jHwZwD"):
-                commentAuthorNote = commentAuthorNote.text.strip()
-                if (commentAuthorNote == ""):
-                    commentAuthorNote = "Inconnu"
-                commentAuthorNoteList.append(funidecode(commentAuthorNote))
-            
-            for commentAuthorInformation in soup.find_all("p", "SHRD__sc-10plygc-0 bzAHrL"):
-                commentAuthorInformation = commentAuthorInformation.text.strip()
-                if (commentAuthorInformation == ""):
-                    commentAuthorInformation = "Inconnu"
-                commentAuthorInformationList.append(funidecode(commentAuthorInformation))
-
-            for commentAuthorDate in soup.find_all("p", "MuiTypography-root MuiTypography-body2"):
-                commentAuthorDate = commentAuthorDate.text.strip()
-                if (commentAuthorDate == ""):
-                    commentAuthorDate = "Inconnu"
-                commentAuthorDateList.append(funidecode(commentAuthorDate))
+            commentsDataExtraction()
+            commentsDataFileWriter()
             time.sleep(randint(3, 5))
         else:
             print("Element \"more\" not exist")
-            for commentAuthorName in soup.find_all("p", "MuiTypography-root MuiTypography-h6"):
-                commentAuthorName = commentAuthorName.text.strip()
-                if (commentAuthorName == ""):
-                    commentAuthorName = "Inconnu"
-                commentAuthorNameList.append(funidecode(commentAuthorName))
-
-            for commentAuthorNote in soup.find_all("span", "SHRD__sc-10plygc-0 jHwZwD"):
-                commentAuthorNote = commentAuthorNote.text.strip()
-                if (commentAuthorNote == ""):
-                    commentAuthorNote = "Inconnu"
-                commentAuthorNoteList.append(funidecode(commentAuthorNote))
-            
-            for commentAuthorInformation in soup.find_all("p", "SHRD__sc-10plygc-0 bzAHrL"):
-                commentAuthorInformation = commentAuthorInformation.text.strip()
-                if (commentAuthorInformation == ""):
-                    commentAuthorInformation = "Inconnu"
-                commentAuthorInformationList.append(funidecode(commentAuthorInformation))
-
-            for commentAuthorDate in soup.find_all("p", "MuiTypography-root MuiTypography-body2"):
-                commentAuthorDate = commentAuthorDate.text.strip()
-                if (commentAuthorDate == ""):
-                    commentAuthorDate = "Inconnu"
-                commentAuthorDateList.append(funidecode(commentAuthorDate))
+            commentsDataExtraction()
+            commentsDataFileWriter()
             time.sleep(randint(3, 5))
 
         commentAuthorNoteList.pop(0)
         print(commentAuthorNameList)
+        # Remove the average recipe note
         print(commentAuthorNoteList)
         print(commentAuthorInformationList)
         print(commentAuthorDateList)

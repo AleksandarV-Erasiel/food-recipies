@@ -1,0 +1,64 @@
+mm:comment mm:comment-author-name-0 "christal03" .
+mm:comment mm:comment-author-note-0 "4/5" .
+mm:comment mm:comment-author-information-0 "La vraie recette : 1/3 d'aperol, 1/3 de cremant (ou autre vin petillant, j'utilise un cremant d'Alsace ), 1/3 d'eau petillante et quelques tranches d'orange. Voila un aperitif peu alcoolise, mais a boire quand meme avec moderation ! !" .
+mm:comment mm:comment-author-date-0 "21/08/2017 16:04" .
+mm:comment mm:comment-author-name-1 "elfs92" .
+mm:comment mm:comment-author-note-1 "4/5" .
+mm:comment mm:comment-author-information-1 "EXCELLENT !!!! Comme a Venise" .
+mm:comment mm:comment-author-date-1 "13/12/2014 21:01" .
+mm:comment mm:comment-author-name-2 "Letty500" .
+mm:comment mm:comment-author-note-2 "4/5" .
+mm:comment mm:comment-author-information-2 "Tres bon cocktail, tres frais mais j'ai modifie les proportions comme suit : 2 verres d'Aperol - 3 verres de Prosecco - 1 "trait" d'eau petillante selon le gout...et c'etait parfait !" .
+mm:comment mm:comment-author-date-2 "01/09/2013 19:32" .
+mm:comment mm:comment-author-name-0 "minali48" .
+mm:comment mm:comment-author-note-0 "4.5/5" .
+mm:comment mm:comment-author-information-0 "Je n'ai pas mis les memes ingredients mais super ! En laissant dans le four eteint ca cuit bien au milieu" .
+mm:comment mm:comment-author-date-0 "20/09/2021 19:55" .
+mm:comment mm:comment-author-name-1 "Gwenleila" .
+mm:comment mm:comment-author-note-1 "5/5" .
+mm:comment mm:comment-author-information-1 "Recette au top ! J'ai rajoute du comte au plus c'est encore meilleur" .
+mm:comment mm:comment-author-date-1 "05/09/2021 15:13" .
+mm:comment mm:comment-author-name-2 "georgia" .
+mm:comment mm:comment-author-note-2 "5/5" .
+mm:comment mm:comment-author-information-2 "Gouteux, moelleux, delicieux! Un vrai regal!" .
+mm:comment mm:comment-author-date-2 "13/01/2021 14:28" .
+mm:comment mm:comment-author-name-3 "pataflo" .
+mm:comment mm:comment-author-note-3 "5/5" .
+mm:comment mm:comment-author-information-3 "Je l'ai fait avec des tomates cerises coupees en deux ! Je farine les ingredients avant de les melanger a la pate a cake ! Mes invites ont adore. Je la referai avec plaisir." .
+mm:comment mm:comment-author-date-3 "01/11/2012 14:01" .
+mm:comment mm:comment-author-name-4 "hannah_14543718" .
+mm:comment mm:comment-author-note-4 "5/5" .
+mm:comment mm:comment-author-information-4 "Simple, delicieux. Aussi bon chaud que froid." .
+mm:comment mm:comment-author-date-4 "05/11/2011 19:56" .
+mm:comment mm:comment-author-name-5 "kaila42" .
+mm:comment mm:comment-author-note-5 "4/5" .
+mm:comment mm:comment-author-information-5 "Temps de cuisson un peu juste. Ajouter 10 minutes de cuisson a 180degC et assaisonner davantage (sel + poivre). On peut utiliser du lait en poudre a la place du lait liquide. La legerete du cake est la meme. Bel aspect. Le cake monte peu. Ne pas hesiter a remplir le moule jusqu'au 9/10e." .
+mm:comment mm:comment-author-date-5 "25/06/2013 23:23" .
+mm:comment mm:comment-author-name-6 "laura_16668902" .
+mm:comment mm:comment-author-note-6 "4/5" .
+mm:comment mm:comment-author-information-6 "Excellent. Je l'accompagne d'une salade verte pour le diner. Ou en aperitif, coupe en des. Pour ma part, je rajoute une tomate." .
+mm:comment mm:comment-author-date-6 "22/05/2008 16:15" .
+mm:comment mm:comment-author-name-7 "elena_15818583" .
+mm:comment mm:comment-author-note-7 "5/5" .
+mm:comment mm:comment-author-information-7 "Excellent !!! C'est la premiere fois que je fais un cake sale ! Un seul mot : excellent !" .
+mm:comment mm:comment-author-date-7 "12/02/2012 21:37" .
+mm:comment mm:comment-author-name-8 "Bouledogradin" .
+mm:comment mm:comment-author-note-8 "5/5" .
+mm:comment mm:comment-author-information-8 "Parfait et pas sec." .
+mm:comment mm:comment-author-date-8 "14/12/2020 17:03" .
+mm:comment mm:comment-author-name-9 "Ltfan24" .
+mm:comment mm:comment-author-note-9 "5/5" .
+mm:comment mm:comment-author-information-9 "J'adore cette recette simple et rapide pour un debutant en cuisine" .
+mm:comment mm:comment-author-date-9 "08/05/2020 23:33" .
+mm:comment mm:comment-author-name-10 "Inconnu" .
+mm:comment mm:comment-author-note-10 "5/5" .
+mm:comment mm:comment-author-information-10 "Recette excellente et appetissante!!!" .
+mm:comment mm:comment-author-date-10 "12/08/2004 00:09" .
+mm:comment mm:comment-author-name-11 "noor_14531158" .
+mm:comment mm:comment-author-note-11 "4/5" .
+mm:comment mm:comment-author-information-11 "Tres bon cake pas du tout sec." .
+mm:comment mm:comment-author-date-11 "23/12/2013 22:19" .
+mm:comment mm:comment-author-name-12 "Gloria" .
+mm:comment mm:comment-author-note-12 "5/5" .
+mm:comment mm:comment-author-information-12 "Excellent! Je l'ai fait sans olives (n'en ayant pas). J'ai utilise du jambon de pays et des tomates cerises coupees en deux." .
+mm:comment mm:comment-author-date-12 "16/08/2004 01:58" .
