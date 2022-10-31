@@ -1,18 +1,27 @@
+import csv
+import re
+import sys
+import time
+import unicodedata
+from difflib import SequenceMatcher
+from random import randint
+from re import sub
+from urllib.parse import urlparse
 from urllib.request import urlopen
 
-from bs4 import BeautifulSoup
-
-from re import sub
-import re
-import unicodedata
 import unidecode
-import csv
-from urllib.parse import urlparse
-from difflib import SequenceMatcher
+from bs4 import BeautifulSoup
 from pattern.text.fr import singularize
-import sys
+from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
+# Load selenium components
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select, WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
 
-ingredientsNameList = []
+commentAuthorNameList, commentAuthorNoteList, commentAuthorInformationList, commentAuthorDateList = [], [], [], []
+ingredientsNameDatabaseList = []
 ingredientsSimilarityList = []
 ingredientsNameSaver = []
 
@@ -20,7 +29,7 @@ with open('scraping/ingredients_list.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     for row in csv_reader:
-        ingredientsNameList.append(row[2])
+        ingredientsNameDatabaseList.append(row[2])
         line_count += 1
 
 def similar(a, b):
@@ -30,7 +39,7 @@ def findIngredientSimilarity(ingredient):
     choosedIngredient = ""
     similarityRatio = 0
     ingredientFound = 0
-    for ingredientDB in ingredientsNameList :
+    for ingredientDB in ingredientsNameDatabaseList :
         if (ingredient+" ") in ingredientDB:
             choosedIngredient = ingredientDB
             ingredientFound = 1
@@ -44,6 +53,42 @@ def findIngredientSimilarity(ingredient):
     ingredientsSimilarityList.append(choosedIngredient)
     #print(ingredient+"\t-\t"+choosedIngredient+"\n")
     return choosedIngredient
+
+def funidecode(s):
+    return unidecode.unidecode(s)
+
+def commentsDataExtraction():
+    for commentAuthorName in soup.find_all("p", "MuiTypography-root MuiTypography-h6"):
+        commentAuthorName = commentAuthorName.text.strip()
+        if (commentAuthorName == ""):
+            commentAuthorName = "Inconnu"
+        commentAuthorNameList.append(funidecode(commentAuthorName))
+
+    for commentAuthorNote in soup.find_all("span", "SHRD__sc-10plygc-0 jHwZwD"):
+        commentAuthorNote = commentAuthorNote.text.strip()
+        if (commentAuthorNote == ""):
+            commentAuthorNote = "Inconnu"
+        commentAuthorNoteList.append(funidecode(commentAuthorNote))
+    
+    for commentAuthorInformation in soup.find_all("p", "SHRD__sc-10plygc-0 bzAHrL"):
+        commentAuthorInformation = commentAuthorInformation.text.strip()
+        if (commentAuthorInformation == ""):
+            commentAuthorInformation = "Inconnu"
+        commentAuthorInformationList.append(funidecode(commentAuthorInformation))
+
+    for commentAuthorDate in soup.find_all("p", "MuiTypography-root MuiTypography-body2"):
+        commentAuthorDate = commentAuthorDate.text.strip()
+        if (commentAuthorDate == ""):
+            commentAuthorDate = "Inconnu"
+        commentAuthorDateList.append(funidecode(commentAuthorDate))
+
+def commentsDataFileWriter():
+    # fCommentsData.write("{}\n".format(str(commentAuthorInformationList)))
+    for i in range(0, len(commentAuthorNameList)):
+        fData.write("mm:comment mm:comment-author-name-{}-{} \"{}\" .\n".format(recipeUri, i, commentAuthorNameList[i]))
+        fData.write("mm:comment mm:comment-author-note-{}-{} \"{}\" .\n".format(recipeUri, i, commentAuthorNoteList[i]))
+        fData.write("mm:comment mm:comment-author-information-{}-{} \"{}\" .\n".format(recipeUri, i, commentAuthorInformationList[i]))
+        fData.write("mm:comment mm:comment-author-date-{}-{} \"{}\" .\n".format(recipeUri, i, commentAuthorDateList[i]))
 
 def findReferencedIngredients(ingredient):
     choosedIngredient = ""
@@ -128,8 +173,19 @@ for recipeType in recipeTypeList :
 
     print(recipeType)
 
+    options = webdriver.ChromeOptions()
+    options.add_argument('--ignore-certificate-errors')
+    options.add_argument('--incognito')
+    options.add_argument('--headless')
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+
     for i in range(0, len(recipeLinkList)) :
         stepCounter = 0
+
+        commentAuthorNameList.clear()
+        commentAuthorNoteList.clear()
+        commentAuthorInformationList.clear()
+        commentAuthorDateList.clear()
 
         recipeUrl = recipeLinkList[i]
         page = urlopen(recipeUrl)
@@ -171,6 +227,9 @@ for recipeType in recipeTypeList :
         fData.write("<{}> mm:cooking-time \"{}\" .\n".format(recipeUrl, cookingTime))
         fData.write("<{}> mm:auther-name \"{}\" .\n".format(recipeUrl, autherName))
         fData.write("<{}> mm:note \"{}\" .\n".format(recipeUrl, note))
+
+        #commentsDataExtraction()
+        #print(commentAuthorNameList)
 
         print(i, recipeTitle)
 
@@ -261,7 +320,7 @@ for recipeType in recipeTypeList :
                 print("Line number: ", line_number)
 
                 #exit()
-                    
+        
 
         for x in range(0, len(toolsName)) :
             try:
@@ -326,6 +385,63 @@ for recipeType in recipeTypeList :
             except:
                 a=1
 
+        recipeUrl = recipeLinkList[i]
+        driver.get(recipeUrl)
+        html = page.read().decode("iso8859-1")
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        soupCode = soup.encode('iso8859-1')
+
+        driver.maximize_window()  # For maximizing window
+        driver.implicitly_wait(3)  # gives an implicit wait for 20 second
+
+        resultAgreeButton = driver.find_elements(
+            By.XPATH, '//*[@id="didomi-notice-agree-button"]/span')
+        resultAgreeButtonPresent = len(resultAgreeButton)
+        if (resultAgreeButtonPresent > 0):
+            driver.find_element(
+                By.XPATH, '//*[@id="didomi-notice-agree-button"]/span').click()
+            print("Agree button clicked")
+
+        time.sleep(randint(1, 3))
+        driver.execute_script(
+            "window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(randint(1, 3))
+
+        commentsSection = driver.find_element(
+            By.CSS_SELECTOR, "div[class='RCP__sc-2jkou4-1 cqYsJZ']")
+        moreButton = commentsSection.find_elements(
+            By.CSS_SELECTOR, "span[class='MuiTypography-root MuiTypography-caption']")
+
+        moreButtonPresent = len(moreButton)
+
+        if (moreButtonPresent > 0):
+            # Click on the "more" button to show more comments in the pop up window
+            print("Element \"more\" exist")
+            moreButtonClicker = commentsSection.find_element(
+                By.CSS_SELECTOR, "span[class='MuiTypography-root MuiTypography-caption']")
+            driver.execute_script("arguments[0].click();", moreButtonClicker)
+            time.sleep(randint(1, 3))
+
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+            #soupCode = soup.encode('iso8859-1')
+            commentsDataExtraction()
+            commentAuthorNoteList.pop(0)
+            commentsDataFileWriter()
+            time.sleep(randint(3, 5))
+        else:
+            print("Element \"more\" not exist")
+            commentsDataExtraction()
+            commentAuthorNoteList.pop(0)
+            commentsDataFileWriter()
+            time.sleep(randint(3, 5))
+
+        #commentAuthorNoteList.pop(0)
+        print(commentAuthorNameList)
+        # Remove the average recipe note
+        print(commentAuthorNoteList)
+        print(commentAuthorInformationList)
+        print(commentAuthorDateList)
+
         stepCounter = 0
 
         #print(ingredientsPerStepList)
@@ -349,6 +465,7 @@ for recipeType in recipeTypeList :
         print()
 
         recipeCounter = recipeCounter+1
+    driver.close()
     
     #res = {}
     #for i in ingredientsSimilarityList:
