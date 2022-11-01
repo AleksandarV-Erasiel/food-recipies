@@ -1,0 +1,384 @@
+@prefix mm: <http://mamarmite.com/> .
+@prefix dc: <http://purl.org/dc/elements/1.1> .
+
+mm:index dc:creator <http://vasiljevic.alwaysdata.net/> .
+mm:index dc:language "fr" .
+<http://vasiljevic.alwaysdata.net/> mm:name "Aleksandar VASILJEVIC" .
+mm:index mm:recipes mm:recipes-list .
+
+mm:recipes-list mm:recipe-aperol-spritz-cocktail-italien-petillant_305639 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--component--aperol-spritz-cocktail-italien-petillant_305639 mm:component .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--tool--aperol-spritz-cocktail-italien-petillant_305639 mm:tool .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--step--aperol-spritz-cocktail-italien-petillant_305639 mm:step .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--comment--aperol-spritz-cocktail-italien-petillant_305639 mm:comments .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:recipe-title "Aperol Spritz : cocktail italien pétillant" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:total-preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:default-number-of-people-for-recipe "6" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:auther-name "jules_14520193" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:average-note "4/5" .
+mm:component mm:property---ingredient--quantity--properties--de-vin-blanc-petillant-type-prosecco mm:ingredient-quantity-de-vin-blanc-petillant-type-prosecco .
+mm:component mm:property---ingredient--name--de-vin-blanc-petillant-type-prosecco mm:ingredient-de-vin-blanc-petillant-type-prosecco .
+mm:ingredient-de-vin-blanc-petillant-type-prosecco mm:name "de vin blanc pétillant type Prosecco" .
+mm:ingredient-quantity-de-vin-blanc-petillant-type-prosecco mm:quantity "3" .
+mm:ingredient-quantity-de-vin-blanc-petillant-type-prosecco mm:mesurement-value "verres" .
+mm:component mm:property---ingredient--quantity--properties--vin-petillant mm:ingredient-quantity-vin-petillant .
+mm:component mm:property---ingredient--name--vin-petillant mm:ingredient-vin-petillant .
+mm:ingredient-vin-petillant mm:name "Vin pétillant" .
+mm:ingredient-quantity-vin-petillant mm:quantity "2" .
+mm:ingredient-quantity-vin-petillant mm:mesurement-value "verres" .
+mm:component mm:property---ingredient--quantity--properties--orange-sanguine mm:ingredient-quantity-orange-sanguine .
+mm:component mm:property---ingredient--name--orange-sanguine mm:ingredient-orange-sanguine .
+mm:ingredient-orange-sanguine mm:name "orange sanguine" .
+mm:ingredient-quantity-orange-sanguine mm:quantity "1" .
+mm:ingredient-quantity-orange-sanguine mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--daperol mm:ingredient-quantity-daperol .
+mm:component mm:property---ingredient--name--daperol mm:ingredient-daperol .
+mm:ingredient-daperol mm:name "d'aperol" .
+mm:ingredient-quantity-daperol mm:quantity "10" .
+mm:ingredient-quantity-daperol mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--glacon mm:ingredient-quantity-glacon .
+mm:component mm:property---ingredient--name--glacon mm:ingredient-glacon .
+mm:ingredient-glacon mm:name "glaçon" .
+mm:ingredient-quantity-glacon mm:quantity "5" .
+mm:ingredient-quantity-glacon mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 Presse-ail" .
+mm:step mm:property---step--ingredients--aperol-spritz-cocktail-italien-petillant_305639-1 mm:ingredient-glacon .
+mm:step mm:property---step--ingredients--aperol-spritz-cocktail-italien-petillant_305639-1 mm:ingredient-deau-petillante .
+mm:ingredient-deau-petillante mm:name "d'eau pétillante" .
+mm:step mm:property---step--ingredients--aperol-spritz-cocktail-italien-petillant_305639-1 mm:ingredient-orange-sanguine .
+mm:ingredient-orange-sanguine mm:name "orange sanguine" .
+mm:step mm:property---step--instructions--aperol-spritz-cocktail-italien-petillant_305639 mm:instructions-aperol-spritz-cocktail-italien-petillant_305639 .
+mm:instructions-aperol-spritz-cocktail-italien-petillant_305639 mm:information-0 "Préparer la quantité de cocktail souhaitée en respectant les proportions !" .
+mm:instructions-aperol-spritz-cocktail-italien-petillant_305639 mm:information-1 "Garnir de glaçons et d'un morceau d'orange (sanguine si possible)." .
+mm:instructions-aperol-spritz-cocktail-italien-petillant_305639 mm:information-2 "Santé !" .
+mm:recipes-list mm:recipe-cake-sale_28510 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--component--cake-sale_28510 mm:component .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--tool--cake-sale_28510 mm:tool .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--step--cake-sale_28510 mm:step .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--comment--cake-sale_28510 mm:comments .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:recipe-title "Cake salé rapide et facile" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:total-preparation-time "55 min" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:default-number-of-people-for-recipe "4" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:preparation-time "15 min" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:cooking-time "40 min" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:auther-name "manou1983" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:average-note "4.5/5" .
+mm:component mm:property---ingredient--quantity--properties--de-lardons-en-lamelle mm:ingredient-quantity-de-lardons-en-lamelle .
+mm:component mm:property---ingredient--name--de-lardons-en-lamelle mm:ingredient-de-lardons-en-lamelle .
+mm:ingredient-de-lardons-en-lamelle mm:name "de lardons en lamelle" .
+mm:ingredient-quantity-de-lardons-en-lamelle mm:quantity "100" .
+mm:ingredient-quantity-de-lardons-en-lamelle mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--mandarine mm:ingredient-quantity-mandarine .
+mm:component mm:property---ingredient--name--mandarine mm:ingredient-mandarine .
+mm:ingredient-mandarine mm:name "Mandarine" .
+mm:ingredient-quantity-mandarine mm:quantity "200" .
+mm:ingredient-quantity-mandarine mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--de-levure-chimique mm:ingredient-quantity-de-levure-chimique .
+mm:component mm:property---ingredient--name--de-levure-chimique mm:ingredient-de-levure-chimique .
+mm:ingredient-de-levure-chimique mm:name "de levure chimique" .
+mm:ingredient-quantity-de-levure-chimique mm:quantity "1" .
+mm:ingredient-quantity-de-levure-chimique mm:mesurement-value "sachet" .
+mm:component mm:property---ingredient--quantity--properties--dhuile-dolive mm:ingredient-quantity-dhuile-dolive .
+mm:component mm:property---ingredient--name--dhuile-dolive mm:ingredient-dhuile-dolive .
+mm:ingredient-dhuile-dolive mm:name "d'huile d'olive" .
+mm:ingredient-quantity-dhuile-dolive mm:quantity "7" .
+mm:ingredient-quantity-dhuile-dolive mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--poudre-de-lait mm:ingredient-quantity-poudre-de-lait .
+mm:component mm:property---ingredient--name--poudre-de-lait mm:ingredient-poudre-de-lait .
+mm:ingredient-poudre-de-lait mm:name "Poudre de lait" .
+mm:ingredient-quantity-poudre-de-lait mm:quantity "10" .
+mm:ingredient-quantity-poudre-de-lait mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--basilic mm:ingredient-quantity-basilic .
+mm:component mm:property---ingredient--name--basilic mm:ingredient-basilic .
+mm:ingredient-basilic mm:name "Basilic" .
+mm:ingredient-quantity-basilic mm:quantity "" .
+mm:ingredient-quantity-basilic mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--de-beurre-pour-le-moule mm:ingredient-quantity-de-beurre-pour-le-moule .
+mm:component mm:property---ingredient--name--de-beurre-pour-le-moule mm:ingredient-de-beurre-pour-le-moule .
+mm:ingredient-de-beurre-pour-le-moule mm:name "de beurre  pour le moule" .
+mm:ingredient-quantity-de-beurre-pour-le-moule mm:quantity "1" .
+mm:ingredient-quantity-de-beurre-pour-le-moule mm:mesurement-value "noisette" .
+mm:component mm:property---ingredient--quantity--properties--tomate-coupee-en-de mm:ingredient-quantity-tomate-coupee-en-de .
+mm:component mm:property---ingredient--name--tomate-coupee-en-de mm:ingredient-tomate-coupee-en-de .
+mm:ingredient-tomate-coupee-en-de mm:name "tomate coupée en dé" .
+mm:ingredient-quantity-tomate-coupee-en-de mm:quantity "1" .
+mm:ingredient-quantity-tomate-coupee-en-de mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--de-des-de-jambon mm:ingredient-quantity-de-des-de-jambon .
+mm:component mm:property---ingredient--name--de-des-de-jambon mm:ingredient-de-des-de-jambon .
+mm:ingredient-de-des-de-jambon mm:name "de dés de jambon" .
+mm:ingredient-quantity-de-des-de-jambon mm:quantity "100" .
+mm:ingredient-quantity-de-des-de-jambon mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--oeuf mm:ingredient-quantity-oeuf .
+mm:component mm:property---ingredient--name--oeuf mm:ingredient-oeuf .
+mm:ingredient-oeuf mm:name "Oeuf" .
+mm:ingredient-quantity-oeuf mm:quantity "3" .
+mm:ingredient-quantity-oeuf mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--olives-vertes-denoyautee mm:ingredient-quantity-olives-vertes-denoyautee .
+mm:component mm:property---ingredient--name--olives-vertes-denoyautee mm:ingredient-olives-vertes-denoyautee .
+mm:ingredient-olives-vertes-denoyautee mm:name "olives vertes dénoyautée" .
+mm:ingredient-quantity-olives-vertes-denoyautee mm:quantity "" .
+mm:ingredient-quantity-olives-vertes-denoyautee mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 grille à pâtisserie" .
+mm:tool mm:tool-name-1 "1 saladier" .
+mm:tool mm:tool-name-2 "1 Cuillère en bois" .
+mm:tool mm:tool-name-3 "1 Set 3 poêles" .
+mm:tool mm:tool-name-4 "1 Moule à cake" .
+mm:tool mm:tool-name-5 "1 four" .
+mm:tool mm:tool-name-6 "1 dénoyauteur" .
+mm:tool mm:tool-name-7 "1 balance de cuisine" .
+mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-de-farine .
+mm:ingredient-de-farine mm:name "de farine" .
+mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-oeuf .
+mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-de-levure-chimique .
+mm:ingredient-de-levure-chimique mm:name "de levure chimique" .
+mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-dhuile-dolive .
+mm:ingredient-dhuile-dolive mm:name "d'huile d'olive" .
+mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-de-lait .
+mm:ingredient-de-lait mm:name "de lait" .
+mm:step mm:property---step--ingredients--cake-sale_28510-1 mm:ingredient-de-lardons-en-lamelle .
+mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-de-lardons-en-lamelle .
+mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-de-des-de-jambon .
+mm:ingredient-de-des-de-jambon mm:name "de dés de jambon" .
+mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-tomate-coupee-en-de .
+mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-basilic .
+mm:ingredient-basilic mm:name "basilic" .
+mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-olives-vertes-denoyautee .
+mm:step mm:property---step--ingredients--cake-sale_28510-3 mm:ingredient-de-beurre-pour-le-moule .
+mm:ingredient-de-beurre-pour-le-moule mm:name "de beurre  pour le moule" .
+mm:step mm:property---step--instructions--cake-sale_28510 mm:instructions-cake-sale_28510 .
+mm:instructions-cake-sale_28510 mm:information-0 "Préchauffer le four à 180°C (thermostat 6). Dans un saladier, mélanger la farine, les oeufs, la levure. Ajouter progressivement l'huile d'olive ainsi que le lait. Mélanger jusqu'à obtention d'une pâte lisse." .
+mm:instructions-cake-sale_28510 mm:information-1 "Dans une poêle, faire revenir les lardons, sans rajouter de gras, cela permet de les dégraisser un peu." .
+mm:instructions-cake-sale_28510 mm:information-2 "Verser dans la pâte, les lardons, les dés de jambon, les dés de tomates, le basilic ciselé et les olives coupées en morceaux. Mélanger le tout." .
+mm:instructions-cake-sale_28510 mm:information-3 "Avec la noix de beurre, graisser le moule à cake, puis versez-y la pâte." .
+mm:instructions-cake-sale_28510 mm:information-4 "Mettre au four (qui aura été préchauffé), sur 180°C pendant 40 mn (faire cuire davantage si besoin). Régalez vous!!!" .
+mm:recipes-list mm:recipe-lait-de-poule-pour-noel_340080 <https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:class--component--lait-de-poule-pour-noel_340080 mm:component .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:class--tool--lait-de-poule-pour-noel_340080 mm:tool .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:class--step--lait-de-poule-pour-noel_340080 mm:step .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:class--comment--lait-de-poule-pour-noel_340080 mm:comments .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:recipe-title "Lait de poule pour Noël" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:total-preparation-time "7 min" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:default-number-of-people-for-recipe "1" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:cooking-time "2 min" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:auther-name "bookaddict" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:average-note "4.9/5" .
+mm:component mm:property---ingredient--quantity--properties--de-sucre mm:ingredient-quantity-de-sucre .
+mm:component mm:property---ingredient--name--de-sucre mm:ingredient-de-sucre .
+mm:ingredient-de-sucre mm:name "de sucre" .
+mm:ingredient-quantity-de-sucre mm:quantity "25" .
+mm:ingredient-quantity-de-sucre mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--poudre-de-lait mm:ingredient-quantity-poudre-de-lait .
+mm:component mm:property---ingredient--name--poudre-de-lait mm:ingredient-poudre-de-lait .
+mm:ingredient-poudre-de-lait mm:name "Poudre de lait" .
+mm:ingredient-quantity-poudre-de-lait mm:quantity "15" .
+mm:ingredient-quantity-poudre-de-lait mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--cannelle mm:ingredient-quantity-cannelle .
+mm:component mm:property---ingredient--name--cannelle mm:ingredient-cannelle .
+mm:ingredient-cannelle mm:name "Cannelle" .
+mm:ingredient-quantity-cannelle mm:quantity "1" .
+mm:ingredient-quantity-cannelle mm:mesurement-value "pincee" .
+mm:component mm:property---ingredient--quantity--properties--noix-de-muscade mm:ingredient-quantity-noix-de-muscade .
+mm:component mm:property---ingredient--name--noix-de-muscade mm:ingredient-noix-de-muscade .
+mm:ingredient-noix-de-muscade mm:name "Noix de muscade" .
+mm:ingredient-quantity-noix-de-muscade mm:quantity "1" .
+mm:ingredient-quantity-noix-de-muscade mm:mesurement-value "pincee" .
+mm:component mm:property---ingredient--quantity--properties--jaune-doeuf mm:ingredient-quantity-jaune-doeuf .
+mm:component mm:property---ingredient--name--jaune-doeuf mm:ingredient-jaune-doeuf .
+mm:ingredient-jaune-doeuf mm:name "jaune d'oeuf" .
+mm:ingredient-quantity-jaune-doeuf mm:quantity "1" .
+mm:ingredient-quantity-jaune-doeuf mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 casserole" .
+mm:tool mm:tool-name-1 "1 saladier" .
+mm:tool mm:tool-name-2 "1 Cuillère en bois" .
+mm:tool mm:tool-name-3 "1 balance de cuisine" .
+mm:step mm:property---step--ingredients--lait-de-poule-pour-noel_340080-0 mm:ingredient-de-lait .
+mm:ingredient-de-lait mm:name "de lait" .
+mm:step mm:property---step--ingredients--lait-de-poule-pour-noel_340080-0 mm:ingredient-de-cannelle .
+mm:ingredient-de-cannelle mm:name "de cannelle" .
+mm:step mm:property---step--ingredients--lait-de-poule-pour-noel_340080-0 mm:ingredient-de-muscade .
+mm:ingredient-de-muscade mm:name "de muscade" .
+mm:step mm:property---step--ingredients--lait-de-poule-pour-noel_340080-1 mm:ingredient-jaune-doeuf .
+mm:ingredient-jaune-doeuf mm:name "jaune d'oeuf" .
+mm:step mm:property---step--ingredients--lait-de-poule-pour-noel_340080-1 mm:ingredient-de-sucre .
+mm:ingredient-de-sucre mm:name "de sucre" .
+mm:step mm:property---step--ingredients--lait-de-poule-pour-noel_340080-2 mm:ingredient-de-lait .
+mm:ingredient-de-lait mm:name "de lait" .
+mm:step mm:property---step--instructions--lait-de-poule-pour-noel_340080 mm:instructions-lait-de-poule-pour-noel_340080 .
+mm:instructions-lait-de-poule-pour-noel_340080 mm:information-0 "Faites chauffer le lait dans une casserole avec la cannelle et la noix de muscade (attention à ne pas faire bouillir la préparation)." .
+mm:instructions-lait-de-poule-pour-noel_340080 mm:information-1 "Mélangez le jaune d'oeuf et le sucre dans votre tasse." .
+mm:instructions-lait-de-poule-pour-noel_340080 mm:information-2 "Ajoutez le lait dans votre tasse en continuant de bien mélanger." .
+mm:recipes-list mm:recipe-houmous-puree-de-pois-chiches_29761 <https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:class--component--houmous-puree-de-pois-chiches_29761 mm:component .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:class--tool--houmous-puree-de-pois-chiches_29761 mm:tool .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:class--step--houmous-puree-de-pois-chiches_29761 mm:step .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:class--comment--houmous-puree-de-pois-chiches_29761 mm:comments .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:recipe-title "Houmous (purée de pois chiches)" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:total-preparation-time "2 h 30 min" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:default-number-of-people-for-recipe "7" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:preparation-time "30 min" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:cooking-time "2 h" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:auther-name "Mireille F" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:average-note "4.2/5" .
+mm:component mm:property---ingredient--quantity--properties--pois-chiche mm:ingredient-quantity-pois-chiche .
+mm:component mm:property---ingredient--name--pois-chiche mm:ingredient-pois-chiche .
+mm:ingredient-pois-chiche mm:name "Pois chiche" .
+mm:ingredient-quantity-pois-chiche mm:quantity "500" .
+mm:ingredient-quantity-pois-chiche mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--dail mm:ingredient-quantity-dail .
+mm:component mm:property---ingredient--name--dail mm:ingredient-dail .
+mm:ingredient-dail mm:name "d'ail" .
+mm:ingredient-quantity-dail mm:quantity "3" .
+mm:ingredient-quantity-dail mm:mesurement-value "gousses" .
+mm:component mm:property---ingredient--quantity--properties--feuille-de-curry mm:ingredient-quantity-feuille-de-curry .
+mm:component mm:property---ingredient--name--feuille-de-curry mm:ingredient-feuille-de-curry .
+mm:ingredient-feuille-de-curry mm:name "Feuille de curry" .
+mm:ingredient-quantity-feuille-de-curry mm:quantity "1" .
+mm:ingredient-quantity-feuille-de-curry mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--citron mm:ingredient-quantity-citron .
+mm:component mm:property---ingredient--name--citron mm:ingredient-citron .
+mm:ingredient-citron mm:name "Citron" .
+mm:ingredient-quantity-citron mm:quantity "2" .
+mm:ingredient-quantity-citron mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--huile-dolive-tres-fruitee-ou-huile-de-sesame mm:ingredient-quantity-huile-dolive-tres-fruitee-ou-huile-de-sesame .
+mm:component mm:property---ingredient--name--huile-dolive-tres-fruitee-ou-huile-de-sesame mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame .
+mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:name "huile d'olive très fruitée ou huile de sésame" .
+mm:ingredient-quantity-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:quantity "" .
+mm:ingredient-quantity-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--paprika mm:ingredient-quantity-paprika .
+mm:component mm:property---ingredient--name--paprika mm:ingredient-paprika .
+mm:ingredient-paprika mm:name "paprika" .
+mm:ingredient-quantity-paprika mm:quantity "" .
+mm:ingredient-quantity-paprika mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--piment-fort-en-poudre mm:ingredient-quantity-piment-fort-en-poudre .
+mm:component mm:property---ingredient--name--piment-fort-en-poudre mm:ingredient-piment-fort-en-poudre .
+mm:ingredient-piment-fort-en-poudre mm:name "piment fort en poudre" .
+mm:ingredient-quantity-piment-fort-en-poudre mm:quantity "" .
+mm:ingredient-quantity-piment-fort-en-poudre mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--olives-noire mm:ingredient-quantity-olives-noire .
+mm:component mm:property---ingredient--name--olives-noire mm:ingredient-olives-noire .
+mm:ingredient-olives-noire mm:name "olives noire" .
+mm:ingredient-quantity-olives-noire mm:quantity "" .
+mm:ingredient-quantity-olives-noire mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 casserole" .
+mm:tool mm:tool-name-1 "1 Mixeur" .
+mm:tool mm:tool-name-2 "1 Fouet cuisine" .
+mm:tool mm:tool-name-3 "1 Top des meilleures plaques à four" .
+mm:tool mm:tool-name-4 "1 dénoyauteur" .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-0 mm:ingredient-de-pois-chiche .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-1 mm:ingredient-dail .
+mm:ingredient-dail mm:name "d'ail" .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-3 mm:ingredient-de-pois-chiche .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-4 mm:ingredient-de-pois-chiche .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-5 mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame .
+mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:name "huile d'olive très fruitée ou huile de sésame" .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-5 mm:ingredient-citron .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-6 mm:ingredient-dail .
+mm:ingredient-dail mm:name "d'ail" .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-6 mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame .
+mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:name "huile d'olive très fruitée ou huile de sésame" .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-6 mm:ingredient-piment-fort-en-poudre .
+mm:ingredient-piment-fort-en-poudre mm:name "piment fort en poudre" .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-7 mm:ingredient-paprika .
+mm:ingredient-paprika mm:name "paprika" .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-7 mm:ingredient-olives-noire .
+mm:step mm:property---step--ingredients--houmous-puree-de-pois-chiches_29761-7 mm:ingredient-citron .
+mm:step mm:property---step--instructions--houmous-puree-de-pois-chiches_29761 mm:instructions-houmous-puree-de-pois-chiches_29761 .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-0 "La veille, mettre à tremper les pois chiches dans de l'eau froide." .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-1 "Les mettre dans 2 l d'eau froide avec le laurier et 1 gousse d'ail, porter à ébullition et laisser cuire 1 h 30 à 2 h." .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-2 "Saler et poivrer à mi-cuisson." .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-3 "Egoutter les pois chiches, conserver l'eau de cuisson." .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-4 "Mixer les pois chiches en purée, remettre dans une casserole et chauffer à feu doux." .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-5 "Incorporer 10 cl d'huile tiède en fouettant, allonger un peu de jus de cuissons et du jus de citron." .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-6 "Piler l'ail au mortier avec 2 cuillerées d'huile, rajouter cela dans la casserole hors du feu, saupoudrer 1 pincée de piment." .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-7 "Servir saupoudré de paprika, garni d'olives noires et accompagné de quartiers de citrons." .
+mm:instructions-houmous-puree-de-pois-chiches_29761 mm:information-8 "Sans oublier le pain grillé ou le pain libanais !" .
+mm:recipes-list mm:recipe-punch-delicieux_42459 <https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:class--component--punch-delicieux_42459 mm:component .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:class--tool--punch-delicieux_42459 mm:tool .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:class--step--punch-delicieux_42459 mm:step .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:class--comment--punch-delicieux_42459 mm:comments .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:recipe-title "Punch délicieux" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:total-preparation-time "10 min" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:price-range "assez cher" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:default-number-of-people-for-recipe "15" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:preparation-time "10 min" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:auther-name "romy_14769111" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:average-note "4.9/5" .
+mm:component mm:property---ingredient--quantity--properties--de-rhum-blanc mm:ingredient-quantity-de-rhum-blanc .
+mm:component mm:property---ingredient--name--de-rhum-blanc mm:ingredient-de-rhum-blanc .
+mm:ingredient-de-rhum-blanc mm:name "de rhum blanc" .
+mm:ingredient-quantity-de-rhum-blanc mm:quantity "1" .
+mm:ingredient-quantity-de-rhum-blanc mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--jus-de-citron mm:ingredient-quantity-jus-de-citron .
+mm:component mm:property---ingredient--name--jus-de-citron mm:ingredient-jus-de-citron .
+mm:ingredient-jus-de-citron mm:name "Jus de citron" .
+mm:ingredient-quantity-jus-de-citron mm:quantity "1" .
+mm:ingredient-quantity-jus-de-citron mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--vanille mm:ingredient-quantity-vanille .
+mm:component mm:property---ingredient--name--vanille mm:ingredient-vanille .
+mm:ingredient-vanille mm:name "Vanille" .
+mm:ingredient-quantity-vanille mm:quantity "1" .
+mm:ingredient-quantity-vanille mm:mesurement-value "gousse" .
+mm:component mm:property---ingredient--quantity--properties--de-vanille-liquide mm:ingredient-quantity-de-vanille-liquide .
+mm:component mm:property---ingredient--name--de-vanille-liquide mm:ingredient-de-vanille-liquide .
+mm:ingredient-de-vanille-liquide mm:name "de vanille liquide" .
+mm:ingredient-quantity-de-vanille-liquide mm:quantity "4" .
+mm:ingredient-quantity-de-vanille-liquide mm:mesurement-value "c.a.s" .
+mm:component mm:property---ingredient--quantity--properties--poivre-du-moulin-un-peu-de-cannelle mm:ingredient-quantity-poivre-du-moulin-un-peu-de-cannelle .
+mm:component mm:property---ingredient--name--poivre-du-moulin-un-peu-de-cannelle mm:ingredient-poivre-du-moulin-un-peu-de-cannelle .
+mm:ingredient-poivre-du-moulin-un-peu-de-cannelle mm:name "poivre du moulin + un peu de cannelle" .
+mm:ingredient-quantity-poivre-du-moulin-un-peu-de-cannelle mm:quantity "" .
+mm:ingredient-quantity-poivre-du-moulin-un-peu-de-cannelle mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--de-jus-de-banane mm:ingredient-quantity-de-jus-de-banane .
+mm:component mm:property---ingredient--name--de-jus-de-banane mm:ingredient-de-jus-de-banane .
+mm:ingredient-de-jus-de-banane mm:name "de jus de banane" .
+mm:ingredient-quantity-de-jus-de-banane mm:quantity "1" .
+mm:ingredient-quantity-de-jus-de-banane mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--goyave mm:ingredient-quantity-goyave .
+mm:component mm:property---ingredient--name--goyave mm:ingredient-goyave .
+mm:ingredient-goyave mm:name "Goyave" .
+mm:ingredient-quantity-goyave mm:quantity "1" .
+mm:ingredient-quantity-goyave mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--de-jus-danana mm:ingredient-quantity-de-jus-danana .
+mm:component mm:property---ingredient--name--de-jus-danana mm:ingredient-de-jus-danana .
+mm:ingredient-de-jus-danana mm:name "de jus d'anana" .
+mm:ingredient-quantity-de-jus-danana mm:quantity "1" .
+mm:ingredient-quantity-de-jus-danana mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--huile-dorange mm:ingredient-quantity-huile-dorange .
+mm:component mm:property---ingredient--name--huile-dorange mm:ingredient-huile-dorange .
+mm:ingredient-huile-dorange mm:name "Huile d'orange" .
+mm:ingredient-quantity-huile-dorange mm:quantity "1" .
+mm:ingredient-quantity-huile-dorange mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--de-sirop-de-sucre-de-canne mm:ingredient-quantity-de-sirop-de-sucre-de-canne .
+mm:component mm:property---ingredient--name--de-sirop-de-sucre-de-canne mm:ingredient-de-sirop-de-sucre-de-canne .
+mm:ingredient-de-sirop-de-sucre-de-canne mm:name "de sirop de sucre de canne" .
+mm:ingredient-quantity-de-sirop-de-sucre-de-canne mm:quantity "2" .
+mm:ingredient-quantity-de-sirop-de-sucre-de-canne mm:mesurement-value "verres" .
+mm:tool mm:tool-name-0 "1 Cocotte en fonte" .
+mm:step mm:property---step--instructions--punch-delicieux_42459 mm:instructions-punch-delicieux_42459 .
+mm:instructions-punch-delicieux_42459 mm:information-0 "Dans une cocotte, versez tous les ingrédients." .
+mm:instructions-punch-delicieux_42459 mm:information-1 "Fermez le couvercle, et laissez macérer pendant 12 h... ça n'en sera que meilleur!" .
+mm:instructions-punch-delicieux_42459 mm:information-2 "Si vous n'avez pas le temps de le laisser macérer, ce n'est pas grave : il sera délicieux quand même!" .

@@ -6,11 +6,11 @@ mm:index dc:language "fr" .
 <http://vasiljevic.alwaysdata.net/> mm:name "Aleksandar VASILJEVIC" .
 mm:index mm:recipes mm:recipes-list .
 
-mm:recipes-list mm:recipe-aperol-spritz-cocktail-italien-petillant_305639 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> .
-<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--component--aperol-spritz-cocktail-italien-petillant_305639 mm:component .
-<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--tool--aperol-spritz-cocktail-italien-petillant_305639 mm:tool .
-<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--step--aperol-spritz-cocktail-italien-petillant_305639 mm:step .
-<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--comment--aperol-spritz-cocktail-italien-petillant_305639 mm:comment .
+mm:recipes-list mm:recipe-305639 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--component--305639 mm:component .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--tool--305639 mm:tool .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--step--305639 mm:step .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:class--comment--305639 mm:comments .
 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:recipe-title "Aperol Spritz : cocktail italien pétillant" .
 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:recipe-type "aperitif-ou-buffet" .
 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:total-preparation-time "5 min" .
@@ -21,17 +21,17 @@ mm:recipes-list mm:recipe-aperol-spritz-cocktail-italien-petillant_305639 <https
 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:resting-time "-" .
 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:cooking-time "-" .
 <https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:auther-name "jules_14520193" .
-<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:note "4/5" .
-mm:component mm:property---ingredient--quantity--properties--de-vin-blanc-petillant-type-prosecco mm:ingredient-quantity-de-vin-blanc-petillant-type-prosecco .
-mm:component mm:property---ingredient--name--de-vin-blanc-petillant-type-prosecco mm:ingredient-de-vin-blanc-petillant-type-prosecco .
-mm:ingredient-de-vin-blanc-petillant-type-prosecco mm:name "de vin blanc pétillant type Prosecco" .
-mm:ingredient-quantity-de-vin-blanc-petillant-type-prosecco mm:quantity "3" .
-mm:ingredient-quantity-de-vin-blanc-petillant-type-prosecco mm:mesurement-value "verres" .
-mm:component mm:property---ingredient--quantity--properties--vin-petillant mm:ingredient-quantity-vin-petillant .
-mm:component mm:property---ingredient--name--vin-petillant mm:ingredient-vin-petillant .
-mm:ingredient-vin-petillant mm:name "Vin pétillant" .
-mm:ingredient-quantity-vin-petillant mm:quantity "2" .
-mm:ingredient-quantity-vin-petillant mm:mesurement-value "verres" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:average-note "4/5" .
+mm:component mm:property---ingredient--quantity--properties--de-vin-blanc-petillant-type-Prosecco mm:ingredient-quantity-de-vin-blanc-petillant-type-Prosecco .
+mm:component mm:property---ingredient--name--de-vin-blanc-petillant-type-Prosecco mm:ingredient-de-vin-blanc-petillant-type-Prosecco .
+mm:ingredient-de-vin-blanc-petillant-type-Prosecco mm:name "de vin blanc pétillant type Prosecco" .
+mm:ingredient-quantity-de-vin-blanc-petillant-type-Prosecco mm:quantity "3" .
+mm:ingredient-quantity-de-vin-blanc-petillant-type-Prosecco mm:mesurement-value "verres" .
+mm:component mm:property---ingredient--quantity--properties--Vin-petillant mm:ingredient-quantity-Vin-petillant .
+mm:component mm:property---ingredient--name--Vin-petillant mm:ingredient-Vin-petillant .
+mm:ingredient-Vin-petillant mm:name "Vin pétillant" .
+mm:ingredient-quantity-Vin-petillant mm:quantity "2" .
+mm:ingredient-quantity-Vin-petillant mm:mesurement-value "verres" .
 mm:component mm:property---ingredient--quantity--properties--orange-sanguine mm:ingredient-quantity-orange-sanguine .
 mm:component mm:property---ingredient--name--orange-sanguine mm:ingredient-orange-sanguine .
 mm:ingredient-orange-sanguine mm:name "orange sanguine" .
@@ -48,30 +48,35 @@ mm:ingredient-glacon mm:name "glaçon" .
 mm:ingredient-quantity-glacon mm:quantity "5" .
 mm:ingredient-quantity-glacon mm:mesurement-value "" .
 mm:tool mm:tool-name-0 "1 Presse-ail" .
-mm:step mm:property---step--ingredients--aperol-spritz-cocktail-italien-petillant_305639-1 mm:ingredient-glacon .
-mm:step mm:property---step--ingredients--aperol-spritz-cocktail-italien-petillant_305639-1 mm:ingredient-deau-petillante .
-mm:step mm:property---step--ingredients--aperol-spritz-cocktail-italien-petillant_305639-1 mm:ingredient-orange-sanguine .
-mm:step mm:property---step--instructions--aperol-spritz-cocktail-italien-petillant_305639 mm:instructions-aperol-spritz-cocktail-italien-petillant_305639 .
-mm:instructions-aperol-spritz-cocktail-italien-petillant_305639 mm:information-0 "Préparer la quantité de cocktail souhaitée en respectant les proportions !" .
-mm:instructions-aperol-spritz-cocktail-italien-petillant_305639 mm:information-1 "Garnir de glaçons et d'un morceau d'orange (sanguine si possible)." .
-mm:instructions-aperol-spritz-cocktail-italien-petillant_305639 mm:information-2 "Santé !" .
-mm:comment mm:comment-author-name-aperol-spritz-cocktail-italien-petillant_305639-0 "Rammstein74" .
-mm:comment mm:comment-author-note-aperol-spritz-cocktail-italien-petillant_305639-0 "5/5" .
-mm:comment mm:comment-author-information-aperol-spritz-cocktail-italien-petillant_305639-0 "Excellent depuis que j'ai trouve votre recette je ne fais que celle-la, je mets juste des epices artisanales speciales guacamole et c'est parfait." .
-mm:comment mm:comment-author-date-aperol-spritz-cocktail-italien-petillant_305639-0 "15/10/2022 18:00" .
-mm:comment mm:comment-author-name-aperol-spritz-cocktail-italien-petillant_305639-1 "bridgepeint" .
-mm:comment mm:comment-author-note-aperol-spritz-cocktail-italien-petillant_305639-1 "5/5" .
-mm:comment mm:comment-author-information-aperol-spritz-cocktail-italien-petillant_305639-1 "Facile. J'ai remplace l'oignon par de l'echalote. Parfait aussi !" .
-mm:comment mm:comment-author-date-aperol-spritz-cocktail-italien-petillant_305639-1 "30/09/2022 14:31" .
-mm:comment mm:comment-author-name-aperol-spritz-cocktail-italien-petillant_305639-2 "franfreluche75011" .
-mm:comment mm:comment-author-note-aperol-spritz-cocktail-italien-petillant_305639-2 "5/5" .
-mm:comment mm:comment-author-information-aperol-spritz-cocktail-italien-petillant_305639-2 "Tres bien !" .
-mm:comment mm:comment-author-date-aperol-spritz-cocktail-italien-petillant_305639-2 "26/09/2022 14:23" .
-mm:recipes-list mm:recipe-cake-sale_28510 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> .
-<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--component--cake-sale_28510 mm:component .
-<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--tool--cake-sale_28510 mm:tool .
-<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--step--cake-sale_28510 mm:step .
-<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--comment--cake-sale_28510 mm:comment .
+mm:step mm:property---step--ingredients--305639-1 mm:ingredient-glacon .
+mm:step mm:property---step--ingredients--305639-1 mm:ingredient-deau-petillante .
+mm:ingredient-deau-petillante mm:name "d'eau pétillante" .
+mm:step mm:property---step--ingredients--305639-1 mm:ingredient-orange-sanguine .
+mm:ingredient-orange-sanguine mm:name "orange sanguine" .
+mm:step mm:property---step--instructions--305639 mm:instructions-305639 .
+mm:instructions-305639 mm:information-0 "Préparer la quantité de cocktail souhaitée en respectant les proportions !" .
+mm:instructions-305639 mm:information-1 "Garnir de glaçons et d'un morceau d'orange (sanguine si possible)." .
+mm:instructions-305639 mm:information-2 "Santé !" .
+mm:comments mm:comment-305639 mm:comment-305639-0 .
+mm:comment-305639-0 mm:name "christal03" .
+mm:comment-305639-0 mm:note "4/5" .
+mm:comment-305639-0 mm:information "La vraie recette : 1/3 d'aperol, 1/3 de cremant (ou autre vin petillant, j'utilise un cremant d'Alsace ), 1/3 d'eau petillante et quelques tranches d'orange. Voila un aperitif peu alcoolise, mais a boire quand meme avec moderation ! !" .
+mm:comment-305639-0 mm:date "21/08/2017 16:04" .
+mm:comments mm:comment-305639 mm:comment-305639-1 .
+mm:comment-305639-1 mm:name "elfs92" .
+mm:comment-305639-1 mm:note "4/5" .
+mm:comment-305639-1 mm:information "EXCELLENT !!!! Comme a Venise" .
+mm:comment-305639-1 mm:date "13/12/2014 21:01" .
+mm:comments mm:comment-305639 mm:comment-305639-2 .
+mm:comment-305639-2 mm:name "Letty500" .
+mm:comment-305639-2 mm:note "4/5" .
+mm:comment-305639-2 mm:information "Tres bon cocktail, tres frais mais j'ai modifie les proportions comme suit : 2 verres d'Aperol - 3 verres de Prosecco - 1 'trait' d'eau petillante selon le gout...et c'etait parfait !" .
+mm:comment-305639-2 mm:date "01/09/2013 19:32" .
+mm:recipes-list mm:recipe-28510 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--component--28510 mm:component .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--tool--28510 mm:tool .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--step--28510 mm:step .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:class--comment--28510 mm:comments .
 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:recipe-title "Cake salé rapide et facile" .
 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:recipe-type "aperitif-ou-buffet" .
 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:total-preparation-time "55 min" .
@@ -82,17 +87,17 @@ mm:recipes-list mm:recipe-cake-sale_28510 <https://www.marmiton.org/recettes/rec
 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:resting-time "-" .
 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:cooking-time "40 min" .
 <https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:auther-name "manou1983" .
-<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:note "4.5/5" .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:average-note "4.5/5" .
 mm:component mm:property---ingredient--quantity--properties--de-lardons-en-lamelle mm:ingredient-quantity-de-lardons-en-lamelle .
 mm:component mm:property---ingredient--name--de-lardons-en-lamelle mm:ingredient-de-lardons-en-lamelle .
 mm:ingredient-de-lardons-en-lamelle mm:name "de lardons en lamelle" .
 mm:ingredient-quantity-de-lardons-en-lamelle mm:quantity "100" .
 mm:ingredient-quantity-de-lardons-en-lamelle mm:mesurement-value "g" .
-mm:component mm:property---ingredient--quantity--properties--mandarine mm:ingredient-quantity-mandarine .
-mm:component mm:property---ingredient--name--mandarine mm:ingredient-mandarine .
-mm:ingredient-mandarine mm:name "Mandarine" .
-mm:ingredient-quantity-mandarine mm:quantity "200" .
-mm:ingredient-quantity-mandarine mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--Mandarine mm:ingredient-quantity-Mandarine .
+mm:component mm:property---ingredient--name--Mandarine mm:ingredient-Mandarine .
+mm:ingredient-Mandarine mm:name "Mandarine" .
+mm:ingredient-quantity-Mandarine mm:quantity "200" .
+mm:ingredient-quantity-Mandarine mm:mesurement-value "g" .
 mm:component mm:property---ingredient--quantity--properties--de-levure-chimique mm:ingredient-quantity-de-levure-chimique .
 mm:component mm:property---ingredient--name--de-levure-chimique mm:ingredient-de-levure-chimique .
 mm:ingredient-de-levure-chimique mm:name "de levure chimique" .
@@ -103,21 +108,21 @@ mm:component mm:property---ingredient--name--dhuile-dolive mm:ingredient-dhuile-
 mm:ingredient-dhuile-dolive mm:name "d'huile d'olive" .
 mm:ingredient-quantity-dhuile-dolive mm:quantity "7" .
 mm:ingredient-quantity-dhuile-dolive mm:mesurement-value "cl" .
-mm:component mm:property---ingredient--quantity--properties--poudre-de-lait mm:ingredient-quantity-poudre-de-lait .
-mm:component mm:property---ingredient--name--poudre-de-lait mm:ingredient-poudre-de-lait .
-mm:ingredient-poudre-de-lait mm:name "Poudre de lait" .
-mm:ingredient-quantity-poudre-de-lait mm:quantity "10" .
-mm:ingredient-quantity-poudre-de-lait mm:mesurement-value "cl" .
-mm:component mm:property---ingredient--quantity--properties--basilic mm:ingredient-quantity-basilic .
-mm:component mm:property---ingredient--name--basilic mm:ingredient-basilic .
-mm:ingredient-basilic mm:name "Basilic" .
-mm:ingredient-quantity-basilic mm:quantity "" .
-mm:ingredient-quantity-basilic mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--de-beurre-pour-le-moule mm:ingredient-quantity-de-beurre-pour-le-moule .
-mm:component mm:property---ingredient--name--de-beurre-pour-le-moule mm:ingredient-de-beurre-pour-le-moule .
-mm:ingredient-de-beurre-pour-le-moule mm:name "de beurre  pour le moule" .
-mm:ingredient-quantity-de-beurre-pour-le-moule mm:quantity "1" .
-mm:ingredient-quantity-de-beurre-pour-le-moule mm:mesurement-value "noisette" .
+mm:component mm:property---ingredient--quantity--properties--Poudre-de-lait mm:ingredient-quantity-Poudre-de-lait .
+mm:component mm:property---ingredient--name--Poudre-de-lait mm:ingredient-Poudre-de-lait .
+mm:ingredient-Poudre-de-lait mm:name "Poudre de lait" .
+mm:ingredient-quantity-Poudre-de-lait mm:quantity "10" .
+mm:ingredient-quantity-Poudre-de-lait mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--Basilic mm:ingredient-quantity-Basilic .
+mm:component mm:property---ingredient--name--Basilic mm:ingredient-Basilic .
+mm:ingredient-Basilic mm:name "Basilic" .
+mm:ingredient-quantity-Basilic mm:quantity "" .
+mm:ingredient-quantity-Basilic mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--de-beurre--pour-le-moule mm:ingredient-quantity-de-beurre--pour-le-moule .
+mm:component mm:property---ingredient--name--de-beurre--pour-le-moule mm:ingredient-de-beurre--pour-le-moule .
+mm:ingredient-de-beurre--pour-le-moule mm:name "de beurre  pour le moule" .
+mm:ingredient-quantity-de-beurre--pour-le-moule mm:quantity "1" .
+mm:ingredient-quantity-de-beurre--pour-le-moule mm:mesurement-value "noisette" .
 mm:component mm:property---ingredient--quantity--properties--tomate-coupee-en-de mm:ingredient-quantity-tomate-coupee-en-de .
 mm:component mm:property---ingredient--name--tomate-coupee-en-de mm:ingredient-tomate-coupee-en-de .
 mm:ingredient-tomate-coupee-en-de mm:name "tomate coupée en dé" .
@@ -128,11 +133,11 @@ mm:component mm:property---ingredient--name--de-des-de-jambon mm:ingredient-de-d
 mm:ingredient-de-des-de-jambon mm:name "de dés de jambon" .
 mm:ingredient-quantity-de-des-de-jambon mm:quantity "100" .
 mm:ingredient-quantity-de-des-de-jambon mm:mesurement-value "g" .
-mm:component mm:property---ingredient--quantity--properties--oeuf mm:ingredient-quantity-oeuf .
-mm:component mm:property---ingredient--name--oeuf mm:ingredient-oeuf .
-mm:ingredient-oeuf mm:name "Oeuf" .
-mm:ingredient-quantity-oeuf mm:quantity "3" .
-mm:ingredient-quantity-oeuf mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Oeuf mm:ingredient-quantity-Oeuf .
+mm:component mm:property---ingredient--name--Oeuf mm:ingredient-Oeuf .
+mm:ingredient-Oeuf mm:name "Oeuf" .
+mm:ingredient-quantity-Oeuf mm:quantity "3" .
+mm:ingredient-quantity-Oeuf mm:mesurement-value "" .
 mm:component mm:property---ingredient--quantity--properties--olives-vertes-denoyautee mm:ingredient-quantity-olives-vertes-denoyautee .
 mm:component mm:property---ingredient--name--olives-vertes-denoyautee mm:ingredient-olives-vertes-denoyautee .
 mm:ingredient-olives-vertes-denoyautee mm:name "olives vertes dénoyautée" .
@@ -141,212 +146,638 @@ mm:ingredient-quantity-olives-vertes-denoyautee mm:mesurement-value "" .
 mm:tool mm:tool-name-0 "1 grille à pâtisserie" .
 mm:tool mm:tool-name-1 "1 saladier" .
 mm:tool mm:tool-name-2 "1 Cuillère en bois" .
-mm:tool mm:tool-name-3 "1 pôele" .
+mm:tool mm:tool-name-3 "1 Set 3 poêles" .
 mm:tool mm:tool-name-4 "1 Moule à cake" .
-mm:tool mm:tool-name-5 "1 Four" .
+mm:tool mm:tool-name-5 "1 four" .
 mm:tool mm:tool-name-6 "1 dénoyauteur" .
 mm:tool mm:tool-name-7 "1 balance de cuisine" .
-mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-de-farine .
-mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-oeuf .
-mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-de-levure-chimique .
-mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-dhuile-dolive .
-mm:step mm:property---step--ingredients--cake-sale_28510-0 mm:ingredient-de-lait .
-mm:step mm:property---step--ingredients--cake-sale_28510-1 mm:ingredient-de-lardons-en-lamelle .
-mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-de-lardons-en-lamelle .
-mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-de-des-de-jambon .
-mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-tomate-coupee-en-de .
-mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-basilic .
-mm:step mm:property---step--ingredients--cake-sale_28510-2 mm:ingredient-olives-vertes-denoyautee .
-mm:step mm:property---step--ingredients--cake-sale_28510-3 mm:ingredient-de-beurre-pour-le-moule .
-mm:step mm:property---step--instructions--cake-sale_28510 mm:instructions-cake-sale_28510 .
-mm:instructions-cake-sale_28510 mm:information-0 "Préchauffer le four à 180°C (thermostat 6). Dans un saladier, mélanger la farine, les oeufs, la levure. Ajouter progressivement l'huile d'olive ainsi que le lait. Mélanger jusqu'à obtention d'une pâte lisse." .
-mm:instructions-cake-sale_28510 mm:information-1 "Dans une poêle, faire revenir les lardons, sans rajouter de gras, cela permet de les dégraisser un peu." .
-mm:instructions-cake-sale_28510 mm:information-2 "Verser dans la pâte, les lardons, les dés de jambon, les dés de tomates, le basilic ciselé et les olives coupées en morceaux. Mélanger le tout." .
-mm:instructions-cake-sale_28510 mm:information-3 "Avec la noix de beurre, graisser le moule à cake, puis versez-y la pâte." .
-mm:instructions-cake-sale_28510 mm:information-4 "Mettre au four (qui aura été préchauffé), sur 180°C pendant 40 mn (faire cuire davantage si besoin). Régalez vous!!!" .
-mm:comment mm:comment-author-name-cake-sale_28510-0 "chouchou1971" .
-mm:comment mm:comment-author-note-cake-sale_28510-0 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-0 "Incroyable !" .
-mm:comment mm:comment-author-date-cake-sale_28510-0 "30/09/2022 04:33" .
-mm:comment mm:comment-author-name-cake-sale_28510-1 "Cocomtz" .
-mm:comment mm:comment-author-note-cake-sale_28510-1 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-1 "Punch delicieux avec le baton de cannelle et legerement moins de sirop de sucre de canne." .
-mm:comment mm:comment-author-date-cake-sale_28510-1 "31/07/2022 02:39" .
-mm:comment mm:comment-author-name-cake-sale_28510-2 "rolland18" .
-mm:comment mm:comment-author-note-cake-sale_28510-2 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-2 "Je l'ai fait avec 50% de rhum blanc et 50% de rhum ambre ... une tuerie ! Vraiment EXCELLENT !!!" .
-mm:comment mm:comment-author-date-cake-sale_28510-2 "07/07/2022 14:39" .
-mm:comment mm:comment-author-name-cake-sale_28510-3 "scratina25" .
-mm:comment mm:comment-author-note-cake-sale_28510-3 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-3 "Excellent ! N'ayant pas de sucre liquide et vanille liquide, j'ai mis de la vanille en poudre et du sucre vanille et c'etait tres bon. Je l'ai laisse mariner 2 jours. Un regal !" .
-mm:comment mm:comment-author-date-cake-sale_28510-3 "05/05/2019 10:14" .
-mm:comment mm:comment-author-name-cake-sale_28510-4 "lily_16023159" .
-mm:comment mm:comment-author-note-cake-sale_28510-4 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-4 "Je l'ai fait. J'ai fait un peu a ma sauce en me basant sur la recette. La difference : j'ai mis 1L de goyave, 1L de banane, 1L d'orange et 1L de multivitamines pour 1L de rhum blanc et 30 ou 40 cl de rhum brun. Un delice !  Punch fait 48h avant et mis au frigo. J'ai ajoute les fruits 24h avant." .
-mm:comment mm:comment-author-date-cake-sale_28510-4 "26/10/2014 18:55" .
-mm:comment mm:comment-author-name-cake-sale_28510-5 "amandine90" .
-mm:comment mm:comment-author-note-cake-sale_28510-5 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-5 "Fait pour nos 30 ans, et tout le monde l'a adore! 
-Nous avons mis du rhum ambre au lieu du rhum blanc, car nous le trouvons moins traitre...
-Beaucoup m'ont effectivement demande la recette! Merci pour cette excellente recette, je l'a mets dans mes favoris!" .
-mm:comment mm:comment-author-date-cake-sale_28510-5 "31/01/2021 22:02" .
-mm:comment mm:comment-author-name-cake-sale_28510-6 "Bambina1980" .
-mm:comment mm:comment-author-note-cake-sale_28510-6 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-6 "Recette parfaite ! Tout le monde adore je suis vraiment ravie d'avoir vu cette recette !" .
-mm:comment mm:comment-author-date-cake-sale_28510-6 "16/07/2018 04:01" .
-mm:comment mm:comment-author-name-cake-sale_28510-7 "vever3hc" .
-mm:comment mm:comment-author-note-cake-sale_28510-7 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-7 "J'ai suivi la recette pour 20 personnes, tout le monde a adore ! Les 5 etoiles sont largement meritees" .
-mm:comment mm:comment-author-date-cake-sale_28510-7 "18/04/2022 12:59" .
-mm:comment mm:comment-author-name-cake-sale_28510-8 "mia_15551482" .
-mm:comment mm:comment-author-note-cake-sale_28510-8 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-8 "Parfait! Il a eu un succes fou aupres de mes invites! Il s'est bu comme du petit lait!" .
-mm:comment mm:comment-author-date-cake-sale_28510-8 "06/07/2006 17:59" .
-mm:comment mm:comment-author-name-cake-sale_28510-9 "arthur_16958827" .
-mm:comment mm:comment-author-note-cake-sale_28510-9 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-9 "Vraiment magnifique ce punch !! Je recommande vivement !!! Il a fait un ravage !!!" .
-mm:comment mm:comment-author-date-cake-sale_28510-9 "04/12/2008 18:20" .
-mm:comment mm:comment-author-name-cake-sale_28510-10 "MisterB" .
-mm:comment mm:comment-author-note-cake-sale_28510-10 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-10 "Reellement delicieux" .
-mm:comment mm:comment-author-date-cake-sale_28510-10 "27/05/2022 17:35" .
-mm:comment mm:comment-author-name-cake-sale_28510-11 "camila_16700815" .
-mm:comment mm:comment-author-note-cake-sale_28510-11 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-11 "Effectivement vraiment delicieux ! Je l'ai fait en 2 versions pour satisfaire tout le monde : avec alcool et sans alcool ! Le sans alcool etait tout aussi bon ! J'y ai aussi rajoute des morceaux d'ananas ! Miam !" .
-mm:comment mm:comment-author-date-cake-sale_28510-11 "19/12/2007 15:31" .
-mm:comment mm:comment-author-name-cake-sale_28510-12 "pappychou" .
-mm:comment mm:comment-author-note-cake-sale_28510-12 "5/5" .
-mm:comment mm:comment-author-information-cake-sale_28510-12 "excellent rien a redire" .
-mm:comment mm:comment-author-date-cake-sale_28510-12 "31/08/2021 12:47" .
-mm:recipes-list mm:recipe-guacamole-tres-facile_13111 <https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:class--component--guacamole-tres-facile_13111 mm:component .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:class--tool--guacamole-tres-facile_13111 mm:tool .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:class--step--guacamole-tres-facile_13111 mm:step .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:class--comment--guacamole-tres-facile_13111 mm:comment .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:recipe-title "Guacamole très facile" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:recipe-type "aperitif-ou-buffet" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:total-preparation-time "10 min" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:difficulty "très facile" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:price-range "bon marché" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:default-number-of-people-for-recipe "4" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:preparation-time "10 min" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:resting-time "-" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:cooking-time "-" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:auther-name "Anonyme" .
-<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:note "4.7/5" .
-mm:component mm:property---ingredient--quantity--properties--tomates-coupees-en-morceaux mm:ingredient-quantity-tomates-coupees-en-morceaux .
-mm:component mm:property---ingredient--name--tomates-coupees-en-morceaux mm:ingredient-tomates-coupees-en-morceaux .
-mm:ingredient-tomates-coupees-en-morceaux mm:name "tomates coupées en morceaux" .
-mm:ingredient-quantity-tomates-coupees-en-morceaux mm:quantity "2" .
-mm:ingredient-quantity-tomates-coupees-en-morceaux mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--oignon-coupee-en-cube mm:ingredient-quantity-oignon-coupee-en-cube .
-mm:component mm:property---ingredient--name--oignon-coupee-en-cube mm:ingredient-oignon-coupee-en-cube .
-mm:ingredient-oignon-coupee-en-cube mm:name "oignon coupée en cube" .
-mm:ingredient-quantity-oignon-coupee-en-cube mm:quantity "une demi" .
-mm:ingredient-quantity-oignon-coupee-en-cube mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--sel mm:ingredient-quantity-sel .
-mm:component mm:property---ingredient--name--sel mm:ingredient-sel .
-mm:ingredient-sel mm:name "Sel" .
-mm:ingredient-quantity-sel mm:quantity "" .
-mm:ingredient-quantity-sel mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--huile-decorce-de-citron-vert mm:ingredient-quantity-huile-decorce-de-citron-vert .
-mm:component mm:property---ingredient--name--huile-decorce-de-citron-vert mm:ingredient-huile-decorce-de-citron-vert .
-mm:ingredient-huile-decorce-de-citron-vert mm:name "Huile d'écorce de citron vert" .
-mm:ingredient-quantity-huile-decorce-de-citron-vert mm:quantity "une demi" .
-mm:ingredient-quantity-huile-decorce-de-citron-vert mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--poudre-de-graines-de-coriandre-et-de-cumin mm:ingredient-quantity-poudre-de-graines-de-coriandre-et-de-cumin .
-mm:component mm:property---ingredient--name--poudre-de-graines-de-coriandre-et-de-cumin mm:ingredient-poudre-de-graines-de-coriandre-et-de-cumin .
-mm:ingredient-poudre-de-graines-de-coriandre-et-de-cumin mm:name "Poudre de graines de coriandre et de cumin" .
-mm:ingredient-quantity-poudre-de-graines-de-coriandre-et-de-cumin mm:quantity "" .
-mm:ingredient-quantity-poudre-de-graines-de-coriandre-et-de-cumin mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--sauce-piquante mm:ingredient-quantity-sauce-piquante .
-mm:component mm:property---ingredient--name--sauce-piquante mm:ingredient-sauce-piquante .
-mm:ingredient-sauce-piquante mm:name "Sauce piquante" .
-mm:ingredient-quantity-sauce-piquante mm:quantity "" .
-mm:ingredient-quantity-sauce-piquante mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--avocat mm:ingredient-quantity-avocat .
-mm:component mm:property---ingredient--name--avocat mm:ingredient-avocat .
-mm:ingredient-avocat mm:name "Avocat" .
-mm:ingredient-quantity-avocat mm:quantity "2" .
-mm:ingredient-quantity-avocat mm:mesurement-value "" .
-mm:tool mm:tool-name-0 "1 four" .
-mm:tool mm:tool-name-1 "1 fourchette" .
-mm:tool mm:tool-name-2 "1 saladier" .
-mm:tool mm:tool-name-3 "1 lot de 12 ramequins" .
-mm:tool mm:tool-name-4 "1 plat" .
-mm:step mm:property---step--ingredients--guacamole-tres-facile_13111-0 mm:ingredient-avocat .
-mm:step mm:property---step--ingredients--guacamole-tres-facile_13111-1 mm:ingredient-avocat .
-mm:step mm:property---step--ingredients--guacamole-tres-facile_13111-2 mm:ingredient-avocat .
-mm:step mm:property---step--ingredients--guacamole-tres-facile_13111-2 mm:ingredient-oignon-coupee-en-cube .
-mm:step mm:property---step--ingredients--guacamole-tres-facile_13111-2 mm:ingredient-avocat .
-mm:step mm:property---step--ingredients--guacamole-tres-facile_13111-3 mm:ingredient-sel .
-mm:step mm:property---step--ingredients--guacamole-tres-facile_13111-3 mm:ingredient-citron .
-mm:step mm:property---step--ingredients--guacamole-tres-facile_13111-3 mm:ingredient-sauce-piquante .
-mm:step mm:property---step--instructions--guacamole-tres-facile_13111 mm:instructions-guacamole-tres-facile_13111 .
-mm:instructions-guacamole-tres-facile_13111 mm:information-0 "Enlevez la peau des avocats." .
-mm:instructions-guacamole-tres-facile_13111 mm:information-1 "En vous aidant d'une fourchette, écrasez les avocats." .
-mm:instructions-guacamole-tres-facile_13111 mm:information-2 "Dans un plat, mélangez l'avocat avec l'oignon et en dernier les tomates." .
-mm:instructions-guacamole-tres-facile_13111 mm:information-3 "Ajoutez le sel ainsi que du citron (et la sauce piquante)." .
-mm:instructions-guacamole-tres-facile_13111 mm:information-4 "Le guacamole accompagne parfaitement chips, nachos ou biscuits salés." .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-0 "chouchou1971" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-0 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-0 "Incroyable !" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-0 "30/09/2022 04:33" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-1 "Cocomtz" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-1 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-1 "Punch delicieux avec le baton de cannelle et legerement moins de sirop de sucre de canne." .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-1 "31/07/2022 02:39" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-2 "rolland18" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-2 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-2 "Je l'ai fait avec 50% de rhum blanc et 50% de rhum ambre ... une tuerie ! Vraiment EXCELLENT !!!" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-2 "07/07/2022 14:39" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-3 "scratina25" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-3 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-3 "Excellent ! N'ayant pas de sucre liquide et vanille liquide, j'ai mis de la vanille en poudre et du sucre vanille et c'etait tres bon. Je l'ai laisse mariner 2 jours. Un regal !" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-3 "05/05/2019 10:14" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-4 "lily_16023159" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-4 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-4 "Je l'ai fait. J'ai fait un peu a ma sauce en me basant sur la recette. La difference : j'ai mis 1L de goyave, 1L de banane, 1L d'orange et 1L de multivitamines pour 1L de rhum blanc et 30 ou 40 cl de rhum brun. Un delice !  Punch fait 48h avant et mis au frigo. J'ai ajoute les fruits 24h avant." .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-4 "26/10/2014 18:55" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-5 "amandine90" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-5 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-5 "Fait pour nos 30 ans, et tout le monde l'a adore! 
-Nous avons mis du rhum ambre au lieu du rhum blanc, car nous le trouvons moins traitre...
-Beaucoup m'ont effectivement demande la recette! Merci pour cette excellente recette, je l'a mets dans mes favoris!" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-5 "31/01/2021 22:02" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-6 "Bambina1980" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-6 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-6 "Recette parfaite ! Tout le monde adore je suis vraiment ravie d'avoir vu cette recette !" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-6 "16/07/2018 04:01" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-7 "vever3hc" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-7 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-7 "J'ai suivi la recette pour 20 personnes, tout le monde a adore ! Les 5 etoiles sont largement meritees" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-7 "18/04/2022 12:59" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-8 "mia_15551482" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-8 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-8 "Parfait! Il a eu un succes fou aupres de mes invites! Il s'est bu comme du petit lait!" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-8 "06/07/2006 17:59" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-9 "arthur_16958827" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-9 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-9 "Vraiment magnifique ce punch !! Je recommande vivement !!! Il a fait un ravage !!!" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-9 "04/12/2008 18:20" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-10 "MisterB" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-10 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-10 "Reellement delicieux" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-10 "27/05/2022 17:35" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-11 "camila_16700815" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-11 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-11 "Effectivement vraiment delicieux ! Je l'ai fait en 2 versions pour satisfaire tout le monde : avec alcool et sans alcool ! Le sans alcool etait tout aussi bon ! J'y ai aussi rajoute des morceaux d'ananas ! Miam !" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-11 "19/12/2007 15:31" .
-mm:comment mm:comment-author-name-guacamole-tres-facile_13111-12 "pappychou" .
-mm:comment mm:comment-author-note-guacamole-tres-facile_13111-12 "5/5" .
-mm:comment mm:comment-author-information-guacamole-tres-facile_13111-12 "excellent rien a redire" .
-mm:comment mm:comment-author-date-guacamole-tres-facile_13111-12 "31/08/2021 12:47" .
-mm:recipes-list mm:recipe-gougeres-au-fromage_20095 <https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> .
-<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:class--component--gougeres-au-fromage_20095 mm:component .
-<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:class--tool--gougeres-au-fromage_20095 mm:tool .
-<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:class--step--gougeres-au-fromage_20095 mm:step .
-<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:class--comment--gougeres-au-fromage_20095 mm:comment .
+mm:step mm:property---step--ingredients--28510-0 mm:ingredient-de-farine .
+mm:ingredient-de-farine mm:name "de farine" .
+mm:step mm:property---step--ingredients--28510-0 mm:ingredient-oeuf .
+mm:step mm:property---step--ingredients--28510-0 mm:ingredient-de-levure-chimique .
+mm:ingredient-de-levure-chimique mm:name "de levure chimique" .
+mm:step mm:property---step--ingredients--28510-0 mm:ingredient-dhuile-dolive .
+mm:ingredient-dhuile-dolive mm:name "d'huile d'olive" .
+mm:step mm:property---step--ingredients--28510-0 mm:ingredient-de-lait .
+mm:ingredient-de-lait mm:name "de lait" .
+mm:step mm:property---step--ingredients--28510-1 mm:ingredient-de-lardons-en-lamelle .
+mm:step mm:property---step--ingredients--28510-2 mm:ingredient-de-lardons-en-lamelle .
+mm:step mm:property---step--ingredients--28510-2 mm:ingredient-de-des-de-jambon .
+mm:ingredient-de-des-de-jambon mm:name "de dés de jambon" .
+mm:step mm:property---step--ingredients--28510-2 mm:ingredient-tomate-coupee-en-de .
+mm:step mm:property---step--ingredients--28510-2 mm:ingredient-basilic .
+mm:ingredient-basilic mm:name "basilic" .
+mm:step mm:property---step--ingredients--28510-2 mm:ingredient-olives-vertes-denoyautee .
+mm:step mm:property---step--ingredients--28510-3 mm:ingredient-de-beurre--pour-le-moule .
+mm:ingredient-de-beurre--pour-le-moule mm:name "de beurre  pour le moule" .
+mm:step mm:property---step--instructions--28510 mm:instructions-28510 .
+mm:instructions-28510 mm:information-0 "Préchauffer le four à 180°C (thermostat 6). Dans un saladier, mélanger la farine, les oeufs, la levure. Ajouter progressivement l'huile d'olive ainsi que le lait. Mélanger jusqu'à obtention d'une pâte lisse." .
+mm:instructions-28510 mm:information-1 "Dans une poêle, faire revenir les lardons, sans rajouter de gras, cela permet de les dégraisser un peu." .
+mm:instructions-28510 mm:information-2 "Verser dans la pâte, les lardons, les dés de jambon, les dés de tomates, le basilic ciselé et les olives coupées en morceaux. Mélanger le tout." .
+mm:instructions-28510 mm:information-3 "Avec la noix de beurre, graisser le moule à cake, puis versez-y la pâte." .
+mm:instructions-28510 mm:information-4 "Mettre au four (qui aura été préchauffé), sur 180°C pendant 40 mn (faire cuire davantage si besoin). Régalez vous!!!" .
+mm:comments mm:comment-28510 mm:comment-28510-0 .
+mm:comment-28510-0 mm:name "minali48" .
+mm:comment-28510-0 mm:note "5/5" .
+mm:comment-28510-0 mm:information "Je n'ai pas mis les memes ingredients mais super ! En laissant dans le four eteint ca cuit bien au milieu" .
+mm:comment-28510-0 mm:date "20/09/2021 19:55" .
+mm:comments mm:comment-28510 mm:comment-28510-1 .
+mm:comment-28510-1 mm:name "Gwenleila" .
+mm:comment-28510-1 mm:note "5/5" .
+mm:comment-28510-1 mm:information "Recette au top ! J'ai rajoute du comte au plus c'est encore meilleur" .
+mm:comment-28510-1 mm:date "05/09/2021 15:13" .
+mm:comments mm:comment-28510 mm:comment-28510-2 .
+mm:comment-28510-2 mm:name "georgia" .
+mm:comment-28510-2 mm:note "5/5" .
+mm:comment-28510-2 mm:information "Gouteux, moelleux, delicieux! Un vrai regal!" .
+mm:comment-28510-2 mm:date "13/01/2021 14:28" .
+mm:comments mm:comment-28510 mm:comment-28510-3 .
+mm:comment-28510-3 mm:name "pataflo" .
+mm:comment-28510-3 mm:note "5/5" .
+mm:comment-28510-3 mm:information "Je l'ai fait avec des tomates cerises coupees en deux ! Je farine les ingredients avant de les melanger a la pate a cake ! Mes invites ont adore. Je la referai avec plaisir." .
+mm:comment-28510-3 mm:date "01/11/2012 14:01" .
+mm:comments mm:comment-28510 mm:comment-28510-4 .
+mm:comment-28510-4 mm:name "hannah_14543718" .
+mm:comment-28510-4 mm:note "4/5" .
+mm:comment-28510-4 mm:information "Simple, delicieux. Aussi bon chaud que froid." .
+mm:comment-28510-4 mm:date "05/11/2011 19:56" .
+mm:comments mm:comment-28510 mm:comment-28510-5 .
+mm:comment-28510-5 mm:name "kaila42" .
+mm:comment-28510-5 mm:note "4/5" .
+mm:comment-28510-5 mm:information "Temps de cuisson un peu juste. Ajouter 10 minutes de cuisson a 180degC et assaisonner davantage (sel + poivre). On peut utiliser du lait en poudre a la place du lait liquide. La legerete du cake est la meme. Bel aspect. Le cake monte peu. Ne pas hesiter a remplir le moule jusqu'au 9/10e." .
+mm:comment-28510-5 mm:date "25/06/2013 23:23" .
+mm:comments mm:comment-28510 mm:comment-28510-6 .
+mm:comment-28510-6 mm:name "laura_16668902" .
+mm:comment-28510-6 mm:note "5/5" .
+mm:comment-28510-6 mm:information "Excellent. Je l'accompagne d'une salade verte pour le diner. Ou en aperitif, coupe en des. Pour ma part, je rajoute une tomate." .
+mm:comment-28510-6 mm:date "22/05/2008 16:15" .
+mm:comments mm:comment-28510 mm:comment-28510-7 .
+mm:comment-28510-7 mm:name "elena_15818583" .
+mm:comment-28510-7 mm:note "5/5" .
+mm:comment-28510-7 mm:information "Excellent !!! C'est la premiere fois que je fais un cake sale ! Un seul mot : excellent !" .
+mm:comment-28510-7 mm:date "12/02/2012 21:37" .
+mm:comments mm:comment-28510 mm:comment-28510-8 .
+mm:comment-28510-8 mm:name "Bouledogradin" .
+mm:comment-28510-8 mm:note "5/5" .
+mm:comment-28510-8 mm:information "Parfait et pas sec." .
+mm:comment-28510-8 mm:date "14/12/2020 17:03" .
+mm:comments mm:comment-28510 mm:comment-28510-9 .
+mm:comment-28510-9 mm:name "Ltfan24" .
+mm:comment-28510-9 mm:note "5/5" .
+mm:comment-28510-9 mm:information "J'adore cette recette simple et rapide pour un debutant en cuisine" .
+mm:comment-28510-9 mm:date "08/05/2020 23:33" .
+mm:comments mm:comment-28510 mm:comment-28510-10 .
+mm:comment-28510-10 mm:name "Inconnu" .
+mm:comment-28510-10 mm:note "4/5" .
+mm:comment-28510-10 mm:information "Recette excellente et appetissante!!!" .
+mm:comment-28510-10 mm:date "12/08/2004 00:09" .
+mm:comments mm:comment-28510 mm:comment-28510-11 .
+mm:comment-28510-11 mm:name "noor_14531158" .
+mm:comment-28510-11 mm:note "5/5" .
+mm:comment-28510-11 mm:information "Tres bon cake pas du tout sec." .
+mm:comment-28510-11 mm:date "23/12/2013 22:19" .
+mm:comments mm:comment-28510 mm:comment-28510-12 .
+mm:comment-28510-12 mm:name "Gloria" .
+mm:comment-28510-12 mm:note "5/5" .
+mm:comment-28510-12 mm:information "Excellent! Je l'ai fait sans olives (n'en ayant pas). J'ai utilise du jambon de pays et des tomates cerises coupees en deux." .
+mm:comment-28510-12 mm:date "16/08/2004 01:58" .
+mm:recipes-list mm:recipe-340080 <https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:class--component--340080 mm:component .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:class--tool--340080 mm:tool .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:class--step--340080 mm:step .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:class--comment--340080 mm:comments .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:recipe-title "Lait de poule pour Noël" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:total-preparation-time "7 min" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:default-number-of-people-for-recipe "1" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:cooking-time "2 min" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:auther-name "bookaddict" .
+<https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx> mm:average-note "4.9/5" .
+mm:component mm:property---ingredient--quantity--properties--de-sucre mm:ingredient-quantity-de-sucre .
+mm:component mm:property---ingredient--name--de-sucre mm:ingredient-de-sucre .
+mm:ingredient-de-sucre mm:name "de sucre" .
+mm:ingredient-quantity-de-sucre mm:quantity "25" .
+mm:ingredient-quantity-de-sucre mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--Poudre-de-lait mm:ingredient-quantity-Poudre-de-lait .
+mm:component mm:property---ingredient--name--Poudre-de-lait mm:ingredient-Poudre-de-lait .
+mm:ingredient-Poudre-de-lait mm:name "Poudre de lait" .
+mm:ingredient-quantity-Poudre-de-lait mm:quantity "15" .
+mm:ingredient-quantity-Poudre-de-lait mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--Cannelle mm:ingredient-quantity-Cannelle .
+mm:component mm:property---ingredient--name--Cannelle mm:ingredient-Cannelle .
+mm:ingredient-Cannelle mm:name "Cannelle" .
+mm:ingredient-quantity-Cannelle mm:quantity "1" .
+mm:ingredient-quantity-Cannelle mm:mesurement-value "pincee" .
+mm:component mm:property---ingredient--quantity--properties--Noix-de-muscade mm:ingredient-quantity-Noix-de-muscade .
+mm:component mm:property---ingredient--name--Noix-de-muscade mm:ingredient-Noix-de-muscade .
+mm:ingredient-Noix-de-muscade mm:name "Noix de muscade" .
+mm:ingredient-quantity-Noix-de-muscade mm:quantity "1" .
+mm:ingredient-quantity-Noix-de-muscade mm:mesurement-value "pincee" .
+mm:component mm:property---ingredient--quantity--properties--jaune-doeuf mm:ingredient-quantity-jaune-doeuf .
+mm:component mm:property---ingredient--name--jaune-doeuf mm:ingredient-jaune-doeuf .
+mm:ingredient-jaune-doeuf mm:name "jaune d'oeuf" .
+mm:ingredient-quantity-jaune-doeuf mm:quantity "1" .
+mm:ingredient-quantity-jaune-doeuf mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 casserole" .
+mm:tool mm:tool-name-1 "1 saladier" .
+mm:tool mm:tool-name-2 "1 Cuillère en bois" .
+mm:tool mm:tool-name-3 "1 balance de cuisine" .
+mm:step mm:property---step--ingredients--340080-0 mm:ingredient-de-lait .
+mm:ingredient-de-lait mm:name "de lait" .
+mm:step mm:property---step--ingredients--340080-0 mm:ingredient-de-cannelle .
+mm:ingredient-de-cannelle mm:name "de cannelle" .
+mm:step mm:property---step--ingredients--340080-0 mm:ingredient-de-muscade .
+mm:ingredient-de-muscade mm:name "de muscade" .
+mm:step mm:property---step--ingredients--340080-1 mm:ingredient-jaune-doeuf .
+mm:ingredient-jaune-doeuf mm:name "jaune d'oeuf" .
+mm:step mm:property---step--ingredients--340080-1 mm:ingredient-de-sucre .
+mm:ingredient-de-sucre mm:name "de sucre" .
+mm:step mm:property---step--ingredients--340080-2 mm:ingredient-de-lait .
+mm:ingredient-de-lait mm:name "de lait" .
+mm:step mm:property---step--instructions--340080 mm:instructions-340080 .
+mm:instructions-340080 mm:information-0 "Faites chauffer le lait dans une casserole avec la cannelle et la noix de muscade (attention à ne pas faire bouillir la préparation)." .
+mm:instructions-340080 mm:information-1 "Mélangez le jaune d'oeuf et le sucre dans votre tasse." .
+mm:instructions-340080 mm:information-2 "Ajoutez le lait dans votre tasse en continuant de bien mélanger." .
+mm:comments mm:comment-340080 mm:comment-340080-0 .
+mm:comment-340080-0 mm:name "steph06750" .
+mm:comment-340080-0 mm:note "5/5" .
+mm:comment-340080-0 mm:information "Super facile." .
+mm:comment-340080-0 mm:date "07/09/2022 13:08" .
+mm:comments mm:comment-340080 mm:comment-340080-1 .
+mm:comment-340080-1 mm:name "Jean13720" .
+mm:comment-340080-1 mm:note "5/5" .
+mm:comment-340080-1 mm:information "Simple et tres bon je met un peu moins de sucre, mais super recette." .
+mm:comment-340080-1 mm:date "15/03/2022 13:00" .
+mm:comments mm:comment-340080 mm:comment-340080-2 .
+mm:comment-340080-2 mm:name "Ohrel79" .
+mm:comment-340080-2 mm:note "5/5" .
+mm:comment-340080-2 mm:information "Moitie moins de sucre et un peu de rhum pour les grands : succes garanti !" .
+mm:comment-340080-2 mm:date "23/12/2021 20:11" .
+mm:comments mm:comment-340080 mm:comment-340080-3 .
+mm:comment-340080-3 mm:name "bettyhiris" .
+mm:comment-340080-3 mm:note "4/5" .
+mm:comment-340080-3 mm:information "J'ai diminue de moitie la quantite de sucre et je trouve encore trop sucre ! Mais le gout est vraiment bon !" .
+mm:comment-340080-3 mm:date "23/10/2019 05:05" .
+mm:comments mm:comment-340080 mm:comment-340080-4 .
+mm:comment-340080-4 mm:name "Bullsk" .
+mm:comment-340080-4 mm:note "5/5" .
+mm:comment-340080-4 mm:information "Un vrai delice !" .
+mm:comment-340080-4 mm:date "26/02/2020 03:31" .
+mm:comments mm:comment-340080 mm:comment-340080-5 .
+mm:comment-340080-5 mm:name "Inconnu" .
+mm:comment-340080-5 mm:note "5/5" .
+mm:comment-340080-5 mm:information "J'ai mis deux dosettes de sucre que l'on vous donne dans les cafes et ai pris un melange  pour pain d'epices. Absolument delicieux." .
+mm:comment-340080-5 mm:date "03/12/2020 18:51" .
+mm:comments mm:comment-340080 mm:comment-340080-6 .
+mm:comment-340080-6 mm:name "chrystalrsx" .
+mm:comment-340080-6 mm:note "4/5" .
+mm:comment-340080-6 mm:information "Tres agreable en periode hivernale. Je n'ai pas mis de noix de muscade et moins de sucre" .
+mm:comment-340080-6 mm:date "17/12/2021 20:56" .
+mm:comments mm:comment-340080 mm:comment-340080-7 .
+mm:comment-340080-7 mm:name "steph06750" .
+mm:comment-340080-7 mm:note "5/5" .
+mm:comment-340080-7 mm:information "Super facile." .
+mm:comment-340080-7 mm:date "07/09/2022 13:08" .
+mm:comments mm:comment-340080 mm:comment-340080-8 .
+mm:comment-340080-8 mm:name "costa13" .
+mm:comment-340080-8 mm:note "5/5" .
+mm:comment-340080-8 mm:information "Super recette qui mets dans l'ambiance de Noel a tous les coups !" .
+mm:comment-340080-8 mm:date "24/02/2017 11:40" .
+mm:comments mm:comment-340080 mm:comment-340080-9 .
+mm:comment-340080-9 mm:name "jade_16090919" .
+mm:comment-340080-9 mm:note "5/5" .
+mm:comment-340080-9 mm:information "Tres bon mais trop sucre." .
+mm:comment-340080-9 mm:date "01/01/2017 18:47" .
+mm:comments mm:comment-340080 mm:comment-340080-10 .
+mm:comment-340080-10 mm:name "Crispr" .
+mm:comment-340080-10 mm:note "5/5" .
+mm:comment-340080-10 mm:information "Excellent" .
+mm:comment-340080-10 mm:date "27/12/2020 15:23" .
+mm:comments mm:comment-340080 mm:comment-340080-11 .
+mm:comment-340080-11 mm:name "Inconnu" .
+mm:comment-340080-11 mm:note "5/5" .
+mm:comment-340080-11 mm:information "Tres bon mais super sucre la prochaine fois je diminuerai la dose." .
+mm:comment-340080-11 mm:date "17/11/2020 18:06" .
+mm:comments mm:comment-340080 mm:comment-340080-12 .
+mm:comment-340080-12 mm:name "typhanie2003" .
+mm:comment-340080-12 mm:note "5/5" .
+mm:comment-340080-12 mm:information "Je vais le tester et je reviendrai vers vous pour vous dire si j'ai aime sa !" .
+mm:comment-340080-12 mm:date "30/10/2021 12:50" .
+mm:recipes-list mm:recipe-29761 <https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:class--component--29761 mm:component .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:class--tool--29761 mm:tool .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:class--step--29761 mm:step .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:class--comment--29761 mm:comments .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:recipe-title "Houmous (purée de pois chiches)" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:total-preparation-time "2 h 30 min" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:default-number-of-people-for-recipe "7" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:preparation-time "30 min" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:cooking-time "2 h" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:auther-name "Mireille F" .
+<https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx> mm:average-note "4.2/5" .
+mm:component mm:property---ingredient--quantity--properties--Pois-chiche mm:ingredient-quantity-Pois-chiche .
+mm:component mm:property---ingredient--name--Pois-chiche mm:ingredient-Pois-chiche .
+mm:ingredient-Pois-chiche mm:name "Pois chiche" .
+mm:ingredient-quantity-Pois-chiche mm:quantity "500" .
+mm:ingredient-quantity-Pois-chiche mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--dail mm:ingredient-quantity-dail .
+mm:component mm:property---ingredient--name--dail mm:ingredient-dail .
+mm:ingredient-dail mm:name "d'ail" .
+mm:ingredient-quantity-dail mm:quantity "3" .
+mm:ingredient-quantity-dail mm:mesurement-value "gousses" .
+mm:component mm:property---ingredient--quantity--properties--Feuille-de-curry mm:ingredient-quantity-Feuille-de-curry .
+mm:component mm:property---ingredient--name--Feuille-de-curry mm:ingredient-Feuille-de-curry .
+mm:ingredient-Feuille-de-curry mm:name "Feuille de curry" .
+mm:ingredient-quantity-Feuille-de-curry mm:quantity "1" .
+mm:ingredient-quantity-Feuille-de-curry mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Citron mm:ingredient-quantity-Citron .
+mm:component mm:property---ingredient--name--Citron mm:ingredient-Citron .
+mm:ingredient-Citron mm:name "Citron" .
+mm:ingredient-quantity-Citron mm:quantity "2" .
+mm:ingredient-quantity-Citron mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--huile-dolive-tres-fruitee-ou-huile-de-sesame mm:ingredient-quantity-huile-dolive-tres-fruitee-ou-huile-de-sesame .
+mm:component mm:property---ingredient--name--huile-dolive-tres-fruitee-ou-huile-de-sesame mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame .
+mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:name "huile d'olive très fruitée ou huile de sésame" .
+mm:ingredient-quantity-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:quantity "" .
+mm:ingredient-quantity-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--paprika mm:ingredient-quantity-paprika .
+mm:component mm:property---ingredient--name--paprika mm:ingredient-paprika .
+mm:ingredient-paprika mm:name "paprika" .
+mm:ingredient-quantity-paprika mm:quantity "" .
+mm:ingredient-quantity-paprika mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--piment-fort-en-poudre mm:ingredient-quantity-piment-fort-en-poudre .
+mm:component mm:property---ingredient--name--piment-fort-en-poudre mm:ingredient-piment-fort-en-poudre .
+mm:ingredient-piment-fort-en-poudre mm:name "piment fort en poudre" .
+mm:ingredient-quantity-piment-fort-en-poudre mm:quantity "" .
+mm:ingredient-quantity-piment-fort-en-poudre mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--olives-noire mm:ingredient-quantity-olives-noire .
+mm:component mm:property---ingredient--name--olives-noire mm:ingredient-olives-noire .
+mm:ingredient-olives-noire mm:name "olives noire" .
+mm:ingredient-quantity-olives-noire mm:quantity "" .
+mm:ingredient-quantity-olives-noire mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 casserole" .
+mm:tool mm:tool-name-1 "1 Mixeur" .
+mm:tool mm:tool-name-2 "1 Fouet cuisine" .
+mm:tool mm:tool-name-3 "1 Top des meilleures plaques à four" .
+mm:tool mm:tool-name-4 "1 dénoyauteur" .
+mm:step mm:property---step--ingredients--29761-0 mm:ingredient-de-pois-chiche .
+mm:step mm:property---step--ingredients--29761-1 mm:ingredient-dail .
+mm:ingredient-dail mm:name "d'ail" .
+mm:step mm:property---step--ingredients--29761-3 mm:ingredient-de-pois-chiche .
+mm:step mm:property---step--ingredients--29761-4 mm:ingredient-de-pois-chiche .
+mm:step mm:property---step--ingredients--29761-5 mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame .
+mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:name "huile d'olive très fruitée ou huile de sésame" .
+mm:step mm:property---step--ingredients--29761-5 mm:ingredient-citron .
+mm:step mm:property---step--ingredients--29761-6 mm:ingredient-dail .
+mm:ingredient-dail mm:name "d'ail" .
+mm:step mm:property---step--ingredients--29761-6 mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame .
+mm:ingredient-huile-dolive-tres-fruitee-ou-huile-de-sesame mm:name "huile d'olive très fruitée ou huile de sésame" .
+mm:step mm:property---step--ingredients--29761-6 mm:ingredient-piment-fort-en-poudre .
+mm:ingredient-piment-fort-en-poudre mm:name "piment fort en poudre" .
+mm:step mm:property---step--ingredients--29761-7 mm:ingredient-paprika .
+mm:ingredient-paprika mm:name "paprika" .
+mm:step mm:property---step--ingredients--29761-7 mm:ingredient-olives-noire .
+mm:step mm:property---step--ingredients--29761-7 mm:ingredient-citron .
+mm:step mm:property---step--instructions--29761 mm:instructions-29761 .
+mm:instructions-29761 mm:information-0 "La veille, mettre à tremper les pois chiches dans de l'eau froide." .
+mm:instructions-29761 mm:information-1 "Les mettre dans 2 l d'eau froide avec le laurier et 1 gousse d'ail, porter à ébullition et laisser cuire 1 h 30 à 2 h." .
+mm:instructions-29761 mm:information-2 "Saler et poivrer à mi-cuisson." .
+mm:instructions-29761 mm:information-3 "Egoutter les pois chiches, conserver l'eau de cuisson." .
+mm:instructions-29761 mm:information-4 "Mixer les pois chiches en purée, remettre dans une casserole et chauffer à feu doux." .
+mm:instructions-29761 mm:information-5 "Incorporer 10 cl d'huile tiède en fouettant, allonger un peu de jus de cuissons et du jus de citron." .
+mm:instructions-29761 mm:information-6 "Piler l'ail au mortier avec 2 cuillerées d'huile, rajouter cela dans la casserole hors du feu, saupoudrer 1 pincée de piment." .
+mm:instructions-29761 mm:information-7 "Servir saupoudré de paprika, garni d'olives noires et accompagné de quartiers de citrons." .
+mm:instructions-29761 mm:information-8 "Sans oublier le pain grillé ou le pain libanais !" .
+mm:comments mm:comment-29761 mm:comment-29761-0 .
+mm:comment-29761-0 mm:name "CarottesMerguez" .
+mm:comment-29761-0 mm:note "5/5" .
+mm:comment-29761-0 mm:information "J'ai suivi la recette en mode feignante: j'ai directement mixe tous les ingredients en utilisant une boite de pois chiche. J'ai remplace le piment par du cumin, conseille dans beaucoup de commentaires. Texture toute soyeuse. Miam!" .
+mm:comment-29761-0 mm:date "17/02/2021 14:34" .
+mm:comments mm:comment-29761 mm:comment-29761-1 .
+mm:comment-29761-1 mm:name "delphdrt" .
+mm:comment-29761-1 mm:note "3/5" .
+mm:comment-29761-1 mm:information "J'ai du rater quelque chose... plutot decu du gout" .
+mm:comment-29761-1 mm:date "01/05/2020 21:14" .
+mm:comments mm:comment-29761 mm:comment-29761-2 .
+mm:comment-29761-2 mm:name "Thesys" .
+mm:comment-29761-2 mm:note "4/5" .
+mm:comment-29761-2 mm:information "Une tres bonne recette, comme vu dans les commentaire j'ai ajoute du cumin un regal." .
+mm:comment-29761-2 mm:date "17/09/2019 18:50" .
+mm:comments mm:comment-29761 mm:comment-29761-3 .
+mm:comment-29761-3 mm:name "Fkcy14hoy" .
+mm:comment-29761-3 mm:note "2/5" .
+mm:comment-29761-3 mm:information "Pateux et sans trop de gout... le manque de tahin (pate de sesame) se fait cruellement ressentir !" .
+mm:comment-29761-3 mm:date "21/02/2015 19:41" .
+mm:comments mm:comment-29761 mm:comment-29761-4 .
+mm:comment-29761-4 mm:name "Marsupilemi" .
+mm:comment-29761-4 mm:note "5/5" .
+mm:comment-29761-4 mm:information "Tres bonne recette. J'ai mixe 1 boite d'olives noires dedans et j'ai servi sur des toasts brioches. Resultat garanti ! J'ai utilise de l'huile de colza aux graines de sesame grillees. Merci pour cette recette." .
+mm:comment-29761-4 mm:date "28/02/2010 11:29" .
+mm:comments mm:comment-29761 mm:comment-29761-5 .
+mm:comment-29761-5 mm:name "maria2306" .
+mm:comment-29761-5 mm:note "3/5" .
+mm:comment-29761-5 mm:information "Il a pas fait long feu" .
+mm:comment-29761-5 mm:date "06/10/2017 14:29" .
+mm:comments mm:comment-29761 mm:comment-29761-6 .
+mm:comment-29761-6 mm:name "miblanc13" .
+mm:comment-29761-6 mm:note "5/5" .
+mm:comment-29761-6 mm:information "J'ai modifie un peu les quantites : 1 grosse boite de pois chiches a faire chauffer avec son jus, 1/2 a 1 citron, du cumin et de l'huile (moitie olive - moitie sesame): 6 cuillerees a soupe en tout." .
+mm:comment-29761-6 mm:date "21/02/2015 18:58" .
+mm:comments mm:comment-29761 mm:comment-29761-7 .
+mm:comment-29761-7 mm:name "mric06" .
+mm:comment-29761-7 mm:note "5/5" .
+mm:comment-29761-7 mm:information "Excellent! Tres judicieux l'idee des olives. Pour ma part j'ai utilise des olives grecques avec leur noyau ( a retirer bien sur) on retrouve une petite note de tapenade tres sympa. J'ai egalement pris la liberte de rajouter un peu de cumin qui releve bien le tout. J'en ai fait de roules dans des galettes pour Wrap." .
+mm:comment-29761-7 mm:date "03/05/2013 00:45" .
+mm:comments mm:comment-29761 mm:comment-29761-8 .
+mm:comment-29761-8 mm:name "agathe_16206565" .
+mm:comment-29761-8 mm:note "5/5" .
+mm:comment-29761-8 mm:information "Meme realise avec des pois chiches en boite, le resultat est top. Le laurier apporte une saveur subtile. J'ai mis moitie moins de citron que dans la recette par contre, et lorsque je referai cette recette, j'en mettrai encore un peu. Je l'ai servi avec des morceaux de pita et des olives noires. Un franc succes." .
+mm:comment-29761-8 mm:date "15/06/2013 03:03" .
+mm:comments mm:comment-29761 mm:comment-29761-9 .
+mm:comment-29761-9 mm:name "alice_17176708" .
+mm:comment-29761-9 mm:note "5/5" .
+mm:comment-29761-9 mm:information "J'ai prepare l'houmous pour l'aperitif a l'occasion de la communion de ma fille et toute la famille a adore, la prochaine fois je rajouterai un peu plus de piment et d'ail, pour relever." .
+mm:comment-29761-9 mm:date "16/05/2008 21:56" .
+mm:comments mm:comment-29761 mm:comment-29761-10 .
+mm:comment-29761-10 mm:name "victor_14937297" .
+mm:comment-29761-10 mm:note "5/5" .
+mm:comment-29761-10 mm:information "THE houmous a preparer en 3 min et qui ravira tout le monde. Perso je prends 1 boite de pois-chiches que je verse directement dans le mixeur. Huile d'olive a volonte ! Enfin, je sers avec des tranches de faluches... un regal !" .
+mm:comment-29761-10 mm:date "01/01/2014 23:00" .
+mm:comments mm:comment-29761 mm:comment-29761-11 .
+mm:comment-29761-11 mm:name "Makzbo" .
+mm:comment-29761-11 mm:note "3/5" .
+mm:comment-29761-11 mm:information "Je suis decu, le gout est bon mais la texture est tres seche et pateuse. J'ai lu dans plusieurs commentaires que l'on pouvait rajouter du tahin pour plus d'onctuosite. J'essayerai la prochaine fois." .
+mm:comment-29761-11 mm:date "30/07/2017 00:30" .
+mm:comments mm:comment-29761 mm:comment-29761-12 .
+mm:comment-29761-12 mm:name "hannah_15785161" .
+mm:comment-29761-12 mm:note "1/5" .
+mm:comment-29761-12 mm:information "Recette qui ne prend pas du tout..." .
+mm:comment-29761-12 mm:date "27/01/2014 00:57" .
+mm:recipes-list mm:recipe-42459 <https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:class--component--42459 mm:component .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:class--tool--42459 mm:tool .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:class--step--42459 mm:step .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:class--comment--42459 mm:comments .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:recipe-title "Punch délicieux" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:total-preparation-time "10 min" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:price-range "assez cher" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:default-number-of-people-for-recipe "15" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:preparation-time "10 min" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:auther-name "romy_14769111" .
+<https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx> mm:average-note "4.9/5" .
+mm:component mm:property---ingredient--quantity--properties--de-rhum-blanc mm:ingredient-quantity-de-rhum-blanc .
+mm:component mm:property---ingredient--name--de-rhum-blanc mm:ingredient-de-rhum-blanc .
+mm:ingredient-de-rhum-blanc mm:name "de rhum blanc" .
+mm:ingredient-quantity-de-rhum-blanc mm:quantity "1" .
+mm:ingredient-quantity-de-rhum-blanc mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--Jus-de-citron mm:ingredient-quantity-Jus-de-citron .
+mm:component mm:property---ingredient--name--Jus-de-citron mm:ingredient-Jus-de-citron .
+mm:ingredient-Jus-de-citron mm:name "Jus de citron" .
+mm:ingredient-quantity-Jus-de-citron mm:quantity "1" .
+mm:ingredient-quantity-Jus-de-citron mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Vanille mm:ingredient-quantity-Vanille .
+mm:component mm:property---ingredient--name--Vanille mm:ingredient-Vanille .
+mm:ingredient-Vanille mm:name "Vanille" .
+mm:ingredient-quantity-Vanille mm:quantity "1" .
+mm:ingredient-quantity-Vanille mm:mesurement-value "gousse" .
+mm:component mm:property---ingredient--quantity--properties--de-vanille-liquide mm:ingredient-quantity-de-vanille-liquide .
+mm:component mm:property---ingredient--name--de-vanille-liquide mm:ingredient-de-vanille-liquide .
+mm:ingredient-de-vanille-liquide mm:name "de vanille liquide" .
+mm:ingredient-quantity-de-vanille-liquide mm:quantity "4" .
+mm:ingredient-quantity-de-vanille-liquide mm:mesurement-value "c.a.s" .
+mm:component mm:property---ingredient--quantity--properties--poivre-du-moulin--un-peu-de-cannelle mm:ingredient-quantity-poivre-du-moulin--un-peu-de-cannelle .
+mm:component mm:property---ingredient--name--poivre-du-moulin--un-peu-de-cannelle mm:ingredient-poivre-du-moulin--un-peu-de-cannelle .
+mm:ingredient-poivre-du-moulin--un-peu-de-cannelle mm:name "poivre du moulin + un peu de cannelle" .
+mm:ingredient-quantity-poivre-du-moulin--un-peu-de-cannelle mm:quantity "" .
+mm:ingredient-quantity-poivre-du-moulin--un-peu-de-cannelle mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--de-jus-de-banane mm:ingredient-quantity-de-jus-de-banane .
+mm:component mm:property---ingredient--name--de-jus-de-banane mm:ingredient-de-jus-de-banane .
+mm:ingredient-de-jus-de-banane mm:name "de jus de banane" .
+mm:ingredient-quantity-de-jus-de-banane mm:quantity "1" .
+mm:ingredient-quantity-de-jus-de-banane mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--Goyave mm:ingredient-quantity-Goyave .
+mm:component mm:property---ingredient--name--Goyave mm:ingredient-Goyave .
+mm:ingredient-Goyave mm:name "Goyave" .
+mm:ingredient-quantity-Goyave mm:quantity "1" .
+mm:ingredient-quantity-Goyave mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--de-jus-danana mm:ingredient-quantity-de-jus-danana .
+mm:component mm:property---ingredient--name--de-jus-danana mm:ingredient-de-jus-danana .
+mm:ingredient-de-jus-danana mm:name "de jus d'anana" .
+mm:ingredient-quantity-de-jus-danana mm:quantity "1" .
+mm:ingredient-quantity-de-jus-danana mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--Huile-dorange mm:ingredient-quantity-Huile-dorange .
+mm:component mm:property---ingredient--name--Huile-dorange mm:ingredient-Huile-dorange .
+mm:ingredient-Huile-dorange mm:name "Huile d'orange" .
+mm:ingredient-quantity-Huile-dorange mm:quantity "1" .
+mm:ingredient-quantity-Huile-dorange mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--de-sirop-de-sucre-de-canne mm:ingredient-quantity-de-sirop-de-sucre-de-canne .
+mm:component mm:property---ingredient--name--de-sirop-de-sucre-de-canne mm:ingredient-de-sirop-de-sucre-de-canne .
+mm:ingredient-de-sirop-de-sucre-de-canne mm:name "de sirop de sucre de canne" .
+mm:ingredient-quantity-de-sirop-de-sucre-de-canne mm:quantity "2" .
+mm:ingredient-quantity-de-sirop-de-sucre-de-canne mm:mesurement-value "verres" .
+mm:tool mm:tool-name-0 "1 Cocotte en fonte" .
+mm:step mm:property---step--instructions--42459 mm:instructions-42459 .
+mm:instructions-42459 mm:information-0 "Dans une cocotte, versez tous les ingrédients." .
+mm:instructions-42459 mm:information-1 "Fermez le couvercle, et laissez macérer pendant 12 h... ça n'en sera que meilleur!" .
+mm:instructions-42459 mm:information-2 "Si vous n'avez pas le temps de le laisser macérer, ce n'est pas grave : il sera délicieux quand même!" .
+mm:comments mm:comment-42459 mm:comment-42459-0 .
+mm:comment-42459-0 mm:name "chouchou1971" .
+mm:comment-42459-0 mm:note "5/5" .
+mm:comment-42459-0 mm:information "Incroyable !" .
+mm:comment-42459-0 mm:date "30/09/2022 04:33" .
+mm:comments mm:comment-42459 mm:comment-42459-1 .
+mm:comment-42459-1 mm:name "Cocomtz" .
+mm:comment-42459-1 mm:note "5/5" .
+mm:comment-42459-1 mm:information "Punch delicieux avec le baton de cannelle et legerement moins de sirop de sucre de canne." .
+mm:comment-42459-1 mm:date "31/07/2022 02:39" .
+mm:comments mm:comment-42459 mm:comment-42459-2 .
+mm:comment-42459-2 mm:name "rolland18" .
+mm:comment-42459-2 mm:note "5/5" .
+mm:comment-42459-2 mm:information "Je l'ai fait avec 50% de rhum blanc et 50% de rhum ambre ... une tuerie ! Vraiment EXCELLENT !!!" .
+mm:comment-42459-2 mm:date "07/07/2022 14:39" .
+mm:comments mm:comment-42459 mm:comment-42459-3 .
+mm:comment-42459-3 mm:name "scratina25" .
+mm:comment-42459-3 mm:note "5/5" .
+mm:comment-42459-3 mm:information "Excellent ! N'ayant pas de sucre liquide et vanille liquide, j'ai mis de la vanille en poudre et du sucre vanille et c'etait tres bon. Je l'ai laisse mariner 2 jours. Un regal !" .
+mm:comment-42459-3 mm:date "05/05/2019 10:14" .
+mm:comments mm:comment-42459 mm:comment-42459-4 .
+mm:comment-42459-4 mm:name "lily_16023159" .
+mm:comment-42459-4 mm:note "5/5" .
+mm:comment-42459-4 mm:information "Je l'ai fait. J'ai fait un peu a ma sauce en me basant sur la recette. La difference : j'ai mis 1L de goyave, 1L de banane, 1L d'orange et 1L de multivitamines pour 1L de rhum blanc et 30 ou 40 cl de rhum brun. Un delice !  Punch fait 48h avant et mis au frigo. J'ai ajoute les fruits 24h avant." .
+mm:comment-42459-4 mm:date "26/10/2014 18:55" .
+mm:comments mm:comment-42459 mm:comment-42459-5 .
+mm:comment-42459-5 mm:name "amandine90" .
+mm:comment-42459-5 mm:note "5/5" .
+mm:comment-42459-5 mm:information "Fait pour nos 30 ans, et tout le monde l'a adore! Nous avons mis du rhum ambre au lieu du rhum blanc, car nous le trouvons moins traitre...Beaucoup m'ont effectivement demande la recette! Merci pour cette excellente recette, je l'a mets dans mes favoris!" .
+mm:comment-42459-5 mm:date "31/01/2021 22:02" .
+mm:comments mm:comment-42459 mm:comment-42459-6 .
+mm:comment-42459-6 mm:name "Bambina1980" .
+mm:comment-42459-6 mm:note "5/5" .
+mm:comment-42459-6 mm:information "Recette parfaite ! Tout le monde adore je suis vraiment ravie d'avoir vu cette recette !" .
+mm:comment-42459-6 mm:date "16/07/2018 04:01" .
+mm:comments mm:comment-42459 mm:comment-42459-7 .
+mm:comment-42459-7 mm:name "vever3hc" .
+mm:comment-42459-7 mm:note "5/5" .
+mm:comment-42459-7 mm:information "J'ai suivi la recette pour 20 personnes, tout le monde a adore ! Les 5 etoiles sont largement meritees" .
+mm:comment-42459-7 mm:date "18/04/2022 12:59" .
+mm:comments mm:comment-42459 mm:comment-42459-8 .
+mm:comment-42459-8 mm:name "mia_15551482" .
+mm:comment-42459-8 mm:note "5/5" .
+mm:comment-42459-8 mm:information "Parfait! Il a eu un succes fou aupres de mes invites! Il s'est bu comme du petit lait!" .
+mm:comment-42459-8 mm:date "06/07/2006 17:59" .
+mm:comments mm:comment-42459 mm:comment-42459-9 .
+mm:comment-42459-9 mm:name "arthur_16958827" .
+mm:comment-42459-9 mm:note "5/5" .
+mm:comment-42459-9 mm:information "Vraiment magnifique ce punch !! Je recommande vivement !!! Il a fait un ravage !!!" .
+mm:comment-42459-9 mm:date "04/12/2008 18:20" .
+mm:comments mm:comment-42459 mm:comment-42459-10 .
+mm:comment-42459-10 mm:name "MisterB" .
+mm:comment-42459-10 mm:note "5/5" .
+mm:comment-42459-10 mm:information "Reellement delicieux" .
+mm:comment-42459-10 mm:date "27/05/2022 17:35" .
+mm:comments mm:comment-42459 mm:comment-42459-11 .
+mm:comment-42459-11 mm:name "camila_16700815" .
+mm:comment-42459-11 mm:note "5/5" .
+mm:comment-42459-11 mm:information "Effectivement vraiment delicieux ! Je l'ai fait en 2 versions pour satisfaire tout le monde : avec alcool et sans alcool ! Le sans alcool etait tout aussi bon ! J'y ai aussi rajoute des morceaux d'ananas ! Miam !" .
+mm:comment-42459-11 mm:date "19/12/2007 15:31" .
+mm:comments mm:comment-42459 mm:comment-42459-12 .
+mm:comment-42459-12 mm:name "pappychou" .
+mm:comment-42459-12 mm:note "5/5" .
+mm:comment-42459-12 mm:information "excellent rien a redire" .
+mm:comment-42459-12 mm:date "31/08/2021 12:47" .
+mm:recipes-list mm:recipe-20790 <https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:class--component--20790 mm:component .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:class--tool--20790 mm:tool .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:class--step--20790 mm:step .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:class--comment--20790 mm:comments .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:recipe-title "Grog au rhum" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:total-preparation-time "8 min" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:default-number-of-people-for-recipe "1" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:cooking-time "3 min" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:auther-name "lise_14944888" .
+<https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx> mm:average-note "4.6/5" .
+mm:component mm:property---ingredient--quantity--properties--rhum-brun-ambre mm:ingredient-quantity-rhum-brun-ambre .
+mm:component mm:property---ingredient--name--rhum-brun-ambre mm:ingredient-rhum-brun-ambre .
+mm:ingredient-rhum-brun-ambre mm:name "rhum brun ambré" .
+mm:ingredient-quantity-rhum-brun-ambre mm:quantity "" .
+mm:ingredient-quantity-rhum-brun-ambre mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Huile-decorce-de-citron-vert mm:ingredient-quantity-Huile-decorce-de-citron-vert .
+mm:component mm:property---ingredient--name--Huile-decorce-de-citron-vert mm:ingredient-Huile-decorce-de-citron-vert .
+mm:ingredient-Huile-decorce-de-citron-vert mm:name "Huile d'écorce de citron vert" .
+mm:ingredient-quantity-Huile-decorce-de-citron-vert mm:quantity "" .
+mm:ingredient-quantity-Huile-decorce-de-citron-vert mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Miel mm:ingredient-quantity-Miel .
+mm:component mm:property---ingredient--name--Miel mm:ingredient-Miel .
+mm:ingredient-Miel mm:name "Miel" .
+mm:ingredient-quantity-Miel mm:quantity "" .
+mm:ingredient-quantity-Miel mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Oignon-A--peau-rouge mm:ingredient-quantity-Oignon-A--peau-rouge .
+mm:component mm:property---ingredient--name--Oignon-A--peau-rouge mm:ingredient-Oignon-A--peau-rouge .
+mm:ingredient-Oignon-A--peau-rouge mm:name "Oignon à peau rouge" .
+mm:ingredient-quantity-Oignon-A--peau-rouge mm:quantity "" .
+mm:ingredient-quantity-Oignon-A--peau-rouge mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 presse agrume" .
+mm:step mm:property---step--ingredients--20790-0 mm:ingredient-eau .
+mm:ingredient-eau mm:name "eau" .
+mm:step mm:property---step--ingredients--20790-1 mm:ingredient-citron .
+mm:ingredient-citron mm:name "citron" .
+mm:step mm:property---step--ingredients--20790-2 mm:ingredient-miel .
+mm:ingredient-miel mm:name "miel" .
+mm:step mm:property---step--ingredients--20790-2 mm:ingredient-rhum-brun-ambre .
+mm:ingredient-rhum-brun-ambre mm:name "rhum brun ambré" .
+mm:step mm:property---step--instructions--20790 mm:instructions-20790 .
+mm:instructions-20790 mm:information-0 "Mettre l'eau à chauffer." .
+mm:instructions-20790 mm:information-1 "Pendant ce temps, presser le jus d'1/2 citron." .
+mm:instructions-20790 mm:information-2 "Dans une chope mettre 2 cuillères à café de miel, le jus de citron, et la valeur d'un petit verre à liqueur de rhum." .
+mm:instructions-20790 mm:information-3 "Quand l'eau commence à faire de petites bulles, vider dans la chope." .
+mm:instructions-20790 mm:information-4 "Boire dès que la température le permet...." .
+mm:comments mm:comment-20790 mm:comment-20790-0 .
+mm:comment-20790-0 mm:name "TheBoudoni" .
+mm:comment-20790-0 mm:note "5/5" .
+mm:comment-20790-0 mm:information "Excellent !" .
+mm:comment-20790-0 mm:date "02/10/2022 22:52" .
+mm:comments mm:comment-20790 mm:comment-20790-1 .
+mm:comment-20790-1 mm:name "nonose" .
+mm:comment-20790-1 mm:note "5/5" .
+mm:comment-20790-1 mm:information "Mon pere m'en a fait c'etait qu'avec des produits naturels qu'il se soignait" .
+mm:comment-20790-1 mm:date "05/08/2020 23:22" .
+mm:comments mm:comment-20790 mm:comment-20790-2 .
+mm:comment-20790-2 mm:name "SophieDechampagne" .
+mm:comment-20790-2 mm:note "5/5" .
+mm:comment-20790-2 mm:information "Bon vieux remede de grand-mere efficace." .
+mm:comment-20790-2 mm:date "02/03/2020 03:51" .
+mm:comments mm:comment-20790 mm:comment-20790-3 .
+mm:comment-20790-3 mm:name "Inconnu" .
+mm:comment-20790-3 mm:note "5/5" .
+mm:comment-20790-3 mm:information "Rien de tel pour vous rechauffer... Et en plus c'est delicieux!" .
+mm:comment-20790-3 mm:date "13/02/2003 23:53" .
+mm:comments mm:comment-20790 mm:comment-20790-4 .
+mm:comment-20790-4 mm:name "Hassen_Zaied" .
+mm:comment-20790-4 mm:note "5/5" .
+mm:comment-20790-4 mm:information "Merci pour la recette  !" .
+mm:comment-20790-4 mm:date "30/05/2018 12:13" .
+mm:comments mm:comment-20790 mm:comment-20790-5 .
+mm:comment-20790-5 mm:name "Aurelie_124" .
+mm:comment-20790-5 mm:note "5/5" .
+mm:comment-20790-5 mm:information "Sans rhum... Pour les jeunes mamans, c'est tres bon aussi!" .
+mm:comment-20790-5 mm:date "14/03/2006 17:00" .
+mm:comments mm:comment-20790 mm:comment-20790-6 .
+mm:comment-20790-6 mm:name "anna_13698512" .
+mm:comment-20790-6 mm:note "5/5" .
+mm:comment-20790-6 mm:information "Ca donne envie d'etre malade plus souvent !!! Bon equilibre des saveurs. Merci." .
+mm:comment-20790-6 mm:date "27/02/2013 16:31" .
+mm:comments mm:comment-20790 mm:comment-20790-7 .
+mm:comment-20790-7 mm:name "camila_14133233" .
+mm:comment-20790-7 mm:note "5/5" .
+mm:comment-20790-7 mm:information "J'ai un rhume, j'ai fait ce grog deux soirs de suite et mon mal de gorge est passe tres rapidement. En plus il est tellement bon! Je mets dans un assez grand mug pour avoir beaucoup d'eau chaude." .
+mm:comment-20790-7 mm:date "09/04/2009 13:55" .
+mm:comments mm:comment-20790 mm:comment-20790-8 .
+mm:comment-20790-8 mm:name "k6daine" .
+mm:comment-20790-8 mm:note "3/5" .
+mm:comment-20790-8 mm:information "J'ai mis peut etre un peu trop de rhum et de miel, c'est un peu ecoeurant, mais on ne demande pas a un medicament d'etre bon si il est efficace. Voyons si mon mal de gorge va s'attenuer..." .
+mm:comment-20790-8 mm:date "20/10/2013 11:29" .
+mm:comments mm:comment-20790 mm:comment-20790-9 .
+mm:comment-20790-9 mm:name "jade_15083170" .
+mm:comment-20790-9 mm:note "5/5" .
+mm:comment-20790-9 mm:information "Super recette pour les maux de gorge et super bon !" .
+mm:comment-20790-9 mm:date "02/01/2015 10:47" .
+mm:comments mm:comment-20790 mm:comment-20790-10 .
+mm:comment-20790-10 mm:name "sarah_17528141" .
+mm:comment-20790-10 mm:note "5/5" .
+mm:comment-20790-10 mm:information "Excellent remede quand on a un rhume! J'ai ajoute des feuilles de menthe fraiche dans l'eau pendant une dizaine de minutes, melange tres agreable." .
+mm:comment-20790-10 mm:date "31/07/2005 08:52" .
+mm:comments mm:comment-20790 mm:comment-20790-11 .
+mm:comment-20790-11 mm:name "elena_16336150" .
+mm:comment-20790-11 mm:note "5/5" .
+mm:comment-20790-11 mm:information "Vieille recette de grand mere, y a pas meilleur pour passer l'hiver et je m'en fais un presque tous les soirs avec plaisir." .
+mm:comment-20790-11 mm:date "24/02/2009 12:31" .
+mm:comments mm:comment-20790 mm:comment-20790-12 .
+mm:comment-20790-12 mm:name "emmy_14652726" .
+mm:comment-20790-12 mm:note "4/5" .
+mm:comment-20790-12 mm:information "Les doses sont un peu trop approximatives pour le rhum et pour l'eau mais du coup comme indique, c'est 'aux gouts de chacun'. Mais sinon c'est tres bon, je n'en avais jamais fait et j'en referai sans doute encore." .
+mm:comment-20790-12 mm:date "04/12/2013 00:20" .
+mm:recipes-list mm:recipe-20095 <https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> .
+<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:class--component--20095 mm:component .
+<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:class--tool--20095 mm:tool .
+<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:class--step--20095 mm:step .
+<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:class--comment--20095 mm:comments .
 <https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:recipe-title "Gougères au fromage" .
 <https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:recipe-type "aperitif-ou-buffet" .
 <https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:total-preparation-time "45 min" .
@@ -357,7 +788,7 @@ mm:recipes-list mm:recipe-gougeres-au-fromage_20095 <https://www.marmiton.org/re
 <https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:resting-time "-" .
 <https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:cooking-time "25 min" .
 <https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:auther-name "romina_15363466" .
-<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:note "4.8/5" .
+<https://www.marmiton.org/recettes/recette_gougeres-au-fromage_20095.aspx> mm:average-note "4.8/5" .
 mm:component mm:property---ingredient--quantity--properties--de-gruyere-rape mm:ingredient-quantity-de-gruyere-rape .
 mm:component mm:property---ingredient--name--de-gruyere-rape mm:ingredient-de-gruyere-rape .
 mm:ingredient-de-gruyere-rape mm:name "de gruyère râpé" .
@@ -368,55 +799,1188 @@ mm:component mm:property---ingredient--name--de-farine-tamisee mm:ingredient-de-
 mm:ingredient-de-farine-tamisee mm:name "de farine tamisée" .
 mm:ingredient-quantity-de-farine-tamisee mm:quantity "150" .
 mm:ingredient-quantity-de-farine-tamisee mm:mesurement-value "g" .
-mm:component mm:property---ingredient--quantity--properties--de-beurre-15-g-pour-la-plaque mm:ingredient-quantity-de-beurre-15-g-pour-la-plaque .
-mm:component mm:property---ingredient--name--de-beurre-15-g-pour-la-plaque mm:ingredient-de-beurre-15-g-pour-la-plaque .
-mm:ingredient-de-beurre-15-g-pour-la-plaque mm:name "de beurre + 15 g pour la plaque" .
-mm:ingredient-quantity-de-beurre-15-g-pour-la-plaque mm:quantity "80" .
-mm:ingredient-quantity-de-beurre-15-g-pour-la-plaque mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--de-beurre--15-g-pour-la-plaque mm:ingredient-quantity-de-beurre--15-g-pour-la-plaque .
+mm:component mm:property---ingredient--name--de-beurre--15-g-pour-la-plaque mm:ingredient-de-beurre--15-g-pour-la-plaque .
+mm:ingredient-de-beurre--15-g-pour-la-plaque mm:name "de beurre + 15 g pour la plaque" .
+mm:ingredient-quantity-de-beurre--15-g-pour-la-plaque mm:quantity "80" .
+mm:ingredient-quantity-de-beurre--15-g-pour-la-plaque mm:mesurement-value "g" .
 mm:component mm:property---ingredient--quantity--properties--de-muscade-rapee mm:ingredient-quantity-de-muscade-rapee .
 mm:component mm:property---ingredient--name--de-muscade-rapee mm:ingredient-de-muscade-rapee .
 mm:ingredient-de-muscade-rapee mm:name "de muscade râpée" .
 mm:ingredient-quantity-de-muscade-rapee mm:quantity "1" .
-mm:ingredient-quantity-de-muscade-rapee mm:mesurement-value "pincA(c)e" .
-mm:component mm:property---ingredient--quantity--properties--sel mm:ingredient-quantity-sel .
-mm:component mm:property---ingredient--name--sel mm:ingredient-sel .
-mm:ingredient-sel mm:name "Sel" .
-mm:ingredient-quantity-sel mm:quantity "" .
-mm:ingredient-quantity-sel mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--poivre mm:ingredient-quantity-poivre .
-mm:component mm:property---ingredient--name--poivre mm:ingredient-poivre .
-mm:ingredient-poivre mm:name "Poivre" .
-mm:ingredient-quantity-poivre mm:quantity "" .
-mm:ingredient-quantity-poivre mm:mesurement-value "" .
-mm:component mm:property---ingredient--quantity--properties--oeufs-1-jaune-pas-oblige mm:ingredient-quantity-oeufs-1-jaune-pas-oblige .
-mm:component mm:property---ingredient--name--oeufs-1-jaune-pas-oblige mm:ingredient-oeufs-1-jaune-pas-oblige .
-mm:ingredient-oeufs-1-jaune-pas-oblige mm:name "oeufs + 1 jaune (pas obligé)" .
-mm:ingredient-quantity-oeufs-1-jaune-pas-oblige mm:quantity "4" .
-mm:ingredient-quantity-oeufs-1-jaune-pas-oblige mm:mesurement-value "" .
+mm:ingredient-quantity-de-muscade-rapee mm:mesurement-value "pincee" .
+mm:component mm:property---ingredient--quantity--properties--Sel mm:ingredient-quantity-Sel .
+mm:component mm:property---ingredient--name--Sel mm:ingredient-Sel .
+mm:ingredient-Sel mm:name "Sel" .
+mm:ingredient-quantity-Sel mm:quantity "" .
+mm:ingredient-quantity-Sel mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Poivre mm:ingredient-quantity-Poivre .
+mm:component mm:property---ingredient--name--Poivre mm:ingredient-Poivre .
+mm:ingredient-Poivre mm:name "Poivre" .
+mm:ingredient-quantity-Poivre mm:quantity "" .
+mm:ingredient-quantity-Poivre mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--oeufs--1-jaune-pas-oblige mm:ingredient-quantity-oeufs--1-jaune-pas-oblige .
+mm:component mm:property---ingredient--name--oeufs--1-jaune-pas-oblige mm:ingredient-oeufs--1-jaune-pas-oblige .
+mm:ingredient-oeufs--1-jaune-pas-oblige mm:name "oeufs + 1 jaune (pas obligé)" .
+mm:ingredient-quantity-oeufs--1-jaune-pas-oblige mm:quantity "4" .
+mm:ingredient-quantity-oeufs--1-jaune-pas-oblige mm:mesurement-value "" .
 mm:tool mm:tool-name-0 "1 four" .
 mm:tool mm:tool-name-1 "1 casserole" .
 mm:tool mm:tool-name-2 "1 saladier" .
 mm:tool mm:tool-name-3 "1 Râpe" .
 mm:tool mm:tool-name-4 "1 pinceau" .
 mm:tool mm:tool-name-5 "1 balance de cuisine" .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-1 mm:ingredient-sel .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-1 mm:ingredient-de-beurre-15-g-pour-la-plaque .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-1 mm:ingredient-sel .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-2 mm:ingredient-de-farine-tamisee .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-4 mm:ingredient-poivre .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-5 mm:ingredient-de-gruyere-rape .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-5 mm:ingredient-poivre .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-5 mm:ingredient-sel .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-5 mm:ingredient-poivre .
-mm:step mm:property---step--ingredients--gougeres-au-fromage_20095-7 mm:ingredient-poivre .
-mm:step mm:property---step--instructions--gougeres-au-fromage_20095 mm:instructions-gougeres-au-fromage_20095 .
-mm:instructions-gougeres-au-fromage_20095 mm:information-0 "Préchauffez le four à 200°C (th 6-7)." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-1 "Dans une casserole, portez 25 cl d'eau à ébullition, avec le beurre coupé en morceaux + 1 cuillère à café de sel." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-2 "Hors du feu, ajoutez la farine d'un coup." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-3 "Mélangez vivement, et faites dessécher pendant 1 min sur feu doux." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-4 "Laissez tiédir quelques instants, et incorporez les oeufs un par un en mélangeant bien." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-5 "Ajoutez le gruyère râpé, la muscade, le sel et le poivre." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-6 "Déposez cette pâte à l'aide de 2 cuillères à café, en petits tas séparés, sur une plaque beurrée." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-7 "Vous pouvez dorer les petites gougères avec un jaune d'oeuf, à l'aide d'un pinceau." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-8 "Enfournez 25 min en surveillant." .
-mm:instructions-gougeres-au-fromage_20095 mm:information-9 "C'est prêt" .
+mm:step mm:property---step--ingredients--20095-1 mm:ingredient-sel .
+mm:ingredient-sel mm:name "sel" .
+mm:step mm:property---step--ingredients--20095-1 mm:ingredient-de-beurre--15-g-pour-la-plaque .
+mm:ingredient-de-beurre--15-g-pour-la-plaque mm:name "de beurre + 15 g pour la plaque" .
+mm:step mm:property---step--ingredients--20095-1 mm:ingredient-sel .
+mm:ingredient-sel mm:name "sel" .
+mm:step mm:property---step--ingredients--20095-2 mm:ingredient-de-farine-tamisee .
+mm:ingredient-de-farine-tamisee mm:name "de farine tamisée" .
+mm:step mm:property---step--ingredients--20095-4 mm:ingredient-poivre .
+mm:ingredient-poivre mm:name "poivre" .
+mm:step mm:property---step--ingredients--20095-5 mm:ingredient-de-gruyere-rape .
+mm:ingredient-de-gruyere-rape mm:name "de gruyère râpé" .
+mm:step mm:property---step--ingredients--20095-5 mm:ingredient-poivre .
+mm:ingredient-poivre mm:name "poivre" .
+mm:step mm:property---step--ingredients--20095-5 mm:ingredient-sel .
+mm:ingredient-sel mm:name "sel" .
+mm:step mm:property---step--ingredients--20095-5 mm:ingredient-poivre .
+mm:ingredient-poivre mm:name "poivre" .
+mm:step mm:property---step--ingredients--20095-7 mm:ingredient-poivre .
+mm:ingredient-poivre mm:name "poivre" .
+mm:step mm:property---step--instructions--20095 mm:instructions-20095 .
+mm:instructions-20095 mm:information-0 "Préchauffez le four à 200°C (th 6-7)." .
+mm:instructions-20095 mm:information-1 "Dans une casserole, portez 25 cl d'eau à ébullition, avec le beurre coupé en morceaux + 1 cuillère à café de sel." .
+mm:instructions-20095 mm:information-2 "Hors du feu, ajoutez la farine d'un coup." .
+mm:instructions-20095 mm:information-3 "Mélangez vivement, et faites dessécher pendant 1 min sur feu doux." .
+mm:instructions-20095 mm:information-4 "Laissez tiédir quelques instants, et incorporez les oeufs un par un en mélangeant bien." .
+mm:instructions-20095 mm:information-5 "Ajoutez le gruyère râpé, la muscade, le sel et le poivre." .
+mm:instructions-20095 mm:information-6 "Déposez cette pâte à l'aide de 2 cuillères à café, en petits tas séparés, sur une plaque beurrée." .
+mm:instructions-20095 mm:information-7 "Vous pouvez dorer les petites gougères avec un jaune d'oeuf, à l'aide d'un pinceau." .
+mm:instructions-20095 mm:information-8 "Enfournez 25 min en surveillant." .
+mm:instructions-20095 mm:information-9 "C'est prêt" .
+mm:comments mm:comment-20095 mm:comment-20095-0 .
+mm:comment-20095-0 mm:name "Tycoco" .
+mm:comment-20095-0 mm:note "5/5" .
+mm:comment-20095-0 mm:information "Toute la famille adore !" .
+mm:comment-20095-0 mm:date "15/10/2022 20:02" .
+mm:comments mm:comment-20095 mm:comment-20095-1 .
+mm:comment-20095-1 mm:name "user2135627833" .
+mm:comment-20095-1 mm:note "5/5" .
+mm:comment-20095-1 mm:information "Tres bonne recette inratable si on suit bien la recette. Je la fais regulierement pour l'aeroport." .
+mm:comment-20095-1 mm:date "15/10/2022 14:15" .
+mm:comments mm:comment-20095 mm:comment-20095-2 .
+mm:comment-20095-2 mm:name "cupcake_6187c8" .
+mm:comment-20095-2 mm:note "5/5" .
+mm:comment-20095-2 mm:information "Tres bonne recette ! J'ai remplace le gruyere par du comte 12 mois. Excellent." .
+mm:comment-20095-2 mm:date "25/09/2022 15:35" .
+mm:comments mm:comment-20095 mm:comment-20095-3 .
+mm:comment-20095-3 mm:name "noor_16219970" .
+mm:comment-20095-3 mm:note "4/5" .
+mm:comment-20095-3 mm:information "Excellent ! Les gougeres restent moelleuses. A tester avec un peu de piment d'Espelette, peut-etre ?" .
+mm:comment-20095-3 mm:date "27/07/2014 23:30" .
+mm:comments mm:comment-20095 mm:comment-20095-4 .
+mm:comment-20095-4 mm:name "PaulineChef" .
+mm:comment-20095-4 mm:note "5/5" .
+mm:comment-20095-4 mm:information "Juste exceptionnel !" .
+mm:comment-20095-4 mm:date "17/06/2022 22:34" .
+mm:comments mm:comment-20095 mm:comment-20095-5 .
+mm:comment-20095-5 mm:name "romina_13849508" .
+mm:comment-20095-5 mm:note "5/5" .
+mm:comment-20095-5 mm:information "Je n'ai qu'une chose a dire: excellent!" .
+mm:comment-20095-5 mm:date "13/06/2006 18:12" .
+mm:comments mm:comment-20095 mm:comment-20095-6 .
+mm:comment-20095-6 mm:name "sofia_16005943" .
+mm:comment-20095-6 mm:note "5/5" .
+mm:comment-20095-6 mm:information "Genial ! Tres bonne et tres facile ! J'ai ajoute des herbes pour relever le tout. Petit bemol, mes gougeres n'ont pas leve lors de la cuisson, j'essaierai une cuisson un peu plus longue." .
+mm:comment-20095-6 mm:date "29/11/2012 14:28" .
+mm:comments mm:comment-20095 mm:comment-20095-7 .
+mm:comment-20095-7 mm:name "daniel59" .
+mm:comment-20095-7 mm:note "5/5" .
+mm:comment-20095-7 mm:information "Excellent et facile ! Surveillez la cuisson." .
+mm:comment-20095-7 mm:date "16/12/2012 15:14" .
+mm:comments mm:comment-20095 mm:comment-20095-8 .
+mm:comment-20095-8 mm:name "elena_13830887" .
+mm:comment-20095-8 mm:note "5/5" .
+mm:comment-20095-8 mm:information "Attention au temps de cuisson. Selon les fours, 20 min suffisent et elles en seront d'autant plus moelleuses. Le choix aussi du fromage est important : un fromage de caractere rehaussera le gout. Merci pour cette recette tres agreable." .
+mm:comment-20095-8 mm:date "09/02/2013 18:21" .
+mm:comments mm:comment-20095 mm:comment-20095-9 .
+mm:comment-20095-9 mm:name "laura_14422955" .
+mm:comment-20095-9 mm:note "5/5" .
+mm:comment-20095-9 mm:information "Facile et convertible a souhait (avec des lardons, sans fromage, au paprika, cumin et curry...), ideal pour les aperos ou on est nombreux. Tout le monde en a redemande." .
+mm:comment-20095-9 mm:date "12/05/2010 21:47" .
+mm:comments mm:comment-20095 mm:comment-20095-10 .
+mm:comment-20095-10 mm:name "recettedecharlie" .
+mm:comment-20095-10 mm:note "5/5" .
+mm:comment-20095-10 mm:information "Tres bonne recette. Les gougeres sont tres bonnes. Un regal pour tout le monde." .
+mm:comment-20095-10 mm:date "17/01/2015 12:00" .
+mm:comments mm:comment-20095 mm:comment-20095-11 .
+mm:comment-20095-11 mm:name "Gilles_4" .
+mm:comment-20095-11 mm:note "5/5" .
+mm:comment-20095-11 mm:information "Recette delicieuse ! Insister sur la phase suivante de la recette : 'Remettre sur le feu et dessecher la pate jusqu'a ce qu'elle se detache de la casserole.'. Sinon c'est rate..." .
+mm:comment-20095-11 mm:date "17/10/2014 18:02" .
+mm:comments mm:comment-20095 mm:comment-20095-12 .
+mm:comment-20095-12 mm:name "Abju36bck" .
+mm:comment-20095-12 mm:note "3/5" .
+mm:comment-20095-12 mm:information "La cuisson a 200degC est excessive dans mon four ventile. Je conseillerais de reduire la temperature a 180degC. Le saveur du fromage est trop delicat, donc la prochaine fois je le remplacerai par du comte ou du parmesan. En general, la pate etait parfaite : douce et aeree, comme un veritable chou." .
+mm:comment-20095-12 mm:date "22/11/2014 17:47" .
+mm:recipes-list mm:recipe-13111 <https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:class--component--13111 mm:component .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:class--tool--13111 mm:tool .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:class--step--13111 mm:step .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:class--comment--13111 mm:comments .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:recipe-title "Guacamole très facile" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:total-preparation-time "10 min" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:default-number-of-people-for-recipe "4" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:preparation-time "10 min" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:auther-name "Anonyme" .
+<https://www.marmiton.org/recettes/recette_guacamole-tres-facile_13111.aspx> mm:average-note "4.7/5" .
+mm:component mm:property---ingredient--quantity--properties--tomates-coupees-en-morceaux mm:ingredient-quantity-tomates-coupees-en-morceaux .
+mm:component mm:property---ingredient--name--tomates-coupees-en-morceaux mm:ingredient-tomates-coupees-en-morceaux .
+mm:ingredient-tomates-coupees-en-morceaux mm:name "tomates coupées en morceaux" .
+mm:ingredient-quantity-tomates-coupees-en-morceaux mm:quantity "2" .
+mm:ingredient-quantity-tomates-coupees-en-morceaux mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--oignon-coupee-en-cube mm:ingredient-quantity-oignon-coupee-en-cube .
+mm:component mm:property---ingredient--name--oignon-coupee-en-cube mm:ingredient-oignon-coupee-en-cube .
+mm:ingredient-oignon-coupee-en-cube mm:name "oignon coupée en cube" .
+mm:ingredient-quantity-oignon-coupee-en-cube mm:quantity "une demi" .
+mm:ingredient-quantity-oignon-coupee-en-cube mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Sel mm:ingredient-quantity-Sel .
+mm:component mm:property---ingredient--name--Sel mm:ingredient-Sel .
+mm:ingredient-Sel mm:name "Sel" .
+mm:ingredient-quantity-Sel mm:quantity "" .
+mm:ingredient-quantity-Sel mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Huile-decorce-de-citron-vert mm:ingredient-quantity-Huile-decorce-de-citron-vert .
+mm:component mm:property---ingredient--name--Huile-decorce-de-citron-vert mm:ingredient-Huile-decorce-de-citron-vert .
+mm:ingredient-Huile-decorce-de-citron-vert mm:name "Huile d'écorce de citron vert" .
+mm:ingredient-quantity-Huile-decorce-de-citron-vert mm:quantity "une demi" .
+mm:ingredient-quantity-Huile-decorce-de-citron-vert mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Poudre-de-graines-de-coriandre-et-de-cumin mm:ingredient-quantity-Poudre-de-graines-de-coriandre-et-de-cumin .
+mm:component mm:property---ingredient--name--Poudre-de-graines-de-coriandre-et-de-cumin mm:ingredient-Poudre-de-graines-de-coriandre-et-de-cumin .
+mm:ingredient-Poudre-de-graines-de-coriandre-et-de-cumin mm:name "Poudre de graines de coriandre et de cumin" .
+mm:ingredient-quantity-Poudre-de-graines-de-coriandre-et-de-cumin mm:quantity "" .
+mm:ingredient-quantity-Poudre-de-graines-de-coriandre-et-de-cumin mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Sauce-piquante mm:ingredient-quantity-Sauce-piquante .
+mm:component mm:property---ingredient--name--Sauce-piquante mm:ingredient-Sauce-piquante .
+mm:ingredient-Sauce-piquante mm:name "Sauce piquante" .
+mm:ingredient-quantity-Sauce-piquante mm:quantity "" .
+mm:ingredient-quantity-Sauce-piquante mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Avocat mm:ingredient-quantity-Avocat .
+mm:component mm:property---ingredient--name--Avocat mm:ingredient-Avocat .
+mm:ingredient-Avocat mm:name "Avocat" .
+mm:ingredient-quantity-Avocat mm:quantity "2" .
+mm:ingredient-quantity-Avocat mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 four" .
+mm:tool mm:tool-name-1 "1 fourchette" .
+mm:tool mm:tool-name-2 "1 saladier" .
+mm:tool mm:tool-name-3 "1 lot de 12 ramequins" .
+mm:tool mm:tool-name-4 "1 plat" .
+mm:step mm:property---step--ingredients--13111-0 mm:ingredient-avocat .
+mm:step mm:property---step--ingredients--13111-1 mm:ingredient-avocat .
+mm:step mm:property---step--ingredients--13111-2 mm:ingredient-avocat .
+mm:step mm:property---step--ingredients--13111-2 mm:ingredient-oignon-coupee-en-cube .
+mm:step mm:property---step--ingredients--13111-2 mm:ingredient-avocat .
+mm:step mm:property---step--ingredients--13111-3 mm:ingredient-sel .
+mm:ingredient-sel mm:name "sel" .
+mm:step mm:property---step--ingredients--13111-3 mm:ingredient-citron .
+mm:ingredient-citron mm:name "citron" .
+mm:step mm:property---step--ingredients--13111-3 mm:ingredient-sauce-piquante .
+mm:ingredient-sauce-piquante mm:name "sauce piquante" .
+mm:step mm:property---step--instructions--13111 mm:instructions-13111 .
+mm:instructions-13111 mm:information-0 "Enlevez la peau des avocats." .
+mm:instructions-13111 mm:information-1 "En vous aidant d'une fourchette, écrasez les avocats." .
+mm:instructions-13111 mm:information-2 "Dans un plat, mélangez l'avocat avec l'oignon et en dernier les tomates." .
+mm:instructions-13111 mm:information-3 "Ajoutez le sel ainsi que du citron (et la sauce piquante)." .
+mm:instructions-13111 mm:information-4 "Le guacamole accompagne parfaitement chips, nachos ou biscuits salés." .
+mm:comments mm:comment-13111 mm:comment-13111-0 .
+mm:comment-13111-0 mm:name "Rammstein74" .
+mm:comment-13111-0 mm:note "5/5" .
+mm:comment-13111-0 mm:information "Excellent depuis que j'ai trouve votre recette je ne fais que celle-la, je mets juste des epices artisanales speciales guacamole et c'est parfait." .
+mm:comment-13111-0 mm:date "15/10/2022 18:00" .
+mm:comments mm:comment-13111 mm:comment-13111-1 .
+mm:comment-13111-1 mm:name "bridgepeint" .
+mm:comment-13111-1 mm:note "5/5" .
+mm:comment-13111-1 mm:information "Facile. J'ai remplace l'oignon par de l'echalote. Parfait aussi !" .
+mm:comment-13111-1 mm:date "30/09/2022 14:31" .
+mm:comments mm:comment-13111 mm:comment-13111-2 .
+mm:comment-13111-2 mm:name "franfreluche75011" .
+mm:comment-13111-2 mm:note "5/5" .
+mm:comment-13111-2 mm:information "Tres bien !" .
+mm:comment-13111-2 mm:date "26/09/2022 14:23" .
+mm:comments mm:comment-13111 mm:comment-13111-3 .
+mm:comment-13111-3 mm:name "lise_16363762" .
+mm:comment-13111-3 mm:note "5/5" .
+mm:comment-13111-3 mm:information "J ai adore !" .
+mm:comment-13111-3 mm:date "15/08/2017 13:17" .
+mm:comments mm:comment-13111 mm:comment-13111-4 .
+mm:comment-13111-4 mm:name "Nanette76" .
+mm:comment-13111-4 mm:note "5/5" .
+mm:comment-13111-4 mm:information "Parfait pour les petits de la famille " .
+mm:comment-13111-4 mm:date "04/12/2021 16:19" .
+mm:comments mm:comment-13111 mm:comment-13111-5 .
+mm:comment-13111-5 mm:name "meglerounard" .
+mm:comment-13111-5 mm:note "5/5" .
+mm:comment-13111-5 mm:information "Super recette, facile a faire et efficace !" .
+mm:comment-13111-5 mm:date "14/01/2020 12:09" .
+mm:comments mm:comment-13111 mm:comment-13111-6 .
+mm:comment-13111-6 mm:name "eva_15157569" .
+mm:comment-13111-6 mm:note "5/5" .
+mm:comment-13111-6 mm:information "Excellent et dietetique, en ete c'est top !" .
+mm:comment-13111-6 mm:date "13/07/2015 11:55" .
+mm:comments mm:comment-13111 mm:comment-13111-7 .
+mm:comment-13111-7 mm:name "Elodieclerbel" .
+mm:comment-13111-7 mm:note "5/5" .
+mm:comment-13111-7 mm:information "Super recette avec plus d'epices (poivre, paprika et piment d'Espelette). A refaire volontiers." .
+mm:comment-13111-7 mm:date "10/07/2016 23:57" .
+mm:comments mm:comment-13111 mm:comment-13111-8 .
+mm:comment-13111-8 mm:name "hannah_17245438" .
+mm:comment-13111-8 mm:note "5/5" .
+mm:comment-13111-8 mm:information "Recette simple et delicieuse, ma touche perso c'est de remplacer le piment par du gingembre frais mixe, une tuerie !" .
+mm:comment-13111-8 mm:date "15/06/2016 17:18" .
+mm:comments mm:comment-13111 mm:comment-13111-9 .
+mm:comment-13111-9 mm:name "alice_296" .
+mm:comment-13111-9 mm:note "4/5" .
+mm:comment-13111-9 mm:information "Pour ma part, je ne mets pas de tomate et je n'oublie pas la pointe de cumin en poudre." .
+mm:comment-13111-9 mm:date "27/11/2013 20:48" .
+mm:comments mm:comment-13111 mm:comment-13111-10 .
+mm:comment-13111-10 mm:name "Naglou" .
+mm:comment-13111-10 mm:note "5/5" .
+mm:comment-13111-10 mm:information "Simple et efficace, recette tres bonne meme sans coriandre !" .
+mm:comment-13111-10 mm:date "13/03/2022 16:22" .
+mm:comments mm:comment-13111 mm:comment-13111-11 .
+mm:comment-13111-11 mm:name "patty19" .
+mm:comment-13111-11 mm:note "5/5" .
+mm:comment-13111-11 mm:information "Excellente recette. Je vous propose d'accompagner ce guacamole avec des radis, ca change des chips ou du radis/beurre. Radis/avocat se marient tres bien. Merci pour l'astuce du noyau, je ne connaissais pas et c'est tres utile." .
+mm:comment-13111-11 mm:date "08/04/2009 13:12" .
+mm:comments mm:comment-13111 mm:comment-13111-12 .
+mm:comment-13111-12 mm:name "alya_13976153" .
+mm:comment-13111-12 mm:note "3/5" .
+mm:comment-13111-12 mm:information "La vraie recette du guacamole ne comporte pas de citron. Nous avons tendance a l'utiliser en Europe pour eviter le noircissement de l'avocat alors qu'il contient l'antidote: son noyau! Conseil: conservez les noyaux et laissez les dans le guacamole, il ne noircira pas." .
+mm:comment-13111-12 mm:date "27/07/2005 21:55" .
+mm:recipes-list mm:recipe-17847 <https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:class--component--17847 mm:component .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:class--tool--17847 mm:tool .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:class--step--17847 mm:step .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:class--comment--17847 mm:comments .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:recipe-title "Caviar d'aubergines" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:total-preparation-time "1 h" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:default-number-of-people-for-recipe "6" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:preparation-time "15 min" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:cooking-time "45 min" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:auther-name "agathe_16945864" .
+<https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx> mm:average-note "3.8/5" .
+mm:component mm:property---ingredient--quantity--properties--aubergines-pelee mm:ingredient-quantity-aubergines-pelee .
+mm:component mm:property---ingredient--name--aubergines-pelee mm:ingredient-aubergines-pelee .
+mm:ingredient-aubergines-pelee mm:name "aubergines pelée" .
+mm:ingredient-quantity-aubergines-pelee mm:quantity "2" .
+mm:ingredient-quantity-aubergines-pelee mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--dail-hachee mm:ingredient-quantity-dail-hachee .
+mm:component mm:property---ingredient--name--dail-hachee mm:ingredient-dail-hachee .
+mm:ingredient-dail-hachee mm:name "d'ail hachée" .
+mm:ingredient-quantity-dail-hachee mm:quantity "2" .
+mm:ingredient-quantity-dail-hachee mm:mesurement-value "gousses" .
+mm:component mm:property---ingredient--quantity--properties--de-paprika-doux mm:ingredient-quantity-de-paprika-doux .
+mm:component mm:property---ingredient--name--de-paprika-doux mm:ingredient-de-paprika-doux .
+mm:ingredient-de-paprika-doux mm:name "de paprika doux" .
+mm:ingredient-quantity-de-paprika-doux mm:quantity "1" .
+mm:ingredient-quantity-de-paprika-doux mm:mesurement-value "c.a.s" .
+mm:component mm:property---ingredient--quantity--properties--de-cumin mm:ingredient-quantity-de-cumin .
+mm:component mm:property---ingredient--name--de-cumin mm:ingredient-de-cumin .
+mm:ingredient-de-cumin mm:name "de cumin" .
+mm:ingredient-quantity-de-cumin mm:quantity "1" .
+mm:ingredient-quantity-de-cumin mm:mesurement-value "c.a.s" .
+mm:component mm:property---ingredient--quantity--properties--Sel-et-poivre mm:ingredient-quantity-Sel-et-poivre .
+mm:component mm:property---ingredient--name--Sel-et-poivre mm:ingredient-Sel-et-poivre .
+mm:ingredient-Sel-et-poivre mm:name "Sel et poivre" .
+mm:ingredient-quantity-Sel-et-poivre mm:quantity "une demi" .
+mm:ingredient-quantity-Sel-et-poivre mm:mesurement-value "cuillere" .
+mm:component mm:property---ingredient--quantity--properties--Sel mm:ingredient-quantity-Sel .
+mm:component mm:property---ingredient--name--Sel mm:ingredient-Sel .
+mm:ingredient-Sel mm:name "Sel" .
+mm:ingredient-quantity-Sel mm:quantity "" .
+mm:ingredient-quantity-Sel mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--dhuile-dolive mm:ingredient-quantity-dhuile-dolive .
+mm:component mm:property---ingredient--name--dhuile-dolive mm:ingredient-dhuile-dolive .
+mm:ingredient-dhuile-dolive mm:name "d'huile d'olive" .
+mm:ingredient-quantity-dhuile-dolive mm:quantity "10" .
+mm:ingredient-quantity-dhuile-dolive mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--dolives-noire mm:ingredient-quantity-dolives-noire .
+mm:component mm:property---ingredient--name--dolives-noire mm:ingredient-dolives-noire .
+mm:ingredient-dolives-noire mm:name "d'olives noire" .
+mm:ingredient-quantity-dolives-noire mm:quantity "50" .
+mm:ingredient-quantity-dolives-noire mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--Marjolaine mm:ingredient-quantity-Marjolaine .
+mm:component mm:property---ingredient--name--Marjolaine mm:ingredient-Marjolaine .
+mm:ingredient-Marjolaine mm:name "Marjolaine" .
+mm:ingredient-quantity-Marjolaine mm:quantity "une demi" .
+mm:ingredient-quantity-Marjolaine mm:mesurement-value "cuillere" .
+mm:tool mm:tool-name-0 "1 Top 5 des meilleures passoires" .
+mm:tool mm:tool-name-1 "1 Mixeur" .
+mm:tool mm:tool-name-2 "1 Set 3 poêles" .
+mm:tool mm:tool-name-3 "1 Spatule" .
+mm:tool mm:tool-name-4 "1 Cuillère en bois" .
+mm:tool mm:tool-name-5 "1 dénoyauteur" .
+mm:tool mm:tool-name-6 "1 plat" .
+mm:step mm:property---step--ingredients--17847-0 mm:ingredient-aubergines-pelee .
+mm:step mm:property---step--ingredients--17847-0 mm:ingredient-sel .
+mm:ingredient-sel mm:name "sel" .
+mm:step mm:property---step--ingredients--17847-2 mm:ingredient-dhuile-dolive .
+mm:ingredient-dhuile-dolive mm:name "d'huile d'olive" .
+mm:step mm:property---step--ingredients--17847-2 mm:ingredient-aubergines-pelee .
+mm:step mm:property---step--ingredients--17847-2 mm:ingredient-dail-hachee .
+mm:step mm:property---step--ingredients--17847-2 mm:ingredient-de-poivre .
+mm:ingredient-de-poivre mm:name "de poivre" .
+mm:step mm:property---step--ingredients--17847-2 mm:ingredient-de-paprika-doux .
+mm:ingredient-de-paprika-doux mm:name "de paprika doux" .
+mm:step mm:property---step--ingredients--17847-2 mm:ingredient-de-marjolaine .
+mm:ingredient-de-marjolaine mm:name "de marjolaine" .
+mm:step mm:property---step--ingredients--17847-4 mm:ingredient-dhuile-dolive .
+mm:ingredient-dhuile-dolive mm:name "d'huile d'olive" .
+mm:step mm:property---step--ingredients--17847-4 mm:ingredient-de-cumin .
+mm:ingredient-de-cumin mm:name "de cumin" .
+mm:step mm:property---step--ingredients--17847-4 mm:ingredient-dolives-noire .
+mm:step mm:property---step--instructions--17847 mm:instructions-17847 .
+mm:instructions-17847 mm:information-0 "Cuire les aubergines à l'eau bouillante, avec 3 petites cuillères de sel, pendant 10-15 mn jusqu'à ce qu'elles soient tendres." .
+mm:instructions-17847 mm:information-1 "Les retirer, et les laisser égoutter et refroidir dans une passoire. Les hacher très finement jusqu'à ce qu'elles prennent une consistance crémeuse." .
+mm:instructions-17847 mm:information-2 "Chauffer l'huile dans une poêle et y faire revenir l'aubergine avec l'ail. Saler et poivrer, ajouter le paprika et la marjolaine." .
+mm:instructions-17847 mm:information-3 "Mélanger et faire réduire à feu doux, en remuant fréquemment avec une spatule de bois jusqu'à obtention d'une purée." .
+mm:instructions-17847 mm:information-4 "Verser dans un plat, arroser d'un peu d'huile d'olive, saupoudrez de cumin, garnir d'olives et servir." .
+mm:comments mm:comment-17847 mm:comment-17847-0 .
+mm:comment-17847-0 mm:name "Bene008" .
+mm:comment-17847-0 mm:note "5/5" .
+mm:comment-17847-0 mm:information "Tres bien, meme sans olives. J'ai rajoute du cumin." .
+mm:comment-17847-0 mm:date "30/07/2022 19:28" .
+mm:comments mm:comment-17847 mm:comment-17847-1 .
+mm:comment-17847-1 mm:name "EricMo" .
+mm:comment-17847-1 mm:note "4/5" .
+mm:comment-17847-1 mm:information "Mettre de l'huile de noix et gommasio." .
+mm:comment-17847-1 mm:date "15/03/2022 09:22" .
+mm:comments mm:comment-17847 mm:comment-17847-2 .
+mm:comment-17847-2 mm:name "Fredepic" .
+mm:comment-17847-2 mm:note "5/5" .
+mm:comment-17847-2 mm:information "Digeste, bonne texture, peut evoluer en fonction des aromates dont on dispose mais tres bien comme ca !" .
+mm:comment-17847-2 mm:date "09/05/2021 09:49" .
+mm:comments mm:comment-17847 mm:comment-17847-3 .
+mm:comment-17847-3 mm:name "lina_15931010" .
+mm:comment-17847-3 mm:note "4/5" .
+mm:comment-17847-3 mm:information "Tres bonne recette qui est surtout servie avec les Mezzes. Afin que les aubergines 'n'avalent' pas trop d'huile les faire cuire a la vapeur et surtout les egoutter pendant une heure (ou plus). L'eau sera evacuee et vous pourrez assaisonner. La vraie recette Libanaise preconise du 'Tahine' (creme de sesame) mais si vous n'en avez pas de l'huile de sesame fera l'affaire. L'assaisonnement devra etre un peu releve et pour garnir je saupoudre de graines de sesame nature ou grillees selon le gout." .
+mm:comment-17847-3 mm:date "20/08/2013 11:30" .
+mm:comments mm:comment-17847 mm:comment-17847-4 .
+mm:comment-17847-4 mm:name "Yangaurore" .
+mm:comment-17847-4 mm:note "2/5" .
+mm:comment-17847-4 mm:information "Bof un peu fort en ail" .
+mm:comment-17847-4 mm:date "08/05/2015 15:08" .
+mm:comments mm:comment-17847 mm:comment-17847-5 .
+mm:comment-17847-5 mm:name "sarah_17286577" .
+mm:comment-17847-5 mm:note "2/5" .
+mm:comment-17847-5 mm:information "La cuisson a l'eau c'est loin d'etre l'ideal meme en doublant le temps...la prochaine fois je le fais au four" .
+mm:comment-17847-5 mm:date "29/06/2015 15:51" .
+mm:comments mm:comment-17847 mm:comment-17847-6 .
+mm:comment-17847-6 mm:name "Monique_1776" .
+mm:comment-17847-6 mm:note "4/5" .
+mm:comment-17847-6 mm:information "Pour que cela soit meilleur, il faudrait faire cuire les aubergines entieres au four, puis enlever la pulpe a l'aide d'une petite cuillere." .
+mm:comment-17847-6 mm:date "07/08/2011 20:02" .
+mm:comments mm:comment-17847 mm:comment-17847-7 .
+mm:comment-17847-7 mm:name "laurelail" .
+mm:comment-17847-7 mm:note "1/5" .
+mm:comment-17847-7 mm:information "J'ai essaye, pour voir. La cuisson a l'eau rend les aubergines insipides, c'est sans doute pour cela qu'il faut dans cette recette ajouter tant d'ingredients : pour donner du gout ! Je reprends la cuisson des aubergines au four, bien plus gouteux." .
+mm:comment-17847-7 mm:date "09/08/2014 20:07" .
+mm:comments mm:comment-17847 mm:comment-17847-8 .
+mm:comment-17847-8 mm:name "hugo_17602114" .
+mm:comment-17847-8 mm:note "1/5" .
+mm:comment-17847-8 mm:information "Je n'avais jamais imagine que l'on puisse cuire des aubergines a l'eau bouillante... c'est fade et personne ne peut reconnaitre ce qu'on mange. Soyez classique, et faites la meme chose au four, ou a l'AMC." .
+mm:comment-17847-8 mm:date "26/09/2007 21:36" .
+mm:comments mm:comment-17847 mm:comment-17847-9 .
+mm:comment-17847-9 mm:name "emmy_14844601" .
+mm:comment-17847-9 mm:note "5/5" .
+mm:comment-17847-9 mm:information "Rapide et delicieux! Tres bonne recette. Perso, je ne mets pas de marjolaine et c'est bon quand meme." .
+mm:comment-17847-9 mm:date "03/02/2007 22:08" .
+mm:comments mm:comment-17847 mm:comment-17847-10 .
+mm:comment-17847-10 mm:name "yaL78" .
+mm:comment-17847-10 mm:note "1/5" .
+mm:comment-17847-10 mm:information "Pas du tout aime, j'imagine que c'est une question de gout trop fort.." .
+mm:comment-17847-10 mm:date "30/05/2015 17:24" .
+mm:comments mm:comment-17847 mm:comment-17847-11 .
+mm:comment-17847-11 mm:name "Karol13" .
+mm:comment-17847-11 mm:note "2/5" .
+mm:comment-17847-11 mm:information "Quel dommage de gorger les aubergines d'eau ! En les grillant au four sans gras, entieres ou coupees en deux, puis en prelevant la pulpe a la cuillere vous garderez les vitamines et surtout le gout." .
+mm:comment-17847-11 mm:date "21/05/2014 00:13" .
+mm:comments mm:comment-17847 mm:comment-17847-12 .
+mm:comment-17847-12 mm:name "louis_15376892" .
+mm:comment-17847-12 mm:note "3/5" .
+mm:comment-17847-12 mm:information "Bizarre en texture et surtout gorgee d'eau !" .
+mm:comment-17847-12 mm:date "03/10/2010 12:17" .
+mm:recipes-list mm:recipe-14074 <https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:class--component--14074 mm:component .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:class--tool--14074 mm:tool .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:class--step--14074 mm:step .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:class--comment--14074 mm:comments .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:recipe-title "Rhum arrangé" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:total-preparation-time "25 min" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:default-number-of-people-for-recipe "1" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:preparation-time "25 min" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:auther-name "Anonyme" .
+<https://www.marmiton.org/recettes/recette_rhum-arrange_14074.aspx> mm:average-note "4.4/5" .
+mm:component mm:property---ingredient--quantity--properties--de-rhum-blanc-de-bonne-qualite mm:ingredient-quantity-de-rhum-blanc-de-bonne-qualite .
+mm:component mm:property---ingredient--name--de-rhum-blanc-de-bonne-qualite mm:ingredient-de-rhum-blanc-de-bonne-qualite .
+mm:ingredient-de-rhum-blanc-de-bonne-qualite mm:name "de rhum blanc de bonne qualité" .
+mm:ingredient-quantity-de-rhum-blanc-de-bonne-qualite mm:quantity "1" .
+mm:ingredient-quantity-de-rhum-blanc-de-bonne-qualite mm:mesurement-value "l" .
+mm:component mm:property---ingredient--quantity--properties--Vanille mm:ingredient-quantity-Vanille .
+mm:component mm:property---ingredient--name--Vanille mm:ingredient-Vanille .
+mm:ingredient-Vanille mm:name "Vanille" .
+mm:ingredient-quantity-Vanille mm:quantity "2" .
+mm:ingredient-quantity-Vanille mm:mesurement-value "gousses" .
+mm:component mm:property---ingredient--quantity--properties--Cannelle mm:ingredient-quantity-Cannelle .
+mm:component mm:property---ingredient--name--Cannelle mm:ingredient-Cannelle .
+mm:ingredient-Cannelle mm:name "Cannelle" .
+mm:ingredient-quantity-Cannelle mm:quantity "3/" .
+mm:ingredient-quantity-Cannelle mm:mesurement-value "bACtons" .
+mm:component mm:property---ingredient--quantity--properties--de-sucre-de-canne-liquide mm:ingredient-quantity-de-sucre-de-canne-liquide .
+mm:component mm:property---ingredient--name--de-sucre-de-canne-liquide mm:ingredient-de-sucre-de-canne-liquide .
+mm:ingredient-de-sucre-de-canne-liquide mm:name "de sucre de canne liquide" .
+mm:ingredient-quantity-de-sucre-de-canne-liquide mm:quantity "15" .
+mm:ingredient-quantity-de-sucre-de-canne-liquide mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--bananes-ou-1-ananas-ou-trois-quatre-fruits-de-la-passion-Soit-un-melange-de-tout-cela--On-peut-meme-essayer-dautres-fruits mm:ingredient-quantity-bananes-ou-1-ananas-ou-trois-quatre-fruits-de-la-passion-Soit-un-melange-de-tout-cela--On-peut-meme-essayer-dautres-fruits .
+mm:component mm:property---ingredient--name--bananes-ou-1-ananas-ou-trois-quatre-fruits-de-la-passion-Soit-un-melange-de-tout-cela--On-peut-meme-essayer-dautres-fruits mm:ingredient-bananes-ou-1-ananas-ou-trois-quatre-fruits-de-la-passion-Soit-un-melange-de-tout-cela--On-peut-meme-essayer-dautres-fruits .
+mm:ingredient-bananes-ou-1-ananas-ou-trois-quatre-fruits-de-la-passion-Soit-un-melange-de-tout-cela--On-peut-meme-essayer-dautres-fruits mm:name "bananes ou 1 ananas ou trois/quatre fruits de la passion... Soit un mélange de tout cela !! On peut même essayer d'autres fruits..." .
+mm:ingredient-quantity-bananes-ou-1-ananas-ou-trois-quatre-fruits-de-la-passion-Soit-un-melange-de-tout-cela--On-peut-meme-essayer-dautres-fruits mm:quantity "2" .
+mm:ingredient-quantity-bananes-ou-1-ananas-ou-trois-quatre-fruits-de-la-passion-Soit-un-melange-de-tout-cela--On-peut-meme-essayer-dautres-fruits mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 Spatule" .
+mm:tool mm:tool-name-1 "1 balance de cuisine" .
+mm:step mm:property---step--ingredients--14074-0 mm:ingredient-de-vanille .
+mm:ingredient-de-vanille mm:name "de vanille" .
+mm:step mm:property---step--ingredients--14074-0 mm:ingredient-de-cannelle .
+mm:ingredient-de-cannelle mm:name "de cannelle" .
+mm:step mm:property---step--ingredients--14074-1 mm:ingredient-de-sucre-de-canne-liquide .
+mm:ingredient-de-sucre-de-canne-liquide mm:name "de sucre de canne liquide" .
+mm:step mm:property---step--ingredients--14074-2 mm:ingredient-de-rhum-blanc-de-bonne-qualite .
+mm:ingredient-de-rhum-blanc-de-bonne-qualite mm:name "de rhum blanc de bonne qualité" .
+mm:step mm:property---step--instructions--14074 mm:instructions-14074 .
+mm:instructions-14074 mm:information-0 "Dans une bouteille vide, glisser les fruits au préalablement grossièrement découpés (vider les fruits de la passion et ne se servir que des graines, bien entendu !), ajouter les gousses de vanille fendues et la cannelle entière." .
+mm:instructions-14074 mm:information-1 "Ajouter un verre à moutarde de sucre liquide." .
+mm:instructions-14074 mm:information-2 "Compléter avec le rhum." .
+mm:instructions-14074 mm:information-3 "Patienter au moins 3 semaines." .
+mm:instructions-14074 mm:information-4 "Servir frais !" .
+mm:comments mm:comment-14074 mm:comment-14074-0 .
+mm:comment-14074-0 mm:name "catherine_3375" .
+mm:comment-14074-0 mm:note "5/5" .
+mm:comment-14074-0 mm:information "je fait et refait ce rhum arrange avec 1l rhum blanc 50deg- 70 cl rhum ambre 40deg +  batons cannelle - etoiles badiane - gousse vanille + 1 ananas - 1 orange - 1 citron + 20cl sucre canne - c'est un regal au bout de 2 mois minimum et tous mes invites me demande la recette" .
+mm:comment-14074-0 mm:date "12/03/2021 19:04" .
+mm:comments mm:comment-14074 mm:comment-14074-1 .
+mm:comment-14074-1 mm:name "Eragonwick13" .
+mm:comment-14074-1 mm:note "5/5" .
+mm:comment-14074-1 mm:information "Excellent a refaire" .
+mm:comment-14074-1 mm:date "31/12/2020 00:32" .
+mm:comments mm:comment-14074 mm:comment-14074-2 .
+mm:comment-14074-2 mm:name "user935386870" .
+mm:comment-14074-2 mm:note "5/5" .
+mm:comment-14074-2 mm:information "Super recette. Avec un rhum blanc 40deg martiniquais (j'adore Maison La Mauny) c'est parfait." .
+mm:comment-14074-2 mm:date "07/01/2020 17:46" .
+mm:comments mm:comment-14074 mm:comment-14074-3 .
+mm:comment-14074-3 mm:name "Inconnu" .
+mm:comment-14074-3 mm:note "4/5" .
+mm:comment-14074-3 mm:information "Comme tous les alcools blancs, on peut arranger  le rhum avec toutes sortes d'ingredients plus ou moins exotiques: carambar, fraises tagada, etc. Selon les gouts bien sur!" .
+mm:comment-14074-3 mm:date "21/09/2004 19:37" .
+mm:comments mm:comment-14074 mm:comment-14074-4 .
+mm:comment-14074-4 mm:name "bruno_16870627" .
+mm:comment-14074-4 mm:note "5/5" .
+mm:comment-14074-4 mm:information "J'ai essaye avec des pruneaux, le resultat est en effet exceptionnel !" .
+mm:comment-14074-4 mm:date "26/09/2004 22:57" .
+mm:comments mm:comment-14074 mm:comment-14074-5 .
+mm:comment-14074-5 mm:name "Eragonwick13" .
+mm:comment-14074-5 mm:note "5/5" .
+mm:comment-14074-5 mm:information "Excellent a refaire" .
+mm:comment-14074-5 mm:date "31/12/2020 00:32" .
+mm:comments mm:comment-14074 mm:comment-14074-6 .
+mm:comment-14074-6 mm:name "miauda" .
+mm:comment-14074-6 mm:note "5/5" .
+mm:comment-14074-6 mm:information "De retour de vacances de la reunion j'ai eu envie d'essayer cette recette en y mettant banane, ananas, fruit de la passion canelle et vanille ... Un delice mais il faut laisser veillir plus longtemps. Merci pour la recette." .
+mm:comment-14074-6 mm:date "05/12/2009 17:41" .
+mm:comments mm:comment-14074 mm:comment-14074-7 .
+mm:comment-14074-7 mm:name "eva_14277775" .
+mm:comment-14074-7 mm:note "4/5" .
+mm:comment-14074-7 mm:information "Parfume a l'ananas c'est un delice, n'ayons pas peur des mots." .
+mm:comment-14074-7 mm:date "17/03/2008 20:57" .
+mm:comments mm:comment-14074 mm:comment-14074-8 .
+mm:comment-14074-8 mm:name "agathe_14764837" .
+mm:comment-14074-8 mm:note "5/5" .
+mm:comment-14074-8 mm:information "Depuis que j'avais trouve la recette, je ne revais plus que de gouter...apres quelques jours, nous avons goute ce rhum aux fruits, quitte a etre traites de gourmands. C'etait tres bon et tres fin. (Peut-etre un peu plus de vanille aurait ete bien) Maintenant, nous laissons veillir un peu le reste!" .
+mm:comment-14074-8 mm:date "15/04/2008 19:17" .
+mm:comments mm:comment-14074 mm:comment-14074-9 .
+mm:comment-14074-9 mm:name "bjorn_16490286" .
+mm:comment-14074-9 mm:note "4/5" .
+mm:comment-14074-9 mm:information "Plus c'est vieux, plus c'est bon... Ca marche aussi super bien avec des pruneaux." .
+mm:comment-14074-9 mm:date "06/09/2002 22:04" .
+mm:comments mm:comment-14074 mm:comment-14074-10 .
+mm:comment-14074-10 mm:name "henry_15622895" .
+mm:comment-14074-10 mm:note "3/5" .
+mm:comment-14074-10 mm:information "Afin de conserver le rhum arrange longtemps, je mets de la vanille, eventuellement de la cannelle et des zestes d'agrume comme l'orange, le chadek (quand j'en ai)... ou alors de graines de cafeier ou de cacaoier." .
+mm:comment-14074-10 mm:date "17/08/2010 17:12" .
+mm:comments mm:comment-14074 mm:comment-14074-11 .
+mm:comment-14074-11 mm:name "user935386870" .
+mm:comment-14074-11 mm:note "5/5" .
+mm:comment-14074-11 mm:information "Super recette. Avec un rhum blanc 40deg martiniquais (j'adore Maison La Mauny) c'est parfait." .
+mm:comment-14074-11 mm:date "07/01/2020 17:46" .
+mm:comments mm:comment-14074 mm:comment-14074-12 .
+mm:comment-14074-12 mm:name "Inconnu" .
+mm:comment-14074-12 mm:note "5/5" .
+mm:comment-14074-12 mm:information "Tres bonne recette, gouter au bout de 1 mois et demi. A refaire." .
+mm:comment-14074-12 mm:date "14/12/2019 08:36" .
+mm:recipes-list mm:recipe-80528 <https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:class--component--80528 mm:component .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:class--tool--80528 mm:tool .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:class--step--80528 mm:step .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:class--comment--80528 mm:comments .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:recipe-title "Mojito cubain" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:total-preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:default-number-of-people-for-recipe "1" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:auther-name "marjojo" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:average-note "4.6/5" .
+mm:component mm:property---ingredient--quantity--properties--de-sucre-de-canne-en-poudre mm:ingredient-quantity-de-sucre-de-canne-en-poudre .
+mm:component mm:property---ingredient--name--de-sucre-de-canne-en-poudre mm:ingredient-de-sucre-de-canne-en-poudre .
+mm:ingredient-de-sucre-de-canne-en-poudre mm:name "de sucre de canne en poudre" .
+mm:ingredient-quantity-de-sucre-de-canne-en-poudre mm:quantity "3" .
+mm:ingredient-quantity-de-sucre-de-canne-en-poudre mm:mesurement-value "c.a.c" .
+mm:component mm:property---ingredient--quantity--properties--rhum-cubain-de-preference-cest-le-pays-du-mojito mm:ingredient-quantity-rhum-cubain-de-preference-cest-le-pays-du-mojito .
+mm:component mm:property---ingredient--name--rhum-cubain-de-preference-cest-le-pays-du-mojito mm:ingredient-rhum-cubain-de-preference-cest-le-pays-du-mojito .
+mm:ingredient-rhum-cubain-de-preference-cest-le-pays-du-mojito mm:name "rhum (cubain de préférence, c'est le pays du mojito)" .
+mm:ingredient-quantity-rhum-cubain-de-preference-cest-le-pays-du-mojito mm:quantity "" .
+mm:ingredient-quantity-rhum-cubain-de-preference-cest-le-pays-du-mojito mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Citron-vert mm:ingredient-quantity-Citron-vert .
+mm:component mm:property---ingredient--name--Citron-vert mm:ingredient-Citron-vert .
+mm:ingredient-Citron-vert mm:name "Citron vert" .
+mm:ingredient-quantity-Citron-vert mm:quantity "une demi" .
+mm:ingredient-quantity-Citron-vert mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--de-menthe-bien-fournie mm:ingredient-quantity-de-menthe-bien-fournie .
+mm:component mm:property---ingredient--name--de-menthe-bien-fournie mm:ingredient-de-menthe-bien-fournie .
+mm:ingredient-de-menthe-bien-fournie mm:name "de menthe bien fournie" .
+mm:ingredient-quantity-de-menthe-bien-fournie mm:quantity "1" .
+mm:ingredient-quantity-de-menthe-bien-fournie mm:mesurement-value "branche" .
+mm:component mm:property---ingredient--quantity--properties--eau-gazeuse mm:ingredient-quantity-eau-gazeuse .
+mm:component mm:property---ingredient--name--eau-gazeuse mm:ingredient-eau-gazeuse .
+mm:ingredient-eau-gazeuse mm:name "eau gazeuse" .
+mm:ingredient-quantity-eau-gazeuse mm:quantity "" .
+mm:ingredient-quantity-eau-gazeuse mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--glacon mm:ingredient-quantity-glacon .
+mm:component mm:property---ingredient--name--glacon mm:ingredient-glacon .
+mm:ingredient-glacon mm:name "glaçon" .
+mm:ingredient-quantity-glacon mm:quantity "" .
+mm:ingredient-quantity-glacon mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 Couteau" .
+mm:tool mm:tool-name-1 "1 balance de cuisine" .
+mm:step mm:property---step--ingredients--80528-0 mm:ingredient-de-sucre-de-canne-en-poudre .
+mm:ingredient-de-sucre-de-canne-en-poudre mm:name "de sucre de canne en poudre" .
+mm:step mm:property---step--ingredients--80528-1 mm:ingredient-citron-vert .
+mm:ingredient-citron-vert mm:name "citron vert" .
+mm:step mm:property---step--ingredients--80528-2 mm:ingredient-de-menthe-bien-fournie .
+mm:ingredient-de-menthe-bien-fournie mm:name "de menthe bien fournie" .
+mm:step mm:property---step--ingredients--80528-3 mm:ingredient-eau-gazeuse .
+mm:ingredient-eau-gazeuse mm:name "eau gazeuse" .
+mm:step mm:property---step--ingredients--80528-3 mm:ingredient-de-menthe-bien-fournie .
+mm:ingredient-de-menthe-bien-fournie mm:name "de menthe bien fournie" .
+mm:step mm:property---step--ingredients--80528-4 mm:ingredient-glacon .
+mm:step mm:property---step--ingredients--80528-5 mm:ingredient-rhum-cubain-de-preference-cest-le-pays-du-mojito .
+mm:ingredient-rhum-cubain-de-preference-cest-le-pays-du-mojito mm:name "rhum (cubain de préférence, c'est le pays du mojito)" .
+mm:step mm:property---step--ingredients--80528-6 mm:ingredient-eau-gazeuse .
+mm:ingredient-eau-gazeuse mm:name "eau gazeuse" .
+mm:step mm:property---step--instructions--80528 mm:instructions-80528 .
+mm:instructions-80528 mm:information-0 "Dans un verre de taille moyenne (contenance 40 cl environ), mettez 3 cuillères à café de sucre de canne." .
+mm:instructions-80528 mm:information-1 "Ajoutez-y le jus d'1/2 citron vert." .
+mm:instructions-80528 mm:information-2 "Coupez en 3 ou 4 votre branche de menthe et mettez-la dans le verre (le fait de la couper permet à la saveur de la menthe de mieux se diffuser)." .
+mm:instructions-80528 mm:information-3 "Ajoutez un peu d'eau gazeuse (environ 3 cl) puis avec une cuillère à café, remuez bien le tout et écrasez la menthe (insistez sur les branches plus que sur les feuilles, sinon il y aura pleins de petits bouts de menthe assez désagréables au moment de déguster votre cocktail!)." .
+mm:instructions-80528 mm:information-4 "Ajoutez 5 glaçons environ." .
+mm:instructions-80528 mm:information-5 "Ensuite versez 6 cl de rhum (en versant à débit moyen). Pour la dose plutôt chargée, comptez jusqu'à 5; pour la dose légère jusqu'à 4." .
+mm:instructions-80528 mm:information-6 "Enfin, complétez avec de l'eau gazeuse." .
+mm:comments mm:comment-80528 mm:comment-80528-0 .
+mm:comment-80528-0 mm:name "Phae_bee" .
+mm:comment-80528-0 mm:note "5/5" .
+mm:comment-80528-0 mm:information "Tres bon !" .
+mm:comment-80528-0 mm:date "14/06/2022 20:40" .
+mm:comments mm:comment-80528 mm:comment-80528-1 .
+mm:comment-80528-1 mm:name "quentin2099" .
+mm:comment-80528-1 mm:note "5/5" .
+mm:comment-80528-1 mm:information "Super recette !" .
+mm:comment-80528-1 mm:date "28/01/2022 22:57" .
+mm:comments mm:comment-80528 mm:comment-80528-2 .
+mm:comment-80528-2 mm:name "Manon40" .
+mm:comment-80528-2 mm:note "5/5" .
+mm:comment-80528-2 mm:information "Je vais le faire" .
+mm:comment-80528-2 mm:date "26/11/2021 20:24" .
+mm:comments mm:comment-80528 mm:comment-80528-3 .
+mm:comment-80528-3 mm:name "ninalie" .
+mm:comment-80528-3 mm:note "5/5" .
+mm:comment-80528-3 mm:information "Tres bon. Et meme sans alcool la recette reste tres bonne!" .
+mm:comment-80528-3 mm:date "12/07/2015 18:21" .
+mm:comments mm:comment-80528 mm:comment-80528-4 .
+mm:comment-80528-4 mm:name "valerinette57" .
+mm:comment-80528-4 mm:note "5/5" .
+mm:comment-80528-4 mm:information "Un delice ! J'ai pile la glace au blender. Je l'ai fait avec de la limonade zero. Rien a redire." .
+mm:comment-80528-4 mm:date "25/08/2014 12:31" .
+mm:comments mm:comment-80528 mm:comment-80528-5 .
+mm:comment-80528-5 mm:name "romina_14507939" .
+mm:comment-80528-5 mm:note "5/5" .
+mm:comment-80528-5 mm:information "Super j'adore merci." .
+mm:comment-80528-5 mm:date "03/06/2016 22:17" .
+mm:comments mm:comment-80528 mm:comment-80528-6 .
+mm:comment-80528-6 mm:name "quentin2099" .
+mm:comment-80528-6 mm:note "5/5" .
+mm:comment-80528-6 mm:information "Super recette !" .
+mm:comment-80528-6 mm:date "28/01/2022 22:57" .
+mm:comments mm:comment-80528 mm:comment-80528-7 .
+mm:comment-80528-7 mm:name "romy_14491477" .
+mm:comment-80528-7 mm:note "5/5" .
+mm:comment-80528-7 mm:information "Tres bon, mais a la place de l'eau gazeuse rajoutez-y de la limonade c'est 100 fois meilleur." .
+mm:comment-80528-7 mm:date "01/09/2008 11:18" .
+mm:comments mm:comment-80528 mm:comment-80528-8 .
+mm:comment-80528-8 mm:name "arthurbo22" .
+mm:comment-80528-8 mm:note "5/5" .
+mm:comment-80528-8 mm:information "Tres bon a refaire" .
+mm:comment-80528-8 mm:date "08/11/2020 19:36" .
+mm:comments mm:comment-80528 mm:comment-80528-9 .
+mm:comment-80528-9 mm:name "Pharma37" .
+mm:comment-80528-9 mm:note "5/5" .
+mm:comment-80528-9 mm:information "Parfait" .
+mm:comment-80528-9 mm:date "25/08/2015 13:09" .
+mm:comments mm:comment-80528 mm:comment-80528-10 .
+mm:comment-80528-10 mm:name "agathe_17620023" .
+mm:comment-80528-10 mm:note "5/5" .
+mm:comment-80528-10 mm:information "J'ai fait ce mojito sans alcool et avec de la limonade (j'aime pas l'eau gazeuse) tout simplement excellent !!! J'ai aussi fait une variante avec du sirop de grenadine pour monsieur et il a adore. Merci" .
+mm:comment-80528-10 mm:date "24/05/2014 02:04" .
+mm:comments mm:comment-80528 mm:comment-80528-11 .
+mm:comment-80528-11 mm:name "Tillaultk" .
+mm:comment-80528-11 mm:note "4/5" .
+mm:comment-80528-11 mm:information "Bon mais il faut plus de menthe." .
+mm:comment-80528-11 mm:date "08/05/2015 22:27" .
+mm:comments mm:comment-80528 mm:comment-80528-12 .
+mm:comment-80528-12 mm:name "hannah_17175519" .
+mm:comment-80528-12 mm:note "5/5" .
+mm:comment-80528-12 mm:information "Impeccable. Je laisse juste un peu infuser la menthe, le sucre et le citron avant de mettre le rhum et l'eau gazeuse." .
+mm:comment-80528-12 mm:date "10/12/2011 11:29" .
+mm:recipes-list mm:recipe-18876 <https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:class--component--18876 mm:component .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:class--tool--18876 mm:tool .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:class--step--18876 mm:step .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:class--comment--18876 mm:comments .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:recipe-title "Cake salé au jambon et aux olives" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:total-preparation-time "1 h 5 min" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:default-number-of-people-for-recipe "6" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:preparation-time "20 min" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:cooking-time "45 min" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:auther-name "kraven" .
+<https://www.marmiton.org/recettes/recette_cake-sale-au-jambon-et-aux-olives_18876.aspx> mm:average-note "4.8/5" .
+mm:component mm:property---ingredient--quantity--properties--Mandarine mm:ingredient-quantity-Mandarine .
+mm:component mm:property---ingredient--name--Mandarine mm:ingredient-Mandarine .
+mm:ingredient-Mandarine mm:name "Mandarine" .
+mm:ingredient-quantity-Mandarine mm:quantity "150" .
+mm:ingredient-quantity-Mandarine mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--de-gruyere-rape mm:ingredient-quantity-de-gruyere-rape .
+mm:component mm:property---ingredient--name--de-gruyere-rape mm:ingredient-de-gruyere-rape .
+mm:ingredient-de-gruyere-rape mm:name "de gruyère râpé" .
+mm:ingredient-quantity-de-gruyere-rape mm:quantity "75" .
+mm:ingredient-quantity-de-gruyere-rape mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--Poudre-de-lait mm:ingredient-quantity-Poudre-de-lait .
+mm:component mm:property---ingredient--name--Poudre-de-lait mm:ingredient-Poudre-de-lait .
+mm:ingredient-Poudre-de-lait mm:name "Poudre de lait" .
+mm:ingredient-quantity-Poudre-de-lait mm:quantity "10" .
+mm:ingredient-quantity-Poudre-de-lait mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--de-levure-chimique mm:ingredient-quantity-de-levure-chimique .
+mm:component mm:property---ingredient--name--de-levure-chimique mm:ingredient-de-levure-chimique .
+mm:ingredient-de-levure-chimique mm:name "de levure chimique" .
+mm:ingredient-quantity-de-levure-chimique mm:quantity "1" .
+mm:ingredient-quantity-de-levure-chimique mm:mesurement-value "sachet" .
+mm:component mm:property---ingredient--quantity--properties--dhuile mm:ingredient-quantity-dhuile .
+mm:component mm:property---ingredient--name--dhuile mm:ingredient-dhuile .
+mm:ingredient-dhuile mm:name "d'huile" .
+mm:ingredient-quantity-dhuile mm:quantity "1" .
+mm:ingredient-quantity-dhuile mm:mesurement-value "c.a.s" .
+mm:component mm:property---ingredient--quantity--properties--de-des-de-jambon mm:ingredient-quantity-de-des-de-jambon .
+mm:component mm:property---ingredient--name--de-des-de-jambon mm:ingredient-de-des-de-jambon .
+mm:ingredient-de-des-de-jambon mm:name "de dés de jambon" .
+mm:ingredient-quantity-de-des-de-jambon mm:quantity "100" .
+mm:ingredient-quantity-de-des-de-jambon mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--dolives-vertes-denoyautee mm:ingredient-quantity-dolives-vertes-denoyautee .
+mm:component mm:property---ingredient--name--dolives-vertes-denoyautee mm:ingredient-dolives-vertes-denoyautee .
+mm:ingredient-dolives-vertes-denoyautee mm:name "d'olives vertes dénoyautée" .
+mm:ingredient-quantity-dolives-vertes-denoyautee mm:quantity "150" .
+mm:ingredient-quantity-dolives-vertes-denoyautee mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--Oeuf mm:ingredient-quantity-Oeuf .
+mm:component mm:property---ingredient--name--Oeuf mm:ingredient-Oeuf .
+mm:ingredient-Oeuf mm:name "Oeuf" .
+mm:ingredient-quantity-Oeuf mm:quantity "4" .
+mm:ingredient-quantity-Oeuf mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 grille à pâtisserie" .
+mm:tool mm:tool-name-1 "1 Four" .
+mm:tool mm:tool-name-2 "1 Couteau" .
+mm:tool mm:tool-name-3 "1 Cuillère en bois" .
+mm:tool mm:tool-name-4 "1 dénoyauteur" .
+mm:tool mm:tool-name-5 "1 balance de cuisine" .
+mm:tool mm:tool-name-6 "1 plat" .
+mm:step mm:property---step--ingredients--18876-1 mm:ingredient-dolives-vertes-denoyautee .
+mm:step mm:property---step--ingredients--18876-2 mm:ingredient-oeuf .
+mm:step mm:property---step--ingredients--18876-2 mm:ingredient-de-farine .
+mm:ingredient-de-farine mm:name "de farine" .
+mm:step mm:property---step--ingredients--18876-3 mm:ingredient-de-lait .
+mm:ingredient-de-lait mm:name "de lait" .
+mm:step mm:property---step--ingredients--18876-3 mm:ingredient-dhuile .
+mm:ingredient-dhuile mm:name "d'huile" .
+mm:step mm:property---step--ingredients--18876-4 mm:ingredient-dolives-vertes-denoyautee .
+mm:step mm:property---step--ingredients--18876-4 mm:ingredient-de-gruyere-rape .
+mm:ingredient-de-gruyere-rape mm:name "de gruyère râpé" .
+mm:step mm:property---step--ingredients--18876-5 mm:ingredient-de-levure-chimique .
+mm:ingredient-de-levure-chimique mm:name "de levure chimique" .
+mm:step mm:property---step--instructions--18876 mm:instructions-18876 .
+mm:instructions-18876 mm:information-0 "Préchauffer le four à 180°C (thermostat 6)." .
+mm:instructions-18876 mm:information-1 "Couper les olives en rondelles." .
+mm:instructions-18876 mm:information-2 "Verser les oeufs dans la farine et mélanger." .
+mm:instructions-18876 mm:information-3 "Ajouter le lait et l'huile puis mélanger." .
+mm:instructions-18876 mm:information-4 "Ajouter le jambon, les olives et le gruyère puis mélanger." .
+mm:instructions-18876 mm:information-5 "Ajouter la levure et, pour ne pas changer, mélanger." .
+mm:instructions-18876 mm:information-6 "Mettre le tout dans un plat à cake au préalable beurré et placer au four 45 min." .
+mm:comments mm:comment-18876 mm:comment-18876-0 .
+mm:comment-18876-0 mm:name "elise26600" .
+mm:comment-18876-0 mm:note "5/5" .
+mm:comment-18876-0 mm:information "Super, j'ai adore cette recette !" .
+mm:comment-18876-0 mm:date "29/10/2022 11:45" .
+mm:comments mm:comment-18876 mm:comment-18876-1 .
+mm:comment-18876-1 mm:name "clementine.blondet" .
+mm:comment-18876-1 mm:note "5/5" .
+mm:comment-18876-1 mm:information "Plusieurs fois que je fais la recette et tout le monde se regale !" .
+mm:comment-18876-1 mm:date "22/10/2022 16:56" .
+mm:comments mm:comment-18876 mm:comment-18876-2 .
+mm:comment-18876-2 mm:name "Daroox" .
+mm:comment-18876-2 mm:note "5/5" .
+mm:comment-18876-2 mm:information "Bonne base. Merci !" .
+mm:comment-18876-2 mm:date "16/10/2022 17:36" .
+mm:comments mm:comment-18876 mm:comment-18876-3 .
+mm:comment-18876-3 mm:name "emmy_16843483" .
+mm:comment-18876-3 mm:note "5/5" .
+mm:comment-18876-3 mm:information "Leger, croute bien croustillante et moelleux a l'interieur. On peut modifier la garniture selon ses gouts : par exemple, je remplace les olives par beaucoup de morceaux de tomates sechees." .
+mm:comment-18876-3 mm:date "25/06/2013 21:23" .
+mm:comments mm:comment-18876 mm:comment-18876-4 .
+mm:comment-18876-4 mm:name "mia_14030608" .
+mm:comment-18876-4 mm:note "5/5" .
+mm:comment-18876-4 mm:information "Excellent !!!! Rien a redire excepte le temps de cuisson...plutot 55 minutes merci" .
+mm:comment-18876-4 mm:date "21/03/2012 14:29" .
+mm:comments mm:comment-18876 mm:comment-18876-5 .
+mm:comment-18876-5 mm:name "Pablopicasso" .
+mm:comment-18876-5 mm:note "4/5" .
+mm:comment-18876-5 mm:information "Gout equilibre, parfait en apero ou en plat du soir avec une salade" .
+mm:comment-18876-5 mm:date "19/03/2016 22:38" .
+mm:comments mm:comment-18876 mm:comment-18876-6 .
+mm:comment-18876-6 mm:name "caro0806" .
+mm:comment-18876-6 mm:note "4/5" .
+mm:comment-18876-6 mm:information "Tres bon ca a bien plut" .
+mm:comment-18876-6 mm:date "03/08/2017 21:22" .
+mm:comments mm:comment-18876 mm:comment-18876-7 .
+mm:comment-18876-7 mm:name "emmy_16171714" .
+mm:comment-18876-7 mm:note "4/5" .
+mm:comment-18876-7 mm:information "Delicieux, j'ai  ajoute  du bacon et du rape  de jambon  fume" .
+mm:comment-18876-7 mm:date "23/03/2015 19:34" .
+mm:comments mm:comment-18876 mm:comment-18876-8 .
+mm:comment-18876-8 mm:name "silver66od" .
+mm:comment-18876-8 mm:note "5/5" .
+mm:comment-18876-8 mm:information "Excellente recette ! J'ai remplace le jambon par des lardons et j'ai ajoute des tomates sechees. Un delice." .
+mm:comment-18876-8 mm:date "15/08/2015 22:34" .
+mm:comments mm:comment-18876 mm:comment-18876-9 .
+mm:comment-18876-9 mm:name "lily_17466713" .
+mm:comment-18876-9 mm:note "5/5" .
+mm:comment-18876-9 mm:information "Tout simplement parfait! Mon 1er cake sale a ete un succes. Je n'ai rien change dans la recette, merci!" .
+mm:comment-18876-9 mm:date "01/03/2010 15:30" .
+mm:comments mm:comment-18876 mm:comment-18876-10 .
+mm:comment-18876-10 mm:name "Znoi74xkr" .
+mm:comment-18876-10 mm:note "5/5" .
+mm:comment-18876-10 mm:information "Excellent. J'ai remplace le lait par du lait de soja." .
+mm:comment-18876-10 mm:date "05/08/2006 12:53" .
+mm:comments mm:comment-18876 mm:comment-18876-11 .
+mm:comment-18876-11 mm:name "sarah_17381711" .
+mm:comment-18876-11 mm:note "5/5" .
+mm:comment-18876-11 mm:information "Delicieux et encore meilleur avec des olives noires, plus gouteux et plus joli pour la presentation." .
+mm:comment-18876-11 mm:date "16/10/2008 17:23" .
+mm:comments mm:comment-18876 mm:comment-18876-12 .
+mm:comment-18876-12 mm:name "eva_16801832" .
+mm:comment-18876-12 mm:note "5/5" .
+mm:comment-18876-12 mm:information "Tres simple et tres bon !! Moi je fais ce cake mais avec des des de jambon et des des de comte !!! Mon mari en raffole !!!!" .
+mm:comment-18876-12 mm:date "01/09/2012 14:07" .
+mm:recipes-list mm:recipe-26507 <https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:class--component--26507 mm:component .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:class--tool--26507 mm:tool .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:class--step--26507 mm:step .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:class--comment--26507 mm:comments .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:recipe-title "Roulés feuilletés à la saucisse" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:total-preparation-time "30 min" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:default-number-of-people-for-recipe "8" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:preparation-time "10 min" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:cooking-time "20 min" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:auther-name "Annick" .
+<https://www.marmiton.org/recettes/recette_roules-feuilletes-a-la-saucisse_26507.aspx> mm:average-note "4.2/5" .
+mm:component mm:property---ingredient--quantity--properties--Poudre-de-lait mm:ingredient-quantity-Poudre-de-lait .
+mm:component mm:property---ingredient--name--Poudre-de-lait mm:ingredient-Poudre-de-lait .
+mm:ingredient-Poudre-de-lait mm:name "Poudre de lait" .
+mm:ingredient-quantity-Poudre-de-lait mm:quantity "5" .
+mm:ingredient-quantity-Poudre-de-lait mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--Moutarde mm:ingredient-quantity-Moutarde .
+mm:component mm:property---ingredient--name--Moutarde mm:ingredient-Moutarde .
+mm:ingredient-Moutarde mm:name "Moutarde" .
+mm:ingredient-quantity-Moutarde mm:quantity "" .
+mm:ingredient-quantity-Moutarde mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--creme-fraiche mm:ingredient-quantity-creme-fraiche .
+mm:component mm:property---ingredient--name--creme-fraiche mm:ingredient-creme-fraiche .
+mm:ingredient-creme-fraiche mm:name "crème fraîche" .
+mm:ingredient-quantity-creme-fraiche mm:quantity "" .
+mm:ingredient-quantity-creme-fraiche mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Poivre mm:ingredient-quantity-Poivre .
+mm:component mm:property---ingredient--name--Poivre mm:ingredient-Poivre .
+mm:ingredient-Poivre mm:name "Poivre" .
+mm:ingredient-quantity-Poivre mm:quantity "" .
+mm:ingredient-quantity-Poivre mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--knacks-fine mm:ingredient-quantity-knacks-fine .
+mm:component mm:property---ingredient--name--knacks-fine mm:ingredient-knacks-fine .
+mm:ingredient-knacks-fine mm:name "knacks fine" .
+mm:ingredient-quantity-knacks-fine mm:quantity "8" .
+mm:ingredient-quantity-knacks-fine mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Pate-feuilletee mm:ingredient-quantity-Pate-feuilletee .
+mm:component mm:property---ingredient--name--Pate-feuilletee mm:ingredient-Pate-feuilletee .
+mm:ingredient-Pate-feuilletee mm:name "Pâte feuilletée" .
+mm:ingredient-quantity-Pate-feuilletee mm:quantity "1" .
+mm:ingredient-quantity-Pate-feuilletee mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--jaune-doeuf mm:ingredient-quantity-jaune-doeuf .
+mm:component mm:property---ingredient--name--jaune-doeuf mm:ingredient-jaune-doeuf .
+mm:ingredient-jaune-doeuf mm:name "jaune d'oeuf" .
+mm:ingredient-quantity-jaune-doeuf mm:quantity "1" .
+mm:ingredient-quantity-jaune-doeuf mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 four" .
+mm:step mm:property---step--ingredients--26507-0 mm:ingredient-pate-feuilletee .
+mm:ingredient-pate-feuilletee mm:name "pâte feuilletée" .
+mm:step mm:property---step--ingredients--26507-2 mm:ingredient-moutarde .
+mm:ingredient-moutarde mm:name "moutarde" .
+mm:step mm:property---step--ingredients--26507-2 mm:ingredient-creme-fraiche .
+mm:ingredient-creme-fraiche mm:name "crème fraîche" .
+mm:step mm:property---step--ingredients--26507-2 mm:ingredient-poivre .
+mm:ingredient-poivre mm:name "poivre" .
+mm:step mm:property---step--ingredients--26507-2 mm:ingredient-knacks-fine .
+mm:step mm:property---step--ingredients--26507-3 mm:ingredient-jaune-doeuf .
+mm:ingredient-jaune-doeuf mm:name "jaune d'oeuf" .
+mm:step mm:property---step--ingredients--26507-3 mm:ingredient-de-lait .
+mm:ingredient-de-lait mm:name "de lait" .
+mm:step mm:property---step--instructions--26507 mm:instructions-26507 .
+mm:instructions-26507 mm:information-0 "Etalez la pâte feuilletée." .
+mm:instructions-26507 mm:information-1 "Coupez huit rectangles de la longueur des saucisses sur environ 5 cm de large." .
+mm:instructions-26507 mm:information-2 "Badigeonnez les morceaux de moutarde et de crème fraîche. Poivrez. Posez les saucisses dessus et enroulez la pâte autour. Découpez 4 à 5 tronçons pour chaque." .
+mm:instructions-26507 mm:information-3 "Dorez les feuilletés avec le jaune d'oeuf délayé dans le lait." .
+mm:instructions-26507 mm:information-4 "Faites cuire 15 à 20 minutes au four à 180°C (thermostat 6)." .
+mm:instructions-26507 mm:information-5 "Servez chaud à l'apéritif ou avec une salade." .
+mm:comments mm:comment-26507 mm:comment-26507-0 .
+mm:comment-26507-0 mm:name "jasna78" .
+mm:comment-26507-0 mm:note "5/5" .
+mm:comment-26507-0 mm:information "Tres bon, ni moutarde ni de creme mais juste gruyere sur la pate : tres bons petits fours, super simple et avec une tres bonne odeur ! A manger chaud." .
+mm:comment-26507-0 mm:date "25/09/2022 17:08" .
+mm:comments mm:comment-26507 mm:comment-26507-1 .
+mm:comment-26507-1 mm:name "naomi-celeste" .
+mm:comment-26507-1 mm:note "5/5" .
+mm:comment-26507-1 mm:information "Trop bonnnn !!!!!!!!!!!" .
+mm:comment-26507-1 mm:date "05/02/2022 21:23" .
+mm:comments mm:comment-26507 mm:comment-26507-2 .
+mm:comment-26507-2 mm:name "Blacri1948" .
+mm:comment-26507-2 mm:note "5/5" .
+mm:comment-26507-2 mm:information "Je me suis regalee, tres tres bon !!!" .
+mm:comment-26507-2 mm:date "20/12/2021 08:36" .
+mm:comments mm:comment-26507 mm:comment-26507-3 .
+mm:comment-26507-3 mm:name "margot_14198905" .
+mm:comment-26507-3 mm:note "4/5" .
+mm:comment-26507-3 mm:information "Je fais cette recette depuis petite sans la creme et sans la moutarde et c'est meilleur." .
+mm:comment-26507-3 mm:date "23/01/2011 16:14" .
+mm:comments mm:comment-26507 mm:comment-26507-4 .
+mm:comment-26507-4 mm:name "anna_16430782" .
+mm:comment-26507-4 mm:note "4/5" .
+mm:comment-26507-4 mm:information "Super recette simple et rapide. J'ai suivi les conseils et je l'ai faite sans sauce ni moutarde et c'est parfait !" .
+mm:comment-26507-4 mm:date "25/06/2014 21:10" .
+mm:comments mm:comment-26507 mm:comment-26507-5 .
+mm:comment-26507-5 mm:name "sofia_13966790" .
+mm:comment-26507-5 mm:note "5/5" .
+mm:comment-26507-5 mm:information "Tres bonne recette, et super facile a realiser. Une de mes invites n'aimant pas la moutarde, je n'ai mis que de la creme fraiche et c'etait tres bon malgre tout. Bien fermer le rouleau de pate feuilletee en badigeonnant avec l'oeuf sinon, les roules s'ouvrent en cuisant ! Mais ca reste bon malgre tout." .
+mm:comment-26507-5 mm:date "26/01/2010 18:02" .
+mm:comments mm:comment-26507 mm:comment-26507-6 .
+mm:comment-26507-6 mm:name "adam_16158420" .
+mm:comment-26507-6 mm:note "5/5" .
+mm:comment-26507-6 mm:information "Tres bonne recette ! Tout le monde a apprecie ! Delicieusement gourmand !" .
+mm:comment-26507-6 mm:date "02/04/2013 22:54" .
+mm:comments mm:comment-26507 mm:comment-26507-7 .
+mm:comment-26507-7 mm:name "eva_13892982" .
+mm:comment-26507-7 mm:note "4/5" .
+mm:comment-26507-7 mm:information "Bonne recette ! Par contre, on ne sent pas tres bien la sauce moutarde. Je l'ai remplacee par du ketchup. C'est aussi tres bon nature." .
+mm:comment-26507-7 mm:date "26/07/2011 20:54" .
+mm:comments mm:comment-26507 mm:comment-26507-8 .
+mm:comment-26507-8 mm:name "naomi-celeste" .
+mm:comment-26507-8 mm:note "5/5" .
+mm:comment-26507-8 mm:information "Trop bonnnn !!!!!!!!!!!" .
+mm:comment-26507-8 mm:date "05/02/2022 21:23" .
+mm:comments mm:comment-26507 mm:comment-26507-9 .
+mm:comment-26507-9 mm:name "Blacri1948" .
+mm:comment-26507-9 mm:note "5/5" .
+mm:comment-26507-9 mm:information "Je me suis regalee, tres tres bon !!!" .
+mm:comment-26507-9 mm:date "20/12/2021 08:36" .
+mm:comments mm:comment-26507 mm:comment-26507-10 .
+mm:comment-26507-10 mm:name "emmy_15410672" .
+mm:comment-26507-10 mm:note "5/5" .
+mm:comment-26507-10 mm:information "Vite fait, excellent, beaucoup d'effet au moment de l'aperitif. A realiser aussi en forme de croissants. Seul inconvenient une fois que vos invites les ont goutes vous ne pouvez plus recevoir et presenter autres choses sans qu'ils vous disent, 'Tu ne nous a pas fait tes petits feuilletes!!!!!!!'" .
+mm:comment-26507-10 mm:date "19/12/2008 07:03" .
+mm:comments mm:comment-26507 mm:comment-26507-11 .
+mm:comment-26507-11 mm:name "tiaaa" .
+mm:comment-26507-11 mm:note "1/5" .
+mm:comment-26507-11 mm:information "Pas bon" .
+mm:comment-26507-11 mm:date "12/04/2019 14:36" .
+mm:comments mm:comment-26507 mm:comment-26507-12 .
+mm:comment-26507-12 mm:name "jasna78" .
+mm:comment-26507-12 mm:note "5/5" .
+mm:comment-26507-12 mm:information "Tres bon, ni moutarde ni de creme mais juste gruyere sur la pate : tres bons petits fours, super simple et avec une tres bonne odeur ! A manger chaud." .
+mm:comment-26507-12 mm:date "25/09/2022 17:08" .
+mm:recipes-list mm:recipe-231301 <https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:class--component--231301 mm:component .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:class--tool--231301 mm:tool .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:class--step--231301 mm:step .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:class--comment--231301 mm:comments .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:recipe-title "Verrines de betterave et fromage frais" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:total-preparation-time "20 min" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:default-number-of-people-for-recipe "6" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:preparation-time "20 min" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:auther-name "leis85" .
+<https://www.marmiton.org/recettes/recette_verrines-de-betterave-et-fromage-frais_231301.aspx> mm:average-note "4.9/5" .
+mm:component mm:property---ingredient--quantity--properties--de-vinaigre-balsamique mm:ingredient-quantity-de-vinaigre-balsamique .
+mm:component mm:property---ingredient--name--de-vinaigre-balsamique mm:ingredient-de-vinaigre-balsamique .
+mm:ingredient-de-vinaigre-balsamique mm:name "de vinaigre balsamique" .
+mm:ingredient-quantity-de-vinaigre-balsamique mm:quantity "2" .
+mm:ingredient-quantity-de-vinaigre-balsamique mm:mesurement-value "cuilleres" .
+mm:component mm:property---ingredient--quantity--properties--de-miel-liquide mm:ingredient-quantity-de-miel-liquide .
+mm:component mm:property---ingredient--name--de-miel-liquide mm:ingredient-de-miel-liquide .
+mm:ingredient-de-miel-liquide mm:name "de miel liquide" .
+mm:ingredient-quantity-de-miel-liquide mm:quantity "1" .
+mm:ingredient-quantity-de-miel-liquide mm:mesurement-value "c.a.s" .
+mm:component mm:property---ingredient--quantity--properties--cerneau-de-noix mm:ingredient-quantity-cerneau-de-noix .
+mm:component mm:property---ingredient--name--cerneau-de-noix mm:ingredient-cerneau-de-noix .
+mm:ingredient-cerneau-de-noix mm:name "cerneau de noix" .
+mm:ingredient-quantity-cerneau-de-noix mm:quantity "" .
+mm:ingredient-quantity-cerneau-de-noix mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Poivre mm:ingredient-quantity-Poivre .
+mm:component mm:property---ingredient--name--Poivre mm:ingredient-Poivre .
+mm:ingredient-Poivre mm:name "Poivre" .
+mm:ingredient-quantity-Poivre mm:quantity "" .
+mm:ingredient-quantity-Poivre mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Sel mm:ingredient-quantity-Sel .
+mm:component mm:property---ingredient--name--Sel mm:ingredient-Sel .
+mm:ingredient-Sel mm:name "Sel" .
+mm:ingredient-quantity-Sel mm:quantity "" .
+mm:ingredient-quantity-Sel mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--de-betterave-cuite mm:ingredient-quantity-de-betterave-cuite .
+mm:component mm:property---ingredient--name--de-betterave-cuite mm:ingredient-de-betterave-cuite .
+mm:ingredient-de-betterave-cuite mm:name "de betterave cuite" .
+mm:ingredient-quantity-de-betterave-cuite mm:quantity "300" .
+mm:ingredient-quantity-de-betterave-cuite mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--de-fromage-ail-et-fines-herbe mm:ingredient-quantity-de-fromage-ail-et-fines-herbe .
+mm:component mm:property---ingredient--name--de-fromage-ail-et-fines-herbe mm:ingredient-de-fromage-ail-et-fines-herbe .
+mm:ingredient-de-fromage-ail-et-fines-herbe mm:name "de fromage ail et fines herbe" .
+mm:ingredient-quantity-de-fromage-ail-et-fines-herbe mm:quantity "150" .
+mm:ingredient-quantity-de-fromage-ail-et-fines-herbe mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--de-creme-fraiche-epaisse mm:ingredient-quantity-de-creme-fraiche-epaisse .
+mm:component mm:property---ingredient--name--de-creme-fraiche-epaisse mm:ingredient-de-creme-fraiche-epaisse .
+mm:ingredient-de-creme-fraiche-epaisse mm:name "de crème fraîche épaisse" .
+mm:ingredient-quantity-de-creme-fraiche-epaisse mm:quantity "2" .
+mm:ingredient-quantity-de-creme-fraiche-epaisse mm:mesurement-value "cuilleres" .
+mm:tool mm:tool-name-0 "1 Verrine" .
+mm:tool mm:tool-name-1 "1 saladier" .
+mm:tool mm:tool-name-2 "1 couteau" .
+mm:tool mm:tool-name-3 "1 Mixeur" .
+mm:step mm:property---step--ingredients--231301-0 mm:ingredient-de-betterave-cuite .
+mm:step mm:property---step--ingredients--231301-0 mm:ingredient-de-vinaigre-balsamique .
+mm:ingredient-de-vinaigre-balsamique mm:name "de vinaigre balsamique" .
+mm:step mm:property---step--ingredients--231301-0 mm:ingredient-de-miel-liquide .
+mm:ingredient-de-miel-liquide mm:name "de miel liquide" .
+mm:step mm:property---step--ingredients--231301-1 mm:ingredient-de-betterave-cuite .
+mm:step mm:property---step--ingredients--231301-1 mm:ingredient-de-fromage-ail-et-fines-herbe .
+mm:step mm:property---step--ingredients--231301-1 mm:ingredient-de-creme-fraiche-epaisse .
+mm:ingredient-de-creme-fraiche-epaisse mm:name "de crème fraîche épaisse" .
+mm:step mm:property---step--ingredients--231301-1 mm:ingredient-sel .
+mm:ingredient-sel mm:name "sel" .
+mm:step mm:property---step--ingredients--231301-1 mm:ingredient-poivre .
+mm:ingredient-poivre mm:name "poivre" .
+mm:step mm:property---step--ingredients--231301-2 mm:ingredient-de-betterave-cuite .
+mm:step mm:property---step--ingredients--231301-2 mm:ingredient-cerneau-de-noix .
+mm:ingredient-cerneau-de-noix mm:name "cerneau de noix" .
+mm:step mm:property---step--instructions--231301 mm:instructions-231301 .
+mm:instructions-231301 mm:information-0 "Réserver quelques morceaux de betterave: les couper en petits dés puis les faire mariner dans le mélange vinaigre-miel." .
+mm:instructions-231301 mm:information-1 "Mixer le reste des betteraves avec le fromage et la crème fraîche. Saler et poivrer." .
+mm:instructions-231301 mm:information-2 "Verser la mixture dans des verrines, décorer de morceaux de betterave marinés et de cerneaux de noix." .
+mm:instructions-231301 mm:information-3 "Servir frais." .
+mm:comments mm:comment-231301 mm:comment-231301-0 .
+mm:comment-231301-0 mm:name "rejane03" .
+mm:comment-231301-0 mm:note "5/5" .
+mm:comment-231301-0 mm:information "Simple, jolie a l'oeil, et tres bon. Merci pour ce partage. A refaire" .
+mm:comment-231301-0 mm:date "25/06/2022 00:14" .
+mm:comments mm:comment-231301 mm:comment-231301-1 .
+mm:comment-231301-1 mm:name "isasb01" .
+mm:comment-231301-1 mm:note "5/5" .
+mm:comment-231301-1 mm:information "Tres bon ! Tres belle couleur fuschia" .
+mm:comment-231301-1 mm:date "29/04/2022 16:47" .
+mm:comments mm:comment-231301 mm:comment-231301-2 .
+mm:comment-231301-2 mm:name "sablebleu" .
+mm:comment-231301-2 mm:note "5/5" .
+mm:comment-231301-2 mm:information "Tres bonne recette et tres jolies verrines. Les petits morceaux de betterave marinee sont vraiment un plus." .
+mm:comment-231301-2 mm:date "26/02/2022 10:38" .
+mm:comments mm:comment-231301 mm:comment-231301-3 .
+mm:comment-231301-3 mm:name "Christelle_276" .
+mm:comment-231301-3 mm:note "5/5" .
+mm:comment-231301-3 mm:information "Simple, rapide, beau et bon ! Parfait pour un repas avec pas mal de convives." .
+mm:comment-231301-3 mm:date "27/02/2017 13:07" .
+mm:comments mm:comment-231301 mm:comment-231301-4 .
+mm:comment-231301-4 mm:name "romy_13689318" .
+mm:comment-231301-4 mm:note "5/5" .
+mm:comment-231301-4 mm:information "Bonne recette ! Tres facile." .
+mm:comment-231301-4 mm:date "03/02/2017 19:51" .
+mm:comments mm:comment-231301 mm:comment-231301-5 .
+mm:comment-231301-5 mm:name "mamyhelene69" .
+mm:comment-231301-5 mm:note "5/5" .
+mm:comment-231301-5 mm:information "Tres bel accord gustatif. Proportions bien dosees pour 8-9 petites verrines. La marinade des des de betterave rajoute une touche coloree et se marie tres bien avec la mousse. J'ai mis des pignons grilles a la place des noix, ou pas de fruit sec et c'etait aussi tres bon! N'hesitez pas a tenter meme si vous n'etes pas fan de betterave." .
+mm:comment-231301-5 mm:date "03/04/2015 00:04" .
+mm:comments mm:comment-231301 mm:comment-231301-6 .
+mm:comment-231301-6 mm:name "adrien_15197175" .
+mm:comment-231301-6 mm:note "5/5" .
+mm:comment-231301-6 mm:information "Tres bon.  De mon cote, la recette a ete customisee en faisant mariner toutes les betteraves dans le melange balsamique/miel et le resultat etait plutot pas mal." .
+mm:comment-231301-6 mm:date "31/12/2014 02:23" .
+mm:comments mm:comment-231301 mm:comment-231301-7 .
+mm:comment-231301-7 mm:name "Inconnu" .
+mm:comment-231301-7 mm:note "5/5" .
+mm:comment-231301-7 mm:information "Tres bonne recette meme les personnes pas portees sur la betterave rouge comme moi sont conquises, j'ajoute du croquant avec noix ou pignon et je joins un toast de terrine de magret recouverte d'une tranche de magret fume extra..." .
+mm:comment-231301-7 mm:date "17/01/2019 15:43" .
+mm:comments mm:comment-231301 mm:comment-231301-8 .
+mm:comment-231301-8 mm:name "sablebleu" .
+mm:comment-231301-8 mm:note "5/5" .
+mm:comment-231301-8 mm:information "Tres bonne recette et tres jolies verrines. Les petits morceaux de betterave marinee sont vraiment un plus." .
+mm:comment-231301-8 mm:date "26/02/2022 10:38" .
+mm:comments mm:comment-231301 mm:comment-231301-9 .
+mm:comment-231301-9 mm:name "Mamachoco" .
+mm:comment-231301-9 mm:note "5/5" .
+mm:comment-231301-9 mm:information "Excellent en apero, pour ma part j'ai ajoute un gressin, mes invites etaient conquis !" .
+mm:comment-231301-9 mm:date "30/01/2016 17:16" .
+mm:comments mm:comment-231301 mm:comment-231301-10 .
+mm:comment-231301-10 mm:name "Smoy12fsw" .
+mm:comment-231301-10 mm:note "5/5" .
+mm:comment-231301-10 mm:information "Tres bonne recette" .
+mm:comment-231301-10 mm:date "28/12/2016 21:10" .
+mm:comments mm:comment-231301 mm:comment-231301-11 .
+mm:comment-231301-11 mm:name "micoucou" .
+mm:comment-231301-11 mm:note "5/5" .
+mm:comment-231301-11 mm:information "Super !! Facile a faire, rapide et excellent ! Comme tout le monde chez Marmiton, j'ai suivi la recette ... Mais .. J'ai ajoute un peu de vinaigre balsamique a la mousse ! Pas mauvais du tout !" .
+mm:comment-231301-11 mm:date "27/09/2013 18:52" .
+mm:comments mm:comment-231301 mm:comment-231301-12 .
+mm:comment-231301-12 mm:name "rejane03" .
+mm:comment-231301-12 mm:note "5/5" .
+mm:comment-231301-12 mm:information "Simple, jolie a l'oeil, et tres bon. Merci pour ce partage. A refaire" .
+mm:comment-231301-12 mm:date "25/06/2022 00:14" .
+mm:recipes-list mm:recipe-23421 <https://www.marmiton.org/recettes/recette_blinis_23421.aspx> .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:class--component--23421 mm:component .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:class--tool--23421 mm:tool .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:class--step--23421 mm:step .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:class--comment--23421 mm:comments .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:recipe-title "Blinis" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:total-preparation-time "20 min" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:default-number-of-people-for-recipe "4" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:preparation-time "15 min" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:cooking-time "5 min" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:auther-name "Jean et Lolotte" .
+<https://www.marmiton.org/recettes/recette_blinis_23421.aspx> mm:average-note "4.6/5" .
+mm:component mm:property---ingredient--quantity--properties--Mandarine mm:ingredient-quantity-Mandarine .
+mm:component mm:property---ingredient--name--Mandarine mm:ingredient-Mandarine .
+mm:ingredient-Mandarine mm:name "Mandarine" .
+mm:ingredient-quantity-Mandarine mm:quantity "150" .
+mm:ingredient-quantity-Mandarine mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--de-levure-de-boulanger mm:ingredient-quantity-de-levure-de-boulanger .
+mm:component mm:property---ingredient--name--de-levure-de-boulanger mm:ingredient-de-levure-de-boulanger .
+mm:ingredient-de-levure-de-boulanger mm:name "de levure de boulanger" .
+mm:ingredient-quantity-de-levure-de-boulanger mm:quantity "10" .
+mm:ingredient-quantity-de-levure-de-boulanger mm:mesurement-value "g" .
+mm:component mm:property---ingredient--quantity--properties--de-lait-A--temperature-ambiante mm:ingredient-quantity-de-lait-A--temperature-ambiante .
+mm:component mm:property---ingredient--name--de-lait-A--temperature-ambiante mm:ingredient-de-lait-A--temperature-ambiante .
+mm:ingredient-de-lait-A--temperature-ambiante mm:name "de lait à température ambiante" .
+mm:ingredient-quantity-de-lait-A--temperature-ambiante mm:quantity "20" .
+mm:ingredient-quantity-de-lait-A--temperature-ambiante mm:mesurement-value "cl" .
+mm:component mm:property---ingredient--quantity--properties--Sel mm:ingredient-quantity-Sel .
+mm:component mm:property---ingredient--name--Sel mm:ingredient-Sel .
+mm:ingredient-Sel mm:name "Sel" .
+mm:ingredient-quantity-Sel mm:quantity "" .
+mm:ingredient-quantity-Sel mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Babeurre mm:ingredient-quantity-Babeurre .
+mm:component mm:property---ingredient--name--Babeurre mm:ingredient-Babeurre .
+mm:ingredient-Babeurre mm:name "Babeurre" .
+mm:ingredient-quantity-Babeurre mm:quantity "" .
+mm:ingredient-quantity-Babeurre mm:mesurement-value "" .
+mm:component mm:property---ingredient--quantity--properties--Oeuf mm:ingredient-quantity-Oeuf .
+mm:component mm:property---ingredient--name--Oeuf mm:ingredient-Oeuf .
+mm:ingredient-Oeuf mm:name "Oeuf" .
+mm:ingredient-quantity-Oeuf mm:quantity "2" .
+mm:ingredient-quantity-Oeuf mm:mesurement-value "" .
+mm:tool mm:tool-name-0 "1 Cuillère en bois" .
+mm:tool mm:tool-name-1 "1 Fouet cuisine" .
+mm:tool mm:tool-name-2 "1 Set 3 poêles" .
+mm:tool mm:tool-name-3 "1 balance de cuisine" .
+mm:step mm:property---step--ingredients--23421-0 mm:ingredient-de-levure-de-boulanger .
+mm:ingredient-de-levure-de-boulanger mm:name "de levure de boulanger" .
+mm:step mm:property---step--ingredients--23421-0 mm:ingredient-de-lait-A--temperature-ambiante .
+mm:ingredient-de-lait-A--temperature-ambiante mm:name "de lait à température ambiante" .
+mm:step mm:property---step--ingredients--23421-1 mm:ingredient-de-farine .
+mm:ingredient-de-farine mm:name "de farine" .
+mm:step mm:property---step--ingredients--23421-1 mm:ingredient-sel .
+mm:ingredient-sel mm:name "sel" .
+mm:step mm:property---step--ingredients--23421-1 mm:ingredient-de-levure-de-boulanger .
+mm:ingredient-de-levure-de-boulanger mm:name "de levure de boulanger" .
+mm:step mm:property---step--ingredients--23421-1 mm:ingredient-oeuf .
+mm:step mm:property---step--ingredients--23421-2 mm:ingredient-de-lait-A--temperature-ambiante .
+mm:ingredient-de-lait-A--temperature-ambiante mm:name "de lait à température ambiante" .
+mm:step mm:property---step--ingredients--23421-4 mm:ingredient-oeuf .
+mm:step mm:property---step--ingredients--23421-5 mm:ingredient-beurre .
+mm:ingredient-beurre mm:name "beurre" .
+mm:step mm:property---step--instructions--23421 mm:instructions-23421 .
+mm:instructions-23421 mm:information-0 "Mélanger la levure et le lait. Laisser reposer à température ambiante 5 min." .
+mm:instructions-23421 mm:information-1 "Faire un puits avec la farine et déposer au milieu le sel, la levure et les jaunes d'oeufs." .
+mm:instructions-23421 mm:information-2 "Bien mélanger en mettant progressivement le lait." .
+mm:instructions-23421 mm:information-3 "Laisser de côté pendant 4 h." .
+mm:instructions-23421 mm:information-4 "Monter les blancs en neige et les incorporer délicatement." .
+mm:instructions-23421 mm:information-5 "Cuire chaque blinis dans une petite poêle beurrée de 12 cm au plus." .

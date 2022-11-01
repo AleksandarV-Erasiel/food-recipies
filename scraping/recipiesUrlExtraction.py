@@ -57,6 +57,10 @@ def findIngredientSimilarity(ingredient):
 def funidecode(s):
     return unidecode.unidecode(s)
 
+def removeEverythingThatIsntChar(s):
+    regex = re.compile('[^a-zA-Z]')
+    return regex.sub('', s)
+
 def commentsDataExtraction():
     for commentAuthorName in soup.find_all("p", "MuiTypography-root MuiTypography-h6"):
         commentAuthorName = commentAuthorName.text.strip()
@@ -74,7 +78,7 @@ def commentsDataExtraction():
         commentAuthorInformation = commentAuthorInformation.text.strip()
         if (commentAuthorInformation == ""):
             commentAuthorInformation = "Inconnu"
-        commentAuthorInformationList.append(funidecode(commentAuthorInformation))
+        commentAuthorInformationList.append(funidecode(commentAuthorInformation).replace("\n", "").replace("\t", ""))
 
     for commentAuthorDate in soup.find_all("p", "MuiTypography-root MuiTypography-body2"):
         commentAuthorDate = commentAuthorDate.text.strip()
@@ -85,10 +89,13 @@ def commentsDataExtraction():
 def commentsDataFileWriter():
     # fCommentsData.write("{}\n".format(str(commentAuthorInformationList)))
     for i in range(0, len(commentAuthorNameList)):
-        fData.write("mm:comment mm:comment-author-name-{}-{} \"{}\" .\n".format(recipeUri, i, commentAuthorNameList[i]))
-        fData.write("mm:comment mm:comment-author-note-{}-{} \"{}\" .\n".format(recipeUri, i, commentAuthorNoteList[i]))
-        fData.write("mm:comment mm:comment-author-information-{}-{} \"{}\" .\n".format(recipeUri, i, commentAuthorInformationList[i]))
-        fData.write("mm:comment mm:comment-author-date-{}-{} \"{}\" .\n".format(recipeUri, i, commentAuthorDateList[i]))
+        commentAuthorName = commentAuthorNameList[i].replace('"', "'")
+        commentAuthorInformation = commentAuthorInformationList[i].replace('"', "'")
+        fData.write("mm:comments mm:comment-{} mm:comment-{}-{} .\n".format(recipeUri, recipeUri, i))
+        fData.write("mm:comment-{}-{} mm:name \"{}\" .\n".format(recipeUri, i, commentAuthorName))
+        fData.write("mm:comment-{}-{} mm:note \"{}\" .\n".format(recipeUri, i, commentAuthorNoteList[i]))
+        fData.write("mm:comment-{}-{} mm:information \"{}\" .\n".format(recipeUri, i, commentAuthorInformation))
+        fData.write("mm:comment-{}-{} mm:date \"{}\" .\n".format(recipeUri, i, commentAuthorDateList[i]))
 
 def findReferencedIngredients(ingredient):
     choosedIngredient = ""
@@ -113,7 +120,14 @@ def snake_case(s) :
     return '-'.join(
         sub('([A-Z\u00C0-\u024F\u1E00-\u1EFF][a-z\u00C0-\u024F\u1E00-\u1EFF]+)', r' \1',
         sub('([A-Z\u00C0-\u024F\u1E00-\u1EFF]+)', r' \1',
-        s.replace('\'', '').replace('à', 'a').replace('ç', 'c').replace('é', 'e').replace('è', 'e').replace('(', '').replace(')', '').replace(',', '').replace(';', '').replace('+', ''))).split()).lower()
+        s.replace('\'', '').replace('à', 'a').replace('ç', 'c').replace('é', 'e').replace('è', 'e').replace('(', '').replace(')', '').replace(',', '').replace(';', '').replace('+', '').replace('.', '').replace('/', '-').replace('!', '').replace('?', ''))).split()).lower()
+
+def snake_case_v2(s):
+    s = s.replace(' ', '-').replace('\'', '').replace('à', 'a').replace('ç', 'c').replace('é', 'e').replace('è', 'e').replace('(', '').replace(')', '').replace(',', '').replace(';', '').replace('+', '').replace('.', '').replace('/', '-').replace('!', '').replace('?', '')
+    k = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-"
+    getVals = list(filter(lambda x: x in k, s))
+    result = "".join(getVals)
+    return result
 
 def remove_accents(text):
     return unidecode.unidecode(text).replace('A(c)', 'e').replace('ASS', 'c').replace('A"', 'e').replace('AC/', 'a').replace('Aa', 'e').replace("A(r)", "i").replace("A>>", "u")
@@ -188,11 +202,14 @@ for recipeType in recipeTypeList :
         commentAuthorDateList.clear()
 
         recipeUrl = recipeLinkList[i]
+        #recipeUrl = "https://www.marmiton.org/recettes/recette_punch-delicieux_42459.aspx"
         page = urlopen(recipeUrl)
         
         urlData = urlparse(recipeUrl)
         urlPath = urlData.path.replace('.', '/').split('/')
-        recipeUri = urlPath[2].split('_', 1)[1]
+        completeRecipeUri = urlPath[2].split('_', 1)[1]
+        #print("=============================================\n{}".format(recipeUri).split('_', 1)[1])
+        recipeUri = completeRecipeUri.split('_', 1)[1]
 
         html = page.read().decode("iso8859-1")
         soup = BeautifulSoup(html, "html.parser")
@@ -214,7 +231,7 @@ for recipeType in recipeTypeList :
         fData.write("<{}> mm:class--component--{} mm:component .\n".format(recipeUrl, recipeUri))
         fData.write("<{}> mm:class--tool--{} mm:tool .\n".format(recipeUrl, recipeUri))
         fData.write("<{}> mm:class--step--{} mm:step .\n".format(recipeUrl, recipeUri))
-        fData.write("<{}> mm:class--comment--{} mm:comment .\n".format(recipeUrl, recipeUri))
+        fData.write("<{}> mm:class--comment--{} mm:comments .\n".format(recipeUrl, recipeUri))
         
         fData.write("<{}> mm:recipe-title \"{}\" .\n".format(recipeUrl, recipeTitle))
         fData.write("<{}> mm:recipe-type \"{}\" .\n".format(recipeUrl, recipeType))
@@ -226,7 +243,7 @@ for recipeType in recipeTypeList :
         fData.write("<{}> mm:resting-time \"{}\" .\n".format(recipeUrl, restingTime))
         fData.write("<{}> mm:cooking-time \"{}\" .\n".format(recipeUrl, cookingTime))
         fData.write("<{}> mm:auther-name \"{}\" .\n".format(recipeUrl, autherName))
-        fData.write("<{}> mm:note \"{}\" .\n".format(recipeUrl, note))
+        fData.write("<{}> mm:average-note \"{}\" .\n".format(recipeUrl, note))
 
         #commentsDataExtraction()
         #print(commentAuthorNameList)
@@ -281,7 +298,7 @@ for recipeType in recipeTypeList :
                 toolsCounter = -1
 
         for instruction in soup.find_all("p", "RCP__sc-1wtzf9a-3 jFIVDw") :
-            instructionList.append(instruction.text.strip())
+            instructionList.append(instruction.text.strip().replace("\n", "").replace("\t", ""))
             instructionsCounter = instructionsCounter+1
 
         for usedIngredients in soup.find_all("div", "RCP__sc-1wtzf9a-4 WhwEU") :
@@ -304,11 +321,11 @@ for recipeType in recipeTypeList :
                 ingredientsQuantitySeparatorList = stringNumberSeparator(insertedIngredientQuantity)
                 #print(ingredientsQuantitySeparatorList[1], ingredientsQuantitySeparatorList[0])
                 #print(insertedIngredientName)
-                fData.write("mm:component mm:property---ingredient--quantity--properties--{} mm:ingredient-quantity-{} .\n".format(snake_case(remove_accents(insertedIngredientName)), snake_case(remove_accents(insertedIngredientName))))
-                fData.write("mm:component mm:property---ingredient--name--{} mm:ingredient-{} .\n".format(snake_case(remove_accents(insertedIngredientName)), snake_case(remove_accents(insertedIngredientName))))
-                fData.write("mm:ingredient-{} mm:name \"{}\" .\n".format(snake_case(remove_accents(insertedIngredientName)), insertedIngredientName))
-                fData.write("mm:ingredient-quantity-{} mm:quantity \"{}\" .\n".format(snake_case(remove_accents(insertedIngredientName)), ingredientsQuantitySeparatorList[1]))
-                fData.write("mm:ingredient-quantity-{} mm:mesurement-value \"{}\" .\n".format(snake_case(remove_accents(insertedIngredientName)), ingredientsQuantitySeparatorList[0].strip()))
+                fData.write("mm:component mm:property---ingredient--quantity--properties--{} mm:ingredient-quantity-{} .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), snake_case_v2(remove_accents(insertedIngredientName))))
+                fData.write("mm:component mm:property---ingredient--name--{} mm:ingredient-{} .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), snake_case_v2(remove_accents(insertedIngredientName))))
+                fData.write("mm:ingredient-{} mm:name \"{}\" .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), insertedIngredientName))
+                fData.write("mm:ingredient-quantity-{} mm:quantity \"{}\" .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), ingredientsQuantitySeparatorList[1]))
+                fData.write("mm:ingredient-quantity-{} mm:mesurement-value \"{}\" .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), remove_accents(ingredientsQuantitySeparatorList[0].strip())))
             except:
                 exception_type, exception_object, exception_traceback = sys.exc_info()
                 filename = exception_traceback.tb_frame.f_code.co_filename
@@ -360,7 +377,10 @@ for recipeType in recipeTypeList :
                     referencedIngredient = referencedIngredient[:-1]
                 #print(ingredientsOrderList[ingredientNumber]+" - "+referencedIngredient)
                 #TODO: add a triplet from mm:ingredient-{snake_case(remove_accents(referencedIngredient))} to the name of the ingredient [see test with aperol and deau-petillante] MISSING NAME
-                fData.write("mm:step mm:property---step--ingredients--{}-{} mm:ingredient-{} .\n".format(recipeUri, i, snake_case(remove_accents(referencedIngredient))))
+                fData.write("mm:step mm:property---step--ingredients--{}-{} mm:ingredient-{} .\n".format(recipeUri, i, snake_case_v2(remove_accents(referencedIngredient))))
+                if (referencedIngredient in ingredientsName or referencedIngredient.endswith("s")) :
+                    #if (not referencedIngredient.endswith("s")):
+                    fData.write("mm:ingredient-{} mm:name \"{}\" .\n".format(snake_case_v2(remove_accents(referencedIngredient)), referencedIngredient))
                 if (numberOfIngredientsPerStep[i] == firstValue) :
                     value = "{}".format(ingredientsOrderList[ingredientNumber])
                 else :
@@ -385,7 +405,6 @@ for recipeType in recipeTypeList :
             except:
                 a=1
 
-        recipeUrl = recipeLinkList[i]
         driver.get(recipeUrl)
         html = page.read().decode("iso8859-1")
         soup = BeautifulSoup(driver.page_source, "html.parser")
@@ -400,7 +419,7 @@ for recipeType in recipeTypeList :
         if (resultAgreeButtonPresent > 0):
             driver.find_element(
                 By.XPATH, '//*[@id="didomi-notice-agree-button"]/span').click()
-            print("Agree button clicked")
+            #print("Agree button clicked")
 
         time.sleep(randint(1, 3))
         driver.execute_script(
@@ -416,7 +435,7 @@ for recipeType in recipeTypeList :
 
         if (moreButtonPresent > 0):
             # Click on the "more" button to show more comments in the pop up window
-            print("Element \"more\" exist")
+            #print("Element \"more\" exist")
             moreButtonClicker = commentsSection.find_element(
                 By.CSS_SELECTOR, "span[class='MuiTypography-root MuiTypography-caption']")
             driver.execute_script("arguments[0].click();", moreButtonClicker)
@@ -435,12 +454,11 @@ for recipeType in recipeTypeList :
             commentsDataFileWriter()
             time.sleep(randint(3, 5))
 
-        #commentAuthorNoteList.pop(0)
-        print(commentAuthorNameList)
+        #print(commentAuthorNameList)
         # Remove the average recipe note
-        print(commentAuthorNoteList)
-        print(commentAuthorInformationList)
-        print(commentAuthorDateList)
+        #print(commentAuthorNoteList)
+        #print(commentAuthorInformationList)
+        #print(commentAuthorDateList)
 
         stepCounter = 0
 
