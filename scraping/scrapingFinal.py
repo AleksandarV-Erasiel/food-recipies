@@ -90,12 +90,13 @@ def commentsDataFileWriter():
     # fCommentsData.write("{}\n".format(str(commentAuthorInformationList)))
     for i in range(0, len(commentAuthorNameList)):
         print("\n")
-        print(commentAuthorInformationList[i].encode("utf-8"))
+        #print(commentAuthorInformationList[i].encode("utf-8"))
         commentAuthorName = commentAuthorNameList[i].replace('"', "'")
         commentAuthorInformation = commentAuthorInformationList[i].replace("\n", "").replace("\t", "").replace("\r", "").replace('"', "'")
         #print(commentAuthorInformation)
-        fData.write("mm:comments mm:comment-{} mm:comment-{}-{} .\n".format(recipeUri, recipeUri, i))
-        fData.write("mm:comment-{}-{} mm:name \"{}\" .\n".format(recipeUri, i, commentAuthorName))
+        fData.write("mm:comment-{}-{} rdf:type mm:comment .\n".format(recipeUri, i))
+        fData.write("<{}> mm:comment mm:comment-{}-{} .\n".format(recipeUrl, recipeUri, i))
+        fData.write("mm:comment-{}-{} mm:author-name \"{}\" .\n".format(recipeUri, i, commentAuthorName))
         fData.write("mm:comment-{}-{} mm:note \"{}\" .\n".format(recipeUri, i, commentAuthorNoteList[i]))
         fData.write("mm:comment-{}-{} mm:information \"{}\" .\n".format(recipeUri, i, commentAuthorInformation))
         fData.write("mm:comment-{}-{} mm:date \"{}\" .\n".format(recipeUri, i, commentAuthorDateList[i]))
@@ -163,12 +164,17 @@ def stringNumberSeparator(s) :
     res.append(numbers)
     return res
 
-recipeTypeList = ["aperitif-ou-buffet","entree","plat-principal","dessert"]
+recipeTypeList = ["aperitif-ou-buffet"]
 recipeCounter = 0
 
-fData = open("scraping/fData.txt", "w")
+ingredientRepetitionData = []
+numberOfRepeatedIngredient = []
+ingredientsListForRepeatition = []
+ingredientsToSearchNutritionalValues = []
 
-fData.write("@prefix mm: <http://mamarmite.com/> .\n@prefix dc: <http://purl.org/dc/elements/1.1> .\n\nmm:index dc:creator <http://vasiljevic.alwaysdata.net/> .\nmm:index dc:language \"fr\" .\n<http://vasiljevic.alwaysdata.net/> mm:name \"Aleksandar VASILJEVIC\" .\nmm:index mm:recipes mm:recipes-list .\n\n")
+fData = open("scraping/fData.txt", mode="w", encoding="utf-8")
+
+fData.write("@prefix mm: <http://mamarmite.com/> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n")
 
 for recipeType in recipeTypeList :
     urlPage = "https://www.marmiton.org/recettes/index/categorie/{}?rcp=0".format(recipeType)
@@ -200,6 +206,8 @@ for recipeType in recipeTypeList :
     options.add_argument('--headless')
     driver = webdriver.Chrome(ChromeDriverManager().install())
 
+    ingredientsIsDefined = []
+
     for i in range(0, len(recipeLinkList)) :
         stepCounter = 0
 
@@ -209,7 +217,10 @@ for recipeType in recipeTypeList :
         commentAuthorDateList.clear()
 
         recipeUrl = recipeLinkList[i]
-        #recipeUrl = "https://www.marmiton.org/recettes/recette_bouchees-a-la-reine_19196.aspx"
+        # TODO: remettre recipeUrl pour qu'il parcourt tous les liens
+        #recipeUrl = "https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx"
+        #if (i == 1):
+        #    recipeUrl = "https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx"
         page = urlopen(recipeUrl)
         
         urlData = urlparse(recipeUrl)
@@ -218,9 +229,9 @@ for recipeType in recipeTypeList :
         #print("=============================================\n{}".format(recipeUri).split('_', 1)[1])
         recipeUri = completeRecipeUri.split('_', 1)[1]
 
-        html = page.read().decode("iso8859-1")
+        html = page.read().decode("utf-8")
         soup = BeautifulSoup(html, "html.parser")
-        soupCode = soup.encode('iso8859-1')
+        soupCode = soup.encode('utf-8')
 
         recipeTitle = soup.select('h1.itJBWW')[0].text.strip()
         totalPreparationTime = soup.select('p.RCP__sc-1qnswg8-1.iDYkZP')[0].text.strip()
@@ -233,12 +244,7 @@ for recipeType in recipeTypeList :
         autherName = soup.select('div.RCP__sc-ox3jb6-5.fwQMuu')[0].text.strip()
         note = soup.select('span.SHRD__sc-10plygc-0.jHwZwD')[0].text.strip()
 
-        fData.write("mm:recipes-list mm:recipe-{} <{}> .\n".format(recipeUri, recipeUrl))
-
-        fData.write("<{}> mm:class--component--{} mm:component .\n".format(recipeUrl, recipeUri))
-        fData.write("<{}> mm:class--tool--{} mm:tool .\n".format(recipeUrl, recipeUri))
-        fData.write("<{}> mm:class--step--{} mm:step .\n".format(recipeUrl, recipeUri))
-        fData.write("<{}> mm:class--comment--{} mm:comments .\n".format(recipeUrl, recipeUri))
+        fData.write("<{}> rdf:type mm:recipe .\n".format(recipeUrl))
         
         fData.write("<{}> mm:recipe-title \"{}\" .\n".format(recipeUrl, recipeTitle.replace('"', "'").replace("\n", "").replace("\r", "").replace("\t", "")))
         fData.write("<{}> mm:recipe-type \"{}\" .\n".format(recipeUrl, recipeType))
@@ -249,7 +255,7 @@ for recipeType in recipeTypeList :
         fData.write("<{}> mm:preparation-time \"{}\" .\n".format(recipeUrl, preparationTime))
         fData.write("<{}> mm:resting-time \"{}\" .\n".format(recipeUrl, restingTime))
         fData.write("<{}> mm:cooking-time \"{}\" .\n".format(recipeUrl, cookingTime))
-        fData.write("<{}> mm:auther-name \"{}\" .\n".format(recipeUrl, autherName))
+        fData.write("<{}> mm:author-name \"{}\" .\n".format(recipeUrl, autherName))
         fData.write("<{}> mm:average-note \"{}\" .\n".format(recipeUrl, note))
 
         #commentsDataExtraction()
@@ -316,24 +322,36 @@ for recipeType in recipeTypeList :
         insertedIngredientName=""
         insertedIngredientQuantity=""
         ingredientsQuantitySeparatorList=""
-        for x in range(0, len(ingredientsName)) :
+        for componentCounter in range(0, len(ingredientsName)) :
             try: 
-                insertedIngredientName = ingredientsName[x]
-                insertedIngredientQuantity = ingredientsQuantity[x]
+                insertedIngredientName = ingredientsName[componentCounter]
+                insertedIngredientQuantity = ingredientsQuantity[componentCounter]
                 # way to simplify regroup similarIngredientName[x] and ingredientsName[x] depending of the fact that similarIngredientName is empty or not
-                if (similarIngredientName[x] != "") :
-                    insertedIngredientName = similarIngredientName[x]
+                if (similarIngredientName[componentCounter] != "") :
+                    insertedIngredientName = similarIngredientName[componentCounter]
                 if (insertedIngredientName.endswith("s")):
                     insertedIngredientName = insertedIngredientName[:-1]
                 ingredientsQuantitySeparatorList = stringNumberSeparator(insertedIngredientQuantity)
                 #print(ingredientsQuantitySeparatorList[1], ingredientsQuantitySeparatorList[0])
                 #print(insertedIngredientName)
                 ingredientName = insertedIngredientName.replace('"', "'").replace("\n", "").replace("\t", "").replace("\r", "")
-                fData.write("mm:component mm:property---ingredient--quantity--properties--{} mm:ingredient-quantity-{} .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), snake_case_v2(remove_accents(insertedIngredientName))))
-                fData.write("mm:component mm:property---ingredient--name--{} mm:ingredient-{} .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), snake_case_v2(remove_accents(insertedIngredientName))))
-                fData.write("mm:ingredient-{} mm:name \"{}\" .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), ingredientName))
-                fData.write("mm:ingredient-quantity-{} mm:quantity \"{}\" .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), ingredientsQuantitySeparatorList[1]))
-                fData.write("mm:ingredient-quantity-{} mm:mesurement-value \"{}\" .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), remove_accents(ingredientsQuantitySeparatorList[0].strip())))
+
+                fData.write("mm:component-{}-{} rdf:type mm:component .\n".format(recipeUri, componentCounter))
+                fData.write("mm:quantity-{}-{} rdf:type mm:quantity-properties .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), recipeUri))
+                fData.write("mm:quantity-{}-{} mm:quantity-value \"{}\" .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), recipeUri, ingredientsQuantitySeparatorList[1]))
+                fData.write("mm:quantity-{}-{} mm:mesurement-value \"{}\" .\n".format(snake_case_v2(remove_accents(insertedIngredientName)), recipeUri, ingredientsQuantitySeparatorList[0].strip()))
+
+                ingredient = "mm:{}".format(snake_case_v2(remove_accents(insertedIngredientName)))
+                if ingredient not in ingredientsIsDefined :
+                    fData.write("{} mm:type mm:ingredient .\n".format(ingredient))
+                    fData.write("{} mm:ingredient-name \"{}\" .\n".format(ingredient, ingredientName))
+                    ingredientsIsDefined.append(ingredient)
+
+                fData.write("mm:component-{}-{} mm:quantity mm:quantity-{}-{} .\n".format(recipeUri, componentCounter, snake_case_v2(remove_accents(insertedIngredientName)), recipeUri))
+                fData.write("mm:component-{}-{} mm:is-a mm:{} .\n".format(recipeUri, componentCounter, snake_case_v2(remove_accents(insertedIngredientName))))
+                fData.write("<{}> mm:component mm:component-{}-{} .\n".format(recipeUrl, recipeUri, componentCounter))
+                ingredientRepetitionData.append(ingredientName)
+
             except:
                 exception_type, exception_object, exception_traceback = sys.exc_info()
                 filename = exception_traceback.tb_frame.f_code.co_filename
@@ -343,77 +361,74 @@ for recipeType in recipeTypeList :
                 print("Exception type: ", exception_type)
                 print("File name: ", filename)
                 print("Line number: ", line_number)
-
+                print("\n")
                 #exit()
         
-
-        for x in range(0, len(toolsName)) :
+        # if (i == 1):
+        #     exit()
+        # continue
+        for toolCounter in range(0, len(toolsName)) :
             try:
-                fData.write("mm:tool mm:tool-name-{} \"{}\" .\n".format(x, toolsName[x]))
+                fData.write("<{}> mm:used-tool \"{}\" .\n".format(recipeUrl, toolsName[toolCounter]))
             except:
                 a = 1
 
-        for x in soup.find_all("div", "RCP__sc-1wtzf9a-2 fBqfpG") :
-            usedIngredientsPerStep.append(x)
+        for componentCounter in soup.find_all("div", "RCP__sc-1wtzf9a-2 fBqfpG") :
+            usedIngredientsPerStep.append(componentCounter)
 
-        for x in range(0, instructionsCounter) :
+        for componentCounter in range(0, instructionsCounter) :
             try:
-                numberOfIngredientsPerStep.append(str(usedIngredientsPerStep[x]).count("RCP__sc-1wtzf9a-4 WhwEU"))
+                numberOfIngredientsPerStep.append(str(usedIngredientsPerStep[componentCounter]).count("RCP__sc-1wtzf9a-4 WhwEU"))
             except:
                 print('Instructions parkour problem')
 
-        for x in soup.find_all("img", "bkoLvf", alt=True) :
-            ingredientsOrderList.append(str(x['alt']))
+        for componentCounter in soup.find_all("img", "bkoLvf", alt=True) :
+            ingredientsOrderList.append(str(componentCounter['alt']))
 
         #print(ingredientsOrderList)
         #print(numberOfIngredientsPerStep)
 
         ingredientNumber = 0
-        stepCounter = 0
+        stepPosition = 0
 
+        fData.write("mm:step-list-{} rdf:type rdf:Seq .\n".format(recipeUri))
+        fData.write("<{}> mm:my-step-list mm:step-list-{} .\n".format(recipeUrl, recipeUri))
         ingredientsNameSaver = ingredientsName
-        for i in range(0, len(instructionList)) :
-            value = ""
-            firstValue = numberOfIngredientsPerStep[i]
-            if (numberOfIngredientsPerStep[i] == 0) :
-                ingredientsPerStepList.append("")
-                stepCounter = stepCounter + 1
+        for stepCounter in range(0, len(instructionList)):
+            instruction = instructionList[stepCounter].replace('"', "'").replace("\n", "").replace("\t", "").replace("\r", "")
+            # print(instruction.encode("utf-8"))
+            # instructionUni = instruction.encode("utf-8")
+            # print(unidecode.unidecode(instructionUni))
+            #print(unidecode)
+            fData.write("mm:step-{}-{} rdf:type mm:step .\n".format(recipeUri, stepCounter))
+            fData.write("mm:step-list-{} rdf:_{} mm:step-{}-{} .\n".format(recipeUri, stepCounter+1, recipeUri, stepCounter))
+            fData.write("mm:step-{}-{} mm:information \"{}\" .\n".format(recipeUri, stepCounter, instruction))
+            if (numberOfIngredientsPerStep[stepCounter] == 0) :
+                stepPosition = stepPosition + 1
                 continue
-            while (numberOfIngredientsPerStep[i] > 0) :
-                referencedIngredient = findReferencedIngredients(ingredientsOrderList[ingredientNumber])
-                if (referencedIngredient.endswith("s")):
-                    referencedIngredient = referencedIngredient[:-1]
-                #print(ingredientsOrderList[ingredientNumber]+" - "+referencedIngredient)
-                #TODO: add a triplet from mm:ingredient-{snake_case(remove_accents(referencedIngredient))} to the name of the ingredient [see test with aperol and deau-petillante] MISSING NAME
-                fData.write("mm:step mm:property---step--ingredients--{}-{} mm:ingredient-{} .\n".format(recipeUri, i, snake_case_v2(remove_accents(referencedIngredient))))
-                if (referencedIngredient in ingredientsName or referencedIngredient.endswith("s")) :
-                    #if (not referencedIngredient.endswith("s")):
-                    ingredientName = referencedIngredient.replace("\n", "").replace("\t", "").replace('"', "'").replace("\r", "")
-                    fData.write("mm:ingredient-{} mm:name \"{}\" .\n".format(snake_case_v2(remove_accents(referencedIngredient)), ingredientName))
-                if (numberOfIngredientsPerStep[i] == firstValue) :
-                    value = "{}".format(ingredientsOrderList[ingredientNumber])
-                else :
-                    value = "{},{}".format(value, ingredientsOrderList[ingredientNumber])
-                ingredientNumber = ingredientNumber+1
-                numberOfIngredientsPerStep[i] = numberOfIngredientsPerStep[i]-1
-            ingredientsPerStepList.append(value)
+            while (numberOfIngredientsPerStep[stepCounter] > 0) :
+                try:
+                    referencedIngredient = findReferencedIngredients(ingredientsOrderList[ingredientNumber])
+                    if (referencedIngredient.endswith("s")):
+                        referencedIngredient = referencedIngredient[:-1]
+                    ingredient = "mm:{}".format(snake_case_v2(remove_accents(referencedIngredient)))
+                    if ingredient not in ingredientsIsDefined :
+                        fData.write("{} rdf:type mm:ingredient .\n".format(ingredient, referencedIngredient))
+                        fData.write("{} mm:ingredient-name \"{}\" .\n".format(ingredient, referencedIngredient))
+                        ingredientsIsDefined.append(ingredient)
+                    fData.write("mm:step-{}-{} mm:required-ingredient mm:{} .\n".format(recipeUri, stepCounter, snake_case_v2(remove_accents(referencedIngredient))))
+                    ingredientNumber = ingredientNumber + 1
+                    numberOfIngredientsPerStep[stepCounter] = numberOfIngredientsPerStep[stepCounter] - 1
+                except:
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
 
-        try:
-            fData.write("mm:step mm:property---step--instructions--{} mm:instructions-{} .\n".format(recipeUri, recipeUri))
-        except:
-            a=1
-
-        stepCounter = 0
-
-        for x in range(0, len(instructionList)) :
-            try:
-                #fData.write("mm:step mm:property---step--instructions--{}-{} mm:instructions-{} .\n".format(recipeUri, stepCounter, recipeUri))
-                instruction = instructionList[x].replace('"', "'").replace("\n", "").replace("\t", "").replace("\r", "")
-                fData.write("mm:instructions-{} mm:information-{} \"{}\" .\n".format(recipeUri, stepCounter, instruction))
-                #fData.write("mm:step mm:step-instructions-{} \"{}\" .\n".format(x, instructionList[x]))
-                stepCounter = stepCounter+1
-            except:
-                a=1
+                    print("Error writing component :\nName: {}\nQuantity: {}\nRecipe URL: {}".format(insertedIngredientName, ingredientsQuantitySeparatorList, recipeUrl))
+                    print("Exception type: ", exception_type)
+                    print("File name: ", filename)
+                    print("Line number: ", line_number)
+                    print("\n")
 
         driver.get(recipeUrl)
         html = page.read().decode("iso8859-1")
@@ -453,6 +468,7 @@ for recipeType in recipeTypeList :
 
             soup = BeautifulSoup(driver.page_source, "html.parser")
             #soupCode = soup.encode('iso8859-1')
+            # TODO: make sure that a commentaire doesn't appear 2x in the same list (like we have done for the ingredients) But nope, bcs it's more complicated than that bcs if I detect a recurrence of the author name for example he will only skip the author name, but not his note, information, etc... bcs some other pp can have the same information, note as the author we are skipping and by doing so we will destroy the "logic" behind our commentaire treatment
             commentsDataExtraction()
             commentAuthorNoteList.pop(0)
             commentsDataFileWriter()
@@ -500,5 +516,15 @@ for recipeType in recipeTypeList :
     #    res[i] = ingredientsSimilarityList.count(i)
     #print("Size of the table estimating similar ingredients {}".format(len(ingredientsSimilarityList)))
     #print(res)
+
+for i in ingredientRepetitionData:
+    if i not in ingredientsListForRepeatition:
+        ingredientsListForRepeatition.append(i)
+        numberOfRepeatedIngredient.append(ingredientRepetitionData.count(i))
+
+for i in range(0,len(ingredientsListForRepeatition)):
+    print("{} - {}".format(ingredientsListForRepeatition[i], numberOfRepeatedIngredient[i]))
+    if (numberOfRepeatedIngredient[i] > 3):
+        ingredientsToSearchNutritionalValues.append()
 
 fData.close()
