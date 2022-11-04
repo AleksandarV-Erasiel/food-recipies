@@ -1,0 +1,65 @@
+@prefix mm: <http://mamarmite.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> rdf:type mm:recipe .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:recipe-title "Aperol Spritz : cocktail italien pétillant" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:total-preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:price-range "bon marché" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:default-number-of-people-for-recipe "6" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:auther-name "Aleks" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:average-note "4/5" .
+
+mm:comment-305639-0 rdf:type mm:comment .
+mm:comment-305639-1 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:comment mm:comment-305639-0 .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:comment mm:comment-305639-1 .
+mm:comment-305639-0 mm:comment-information "J'aime beaucoup !" .
+mm:comment-305639-0 mm:comment-author-name "Vasil" .
+mm:comment-305639-0 mm:comment-date "21/11/2121" .
+mm:comment-305639-0 mm:comment-note "4/5" .
+
+mm:comment-305639-1 mm:comment-information "ca passe" .
+mm:comment-305639-1 mm:comment-author-name "Erasiel" .
+mm:comment-305639-1 mm:comment-date "21/11/2121" .
+mm:comment-305639-1 mm:comment-note "4/5" .
+
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:used-tool "1 presse aile" .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:used-tool "1 couteau" .
+
+mm:component-305639-0 rdf:type mm:component .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:component mm:component-305639-0 .
+mm:apple rdf:type mm:ingredient .
+mm:apple-quantity rdf:type mm:quantity-properties .
+mm:component-305639-0 mm:is-a mm:apple .
+mm:component-305639-0 mm:quantity mm:apple-quantity .
+mm:apple mm:ingredient-name "pomme" .
+mm:apple-quantity mm:quantity-value "2" .
+mm:apple-quantity mm:mesurement-value "sacs" .
+
+mm:step-list rdf:type rdf:Sequence .
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx> mm:my-step-list mm:step-list .
+mm:step-305639-0 rdf:type mm:step .
+mm:step-305639-1 rdf:type mm:step .
+mm:step-list rdf:_1 mm:step-305639-0 .
+mm:step-list rdf:_2 mm:step-305639-1 .
+mm:step-305639-0 mm:information "Cuisiner blablabla" .
+mm:step-305639-1 mm:information "Manger blablabla" .
+mm:step-305639-0 mm:required-ingredient mm:apple .
+
+
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> rdf:type mm:recipe .
+
+mm:component-28510-0 rdf:type mm:component .
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx> mm:component mm:component-28510-0 .
+mm:apple rdf:type mm:ingredient .
+mm:apple-quantity rdf:type mm:quantity-properties .
+mm:component-28510-0 mm:is-a mm:apple .
+mm:component-28510-0 mm:quantity mm:apple-quantity .
+mm:apple mm:ingredient-name "pomme" .
+mm:apple-quantity mm:quantity-value "3" .
+mm:apple-quantity mm:mesurement-value "kg" .

@@ -1,0 +1,70 @@
+@prefix mm:    <http://mamarmite.com/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+mm:step-list  a  rdf:Sequence ;
+        rdf:_1  mm:step-305639-0 ;
+        rdf:_2  mm:step-305639-1 .
+
+mm:apple-quantity-305639
+        a                    mm:quantity-properties ;
+        mm:mesurement-value  "sacs" ;
+        mm:quantity-value    "2" .
+
+mm:component-305639-0
+        a            mm:component ;
+        mm:is-a      mm:apple ;
+        mm:quantity  mm:apple-quantity-305639 .
+
+mm:comment-305639-1  a          mm:comment ;
+        mm:comment-author-name  "Erasiel" ;
+        mm:comment-date         "21/11/2121" ;
+        mm:comment-information  "ca passe" ;
+        mm:comment-note         "4/5" .
+
+mm:step-305639-1  a     mm:step ;
+        mm:information  "Manger blablabla" .
+
+mm:apple  a                 mm:ingredient ;
+        mm:ingredient-name  "pomme" .
+
+mm:component-28510-0  a  mm:component ;
+        mm:is-a      mm:apple ;
+        mm:quantity  mm:apple-quantity-28510 .
+
+mm:apple-quantity-28510
+        a                    mm:quantity-properties ;
+        mm:mesurement-value  "kg" ;
+        mm:quantity-value    "3" .
+
+<https://www.marmiton.org/recettes/recette_cake-sale_28510.aspx>
+        a             mm:recipe ;
+        mm:component  mm:component-28510-0 .
+
+<https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx>
+        a                          mm:recipe ;
+        mm:auther-name             "Aleks" ;
+        mm:average-note            "4/5" ;
+        mm:comment                 mm:comment-305639-0 , mm:comment-305639-1 ;
+        mm:component               mm:component-305639-0 ;
+        mm:cooking-time            "-" ;
+        mm:default-number-of-people-for-recipe
+                "6" ;
+        mm:difficulty              "facile" ;
+        mm:my-step-list            mm:step-list ;
+        mm:preparation-time        "5 min" ;
+        mm:price-range             "bon marché" ;
+        mm:recipe-title            "Aperol Spritz : cocktail italien pétillant" ;
+        mm:recipe-type             "aperitif-ou-buffet" ;
+        mm:resting-time            "-" ;
+        mm:total-preparation-time  "5 min" ;
+        mm:used-tool               "1 presse aile" , "1 couteau" .
+
+mm:comment-305639-0  a          mm:comment ;
+        mm:comment-author-name  "Vasil" ;
+        mm:comment-date         "21/11/2121" ;
+        mm:comment-information  "J'aime beaucoup !" ;
+        mm:comment-note         "4/5" .
+
+mm:step-305639-0  a             mm:step ;
+        mm:information          "Cuisiner blablabla" ;
+        mm:required-ingredient  mm:apple .
