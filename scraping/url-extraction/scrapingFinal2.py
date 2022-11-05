@@ -172,7 +172,7 @@ numberOfRepeatedIngredient = []
 ingredientsListForRepeatition = []
 ingredientsToSearchNutritionalValues = []
 
-fData = open("scraping/fData.txt", mode="w", encoding="utf-8")
+fData = open("scraping/fData2.txt", mode="w", encoding="utf-8")
 
 fData.write("@prefix mm: <http://mamarmite.com/> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n")
 
@@ -218,7 +218,7 @@ for recipeType in recipeTypeList :
 
         recipeUrl = recipeLinkList[i]
         # TODO: remettre recipeUrl pour qu'il parcourt tous les liens
-        #recipeUrl = "https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx"
+        recipeUrl = "https://www.marmiton.org/recettes/recette_soupe-poireaux-pommes-de-terre_33013.aspx"
         #if (i == 1):
         #    recipeUrl = "https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx"
         page = urlopen(recipeUrl)
@@ -509,7 +509,9 @@ for recipeType in recipeTypeList :
         print()
 
         recipeCounter = recipeCounter+1
+        break
     driver.close()
+    break
     
     #res = {}
     #for i in ingredientsSimilarityList:
