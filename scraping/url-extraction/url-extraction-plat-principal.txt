@@ -1,23 +1,23 @@
-La vraie Tartiflette;https://www.marmiton.org/recettes/recette_la-vraie-tartiflette_17634.aspx
+Tartiflette : la vraie recette;https://www.marmiton.org/recettes/recette_la-vraie-tartiflette_17634.aspx
 Blanquette de veau : recette traditionnelle;https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx
-Lasagnes Ã  la bolognaise;https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx
+Lasagnes à la bolognaise;https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx
 Fondue Savoyarde;https://www.marmiton.org/recettes/recette_fondue-savoyarde_21964.aspx
-PÃ¢tes Ã  la "carbonara" Ã  la franÃ§aise;https://www.marmiton.org/recettes/recette_pates-a-la-carbonara_80453.aspx
+Pâtes à la "carbonara" à la française;https://www.marmiton.org/recettes/recette_pates-a-la-carbonara_80453.aspx
 Chili con carne facile;https://www.marmiton.org/recettes/recette_chili-con-carne-facile_15415.aspx
 Couscous poulet et merguez facile;https://www.marmiton.org/recettes/recette_couscous-poulet-et-merguez-facile_17751.aspx
 Hachis Parmentier;https://www.marmiton.org/recettes/recette_hachis-parmentier_17639.aspx
-RÃ´ti de boeuf au four tout simple;https://www.marmiton.org/recettes/recette_roti-de-boeuf-au-four-tout-simple_342546.aspx
+Rôti de boeuf au four tout simple;https://www.marmiton.org/recettes/recette_roti-de-boeuf-au-four-tout-simple_342546.aspx
 Pot-au-feu;https://www.marmiton.org/recettes/recette_pot-au-feu_32792.aspx
 Poulet au four simple et savoureux;https://www.marmiton.org/recettes/recette_poulet-au-four-version-light_218020.aspx
-Courge spaghetti Ã  la crÃ¨me et aux lardons;https://www.marmiton.org/recettes/recette_courge-spaghetti-a-la-carbonara_64056.aspx
+Courge spaghetti à la crème et aux lardons;https://www.marmiton.org/recettes/recette_courge-spaghetti-a-la-carbonara_64056.aspx
 Fondue aux poireaux;https://www.marmiton.org/recettes/recette_fondue-de-poireaux_20348.aspx
-Filet mignon de porc Ã  la moutarde;https://www.marmiton.org/recettes/recette_filet-mignon-de-porc-a-la-moutarde_36310.aspx
+Filet mignon de porc à la moutarde;https://www.marmiton.org/recettes/recette_filet-mignon-de-porc-a-la-moutarde_36310.aspx
 Carbonades flamandes traditionnelles;https://www.marmiton.org/recettes/recette_carbonades-flamandes-traditionnelles_29711.aspx
-Risotto aux champignons : la vraie recette;https://www.marmiton.org/recettes/recette_risotto-aux-champignons_312215.aspx
+Risotto : la recette originale;https://www.marmiton.org/recettes/recette_risotto-aux-champignons_312215.aspx
 Rougail saucisse;https://www.marmiton.org/recettes/recette_rougail-saucisse_22851.aspx
 Boeuf bourguignon : la vraie recette;https://www.marmiton.org/recettes/recette_boeuf-bourguignon_18889.aspx
-Choucroute Ã  l'alsacienne;https://www.marmiton.org/recettes/recette_choucroute-a-l-alsacienne_29819.aspx
-PotÃ©e auvergnate;https://www.marmiton.org/recettes/recette_une-potee-auvergnate_221229.aspx
+Choucroute à l'alsacienne;https://www.marmiton.org/recettes/recette_choucroute-a-l-alsacienne_29819.aspx
+Potée auvergnate;https://www.marmiton.org/recettes/recette_une-potee-auvergnate_221229.aspx
 Croziflette;https://www.marmiton.org/recettes/recette_croziflette_165464.aspx
 Mont d'Or au four;https://www.marmiton.org/recettes/recette_mont-d-or-au-four_11287.aspx
 Endives au jambon;https://www.marmiton.org/recettes/recette_endives-au-jambon_25868.aspx
@@ -25,6 +25,6 @@ Croque-monsieur;https://www.marmiton.org/recettes/recette_croque-monsieur_19208.
 Osso bucco de veau;https://www.marmiton.org/recettes/recette_osso-bucco-de-veau_16090.aspx
 Soupe Pho;https://www.marmiton.org/recettes/recette_soupe-pho_168639.aspx
 Cuisses de poulet au four;https://www.marmiton.org/recettes/recette_cuisses-de-poulet-au-four_67408.aspx
-RÃ´ti de porc tout simple;https://www.marmiton.org/recettes/recette_roti-de-porc-tout-simple_170153.aspx
+Rôti de porc tout simple;https://www.marmiton.org/recettes/recette_roti-de-porc-tout-simple_170153.aspx
 Paupiettes de veau;https://www.marmiton.org/recettes/recette_paupiettes-de-veau_82641.aspx
-PavÃ©s de saumon au four facile;https://www.marmiton.org/recettes/recette_paves-de-saumon-au-four-facile_80135.aspx
+Pavés de saumon au four facile;https://www.marmiton.org/recettes/recette_paves-de-saumon-au-four-facile_80135.aspx

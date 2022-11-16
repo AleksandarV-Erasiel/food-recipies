@@ -1,0 +1,376 @@
+@prefix mm: <http://mamarmite.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> rdf:type mm:recipe .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:recipe-title "Blanquette de veau : recette traditionnelle" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:total-preparation-time "2 h 15 min" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:difficulty "très facile" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:default-number-of-people-for-recipe "4" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:preparation-time "15 min" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:cooking-time "2 h" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:author-name "lilia1" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:average-note "4.9/5" .
+mm:component-19219-0 rdf:type mm:component .
+mm:quantity-Bouillon-de-legume-19219 rdf:type mm:quantity-properties .
+mm:quantity-Bouillon-de-legume-19219 mm:quantity-value "1" .
+mm:quantity-Bouillon-de-legume-19219 mm:mesurement-value "" .
+mm:Bouillon-de-legume mm:type mm:ingredient .
+mm:Bouillon-de-legume mm:ingredient-name "Bouillon de légume" .
+mm:component-19219-0 mm:quantity mm:quantity-Bouillon-de-legume-19219 .
+mm:component-19219-0 mm:is-a mm:Bouillon-de-legume .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-0 .
+mm:component-19219-1 rdf:type mm:component .
+mm:quantity-Carotte-19219 rdf:type mm:quantity-properties .
+mm:quantity-Carotte-19219 mm:quantity-value "2" .
+mm:quantity-Carotte-19219 mm:mesurement-value "" .
+mm:Carotte mm:type mm:ingredient .
+mm:Carotte mm:ingredient-name "Carotte" .
+mm:component-19219-1 mm:quantity mm:quantity-Carotte-19219 .
+mm:component-19219-1 mm:is-a mm:Carotte .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-1 .
+mm:component-19219-2 rdf:type mm:component .
+mm:quantity-oignon-jaune-19219 rdf:type mm:quantity-properties .
+mm:quantity-oignon-jaune-19219 mm:quantity-value "1" .
+mm:quantity-oignon-jaune-19219 mm:mesurement-value "" .
+mm:oignon-jaune mm:type mm:ingredient .
+mm:oignon-jaune mm:ingredient-name "oignon jaune" .
+mm:component-19219-2 mm:quantity mm:quantity-oignon-jaune-19219 .
+mm:component-19219-2 mm:is-a mm:oignon-jaune .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-2 .
+mm:component-19219-3 rdf:type mm:component .
+mm:quantity-de-champignon-coupes-19219 rdf:type mm:quantity-properties .
+mm:quantity-de-champignon-coupes-19219 mm:quantity-value "1" .
+mm:quantity-de-champignon-coupes-19219 mm:mesurement-value "petite boite" .
+mm:de-champignon-coupes mm:type mm:ingredient .
+mm:de-champignon-coupes mm:ingredient-name "de champignon (coupés)" .
+mm:component-19219-3 mm:quantity mm:quantity-de-champignon-coupes-19219 .
+mm:component-19219-3 mm:is-a mm:de-champignon-coupes .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-3 .
+mm:component-19219-4 rdf:type mm:component .
+mm:quantity-de-creme-fraiche-19219 rdf:type mm:quantity-properties .
+mm:quantity-de-creme-fraiche-19219 mm:quantity-value "1" .
+mm:quantity-de-creme-fraiche-19219 mm:mesurement-value "petit pot" .
+mm:de-creme-fraiche mm:type mm:ingredient .
+mm:de-creme-fraiche mm:ingredient-name "de crème fraîche" .
+mm:component-19219-4 mm:quantity mm:quantity-de-creme-fraiche-19219 .
+mm:component-19219-4 mm:is-a mm:de-creme-fraiche .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-4 .
+mm:component-19219-5 rdf:type mm:component .
+mm:quantity-Huile-decorce-de-citron-vert-19219 rdf:type mm:quantity-properties .
+mm:quantity-Huile-decorce-de-citron-vert-19219 mm:quantity-value "" .
+mm:quantity-Huile-decorce-de-citron-vert-19219 mm:mesurement-value "" .
+mm:Huile-decorce-de-citron-vert mm:type mm:ingredient .
+mm:Huile-decorce-de-citron-vert mm:ingredient-name "Huile d'écorce de citron vert" .
+mm:component-19219-5 mm:quantity mm:quantity-Huile-decorce-de-citron-vert-19219 .
+mm:component-19219-5 mm:is-a mm:Huile-decorce-de-citron-vert .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-5 .
+mm:component-19219-6 rdf:type mm:component .
+mm:quantity-Farine-19219 rdf:type mm:quantity-properties .
+mm:quantity-Farine-19219 mm:quantity-value "" .
+mm:quantity-Farine-19219 mm:mesurement-value "" .
+mm:Farine mm:type mm:ingredient .
+mm:Farine mm:ingredient-name "Farine" .
+mm:component-19219-6 mm:quantity mm:quantity-Farine-19219 .
+mm:component-19219-6 mm:is-a mm:Farine .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-6 .
+mm:component-19219-7 rdf:type mm:component .
+mm:quantity-Vin-blanc-19219 rdf:type mm:quantity-properties .
+mm:quantity-Vin-blanc-19219 mm:quantity-value "25" .
+mm:quantity-Vin-blanc-19219 mm:mesurement-value "cl" .
+mm:Vin-blanc mm:type mm:ingredient .
+mm:Vin-blanc mm:ingredient-name "Vin blanc" .
+mm:component-19219-7 mm:quantity mm:quantity-Vin-blanc-19219 .
+mm:component-19219-7 mm:is-a mm:Vin-blanc .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-7 .
+mm:component-19219-8 rdf:type mm:component .
+mm:quantity-Sel-19219 rdf:type mm:quantity-properties .
+mm:quantity-Sel-19219 mm:quantity-value "" .
+mm:quantity-Sel-19219 mm:mesurement-value "" .
+mm:Sel mm:type mm:ingredient .
+mm:Sel mm:ingredient-name "Sel" .
+mm:component-19219-8 mm:quantity mm:quantity-Sel-19219 .
+mm:component-19219-8 mm:is-a mm:Sel .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-8 .
+mm:component-19219-9 rdf:type mm:component .
+mm:quantity-Poivre-19219 rdf:type mm:quantity-properties .
+mm:quantity-Poivre-19219 mm:quantity-value "" .
+mm:quantity-Poivre-19219 mm:mesurement-value "" .
+mm:Poivre mm:type mm:ingredient .
+mm:Poivre mm:ingredient-name "Poivre" .
+mm:component-19219-9 mm:quantity mm:quantity-Poivre-19219 .
+mm:component-19219-9 mm:is-a mm:Poivre .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-9 .
+mm:component-19219-10 rdf:type mm:component .
+mm:quantity-de-blanquette-de-veau-19219 rdf:type mm:quantity-properties .
+mm:quantity-de-blanquette-de-veau-19219 mm:quantity-value "1" .
+mm:quantity-de-blanquette-de-veau-19219 mm:mesurement-value "kg" .
+mm:de-blanquette-de-veau mm:type mm:ingredient .
+mm:de-blanquette-de-veau mm:ingredient-name "de blanquette de veau" .
+mm:component-19219-10 mm:quantity mm:quantity-de-blanquette-de-veau-19219 .
+mm:component-19219-10 mm:is-a mm:de-blanquette-de-veau .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-10 .
+mm:component-19219-11 rdf:type mm:component .
+mm:quantity-Bouillon-de-legume-19219 rdf:type mm:quantity-properties .
+mm:quantity-Bouillon-de-legume-19219 mm:quantity-value "1" .
+mm:quantity-Bouillon-de-legume-19219 mm:mesurement-value "" .
+mm:component-19219-11 mm:quantity mm:quantity-Bouillon-de-legume-19219 .
+mm:component-19219-11 mm:is-a mm:Bouillon-de-legume .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-11 .
+mm:component-19219-12 rdf:type mm:component .
+mm:quantity-jaune-doeuf-19219 rdf:type mm:quantity-properties .
+mm:quantity-jaune-doeuf-19219 mm:quantity-value "1" .
+mm:quantity-jaune-doeuf-19219 mm:mesurement-value "" .
+mm:jaune-doeuf mm:type mm:ingredient .
+mm:jaune-doeuf mm:ingredient-name "jaune d'oeuf" .
+mm:component-19219-12 mm:quantity mm:quantity-jaune-doeuf-19219 .
+mm:component-19219-12 mm:is-a mm:jaune-doeuf .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:component mm:component-19219-12 .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:used-tool "1 Cuillère en bois" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:used-tool "1 Couteau" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:used-tool "1 bol" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:used-tool "1 pour vous guider en cuisine au quotidien" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:used-tool "1 Cocotte en fonte" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:used-tool "1 planche à découper" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:used-tool "1 louche" .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:used-tool "1 balance de cuisine" .
+mm:step-list-19219 rdf:type rdf:Seq .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:my-step-list mm:step-list-19219 .
+mm:step-19219-0 rdf:type mm:step .
+mm:step-list-19219 rdf:_1 mm:step-19219-0 .
+mm:step-19219-0 mm:information "Faire revenir la viande dans un peu de beurre doux jusqu'à ce que les morceaux soient un peu dorés." .
+mm:step-19219-1 rdf:type mm:step .
+mm:step-list-19219 rdf:_2 mm:step-19219-1 .
+mm:step-19219-1 mm:information "Saupoudrer de 2 cuillères de farine. Bien remuer." .
+mm:farine rdf:type mm:ingredient .
+mm:farine mm:ingredient-name "farine" .
+mm:step-19219-1 mm:required-ingredient mm:farine .
+mm:step-19219-2 rdf:type mm:step .
+mm:step-list-19219 rdf:_3 mm:step-19219-2 .
+mm:step-19219-2 mm:information "Ajouter 2 ou 3 verres d'eau, les cubes de bouillon, le vin et remuer. Ajouter de l'eau si nécessaire pour couvrir." .
+mm:cube-de-bouillon-de-legume rdf:type mm:ingredient .
+mm:cube-de-bouillon-de-legume mm:ingredient-name "cube de bouillon de légume" .
+mm:step-19219-2 mm:required-ingredient mm:cube-de-bouillon-de-legume .
+mm:bouillon-de-poule rdf:type mm:ingredient .
+mm:bouillon-de-poule mm:ingredient-name "bouillon de poule" .
+mm:step-19219-2 mm:required-ingredient mm:bouillon-de-poule .
+mm:de-vin-blanc rdf:type mm:ingredient .
+mm:de-vin-blanc mm:ingredient-name "de vin blanc" .
+mm:step-19219-2 mm:required-ingredient mm:de-vin-blanc .
+mm:step-19219-3 rdf:type mm:step .
+mm:step-list-19219 rdf:_4 mm:step-19219-3 .
+mm:step-19219-3 mm:information "Couper les carottes en rondelles et émincer les oignons puis les incorporer à la viande, ainsi que les champignons." .
+mm:carotte rdf:type mm:ingredient .
+mm:carotte mm:ingredient-name "carotte" .
+mm:step-19219-3 mm:required-ingredient mm:carotte .
+mm:step-19219-3 mm:required-ingredient mm:oignon-jaune .
+mm:step-19219-3 mm:required-ingredient mm:de-champignon-coupes .
+mm:step-19219-4 rdf:type mm:step .
+mm:step-list-19219 rdf:_5 mm:step-19219-4 .
+mm:step-19219-4 mm:information "Laisser mijoter à feu très doux environ 1h30 à 2h00 en remuant." .
+mm:step-19219-5 rdf:type mm:step .
+mm:step-list-19219 rdf:_6 mm:step-19219-5 .
+mm:step-19219-5 mm:information "Si nécessaire, ajouter de l'eau de temps en temps." .
+mm:step-19219-6 rdf:type mm:step .
+mm:step-list-19219 rdf:_7 mm:step-19219-6 .
+mm:step-19219-6 mm:information "Dans un bol, bien mélanger la crème fraîche, le jaune d’oeuf et le jus de citron. Ajouter ce mélange au dernier moment, bien remuer et servir tout de suite." .
+mm:step-19219-6 mm:required-ingredient mm:de-creme-fraiche .
+mm:step-19219-6 mm:required-ingredient mm:jaune-doeuf .
+mm:citron rdf:type mm:ingredient .
+mm:citron mm:ingredient-name "citron" .
+mm:step-19219-6 mm:required-ingredient mm:citron .
+mm:comment-19219-0 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-0 .
+mm:comment-19219-0 mm:author-name "manouche88" .
+mm:comment-19219-0 mm:note "5/5" .
+mm:comment-19219-0 mm:information "Je suis satisfait !" .
+mm:comment-19219-0 mm:date "12/11/2022 12:41" .
+mm:comment-19219-0 mm:usefulness "37.6" .
+mm:comment-19219-1 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-1 .
+mm:comment-19219-1 mm:author-name "Lespinasse_Marc" .
+mm:comment-19219-1 mm:note "5/5" .
+mm:comment-19219-1 mm:information "Excellent et tres facile !" .
+mm:comment-19219-1 mm:date "12/11/2022 09:14" .
+mm:comment-19219-1 mm:usefulness "54.26" .
+mm:comment-19219-2 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-2 .
+mm:comment-19219-2 mm:author-name "Picotte95" .
+mm:comment-19219-2 mm:note "5/5" .
+mm:comment-19219-2 mm:information "J'adore !" .
+mm:comment-19219-2 mm:date "11/11/2022 12:00" .
+mm:comment-19219-2 mm:usefulness "29.23" .
+mm:comment-19219-3 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-3 .
+mm:comment-19219-3 mm:author-name "mia_15971445" .
+mm:comment-19219-3 mm:note "5/5" .
+mm:comment-19219-3 mm:information "Quel delice, c'est vraiment bon. Y a rien a redire, excellent. Mes convives se sont regales, a refaire." .
+mm:comment-19219-3 mm:date "11/10/2006 21:44" .
+mm:comment-19219-3 mm:usefulness "151.1" .
+mm:comment-19219-4 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-4 .
+mm:comment-19219-4 mm:author-name "Khfd59wbm" .
+mm:comment-19219-4 mm:note "5/5" .
+mm:comment-19219-4 mm:information "Tres bon !" .
+mm:comment-19219-4 mm:date "22/08/2012 10:46" .
+mm:comment-19219-4 mm:usefulness "33.3" .
+mm:comment-19219-5 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-5 .
+mm:comment-19219-5 mm:author-name "Xyax56eso" .
+mm:comment-19219-5 mm:note "5/5" .
+mm:comment-19219-5 mm:information "C'est une bonne recette, a refaire !" .
+mm:comment-19219-5 mm:date "01/10/2015 17:27" .
+mm:comment-19219-5 mm:usefulness "92.14" .
+mm:comment-19219-6 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-6 .
+mm:comment-19219-6 mm:author-name "sofia_17138525" .
+mm:comment-19219-6 mm:note "5/5" .
+mm:comment-19219-6 mm:information "Excellente recette ! Tout le monde a adore. J'ai personnellement remplace la creme fraiche par de la creme soja pour un rendu encore plus leger." .
+mm:comment-19219-6 mm:date "24/06/2013 20:20" .
+mm:comment-19219-6 mm:usefulness "199.04" .
+mm:comment-19219-7 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-7 .
+mm:comment-19219-7 mm:author-name "lise_16687439" .
+mm:comment-19219-7 mm:note "4/5" .
+mm:comment-19219-7 mm:information "Le mot blanquette ou pot au feu m'a toujours fait peur, trop d'a priori dessus. Je l'ai lu, je l'ai teste et effectivement, c'est bon et c'est facile! Mon homme a adore!" .
+mm:comment-19219-7 mm:date "21/02/2007 12:12" .
+mm:comment-19219-7 mm:usefulness "192.6" .
+mm:comment-19219-8 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-8 .
+mm:comment-19219-8 mm:author-name "Gargantuette1" .
+mm:comment-19219-8 mm:note "5/5" .
+mm:comment-19219-8 mm:information "Classique et toujours delicieux." .
+mm:comment-19219-8 mm:date "13/04/2021 14:08" .
+mm:comment-19219-8 mm:usefulness "95.02" .
+mm:comment-19219-9 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-9 .
+mm:comment-19219-9 mm:author-name "Qwxu24dfq" .
+mm:comment-19219-9 mm:note "5/5" .
+mm:comment-19219-9 mm:information "Rien a dire! Recette excellente et facile, grace a laquelle vous passez aupres de vos convives pour une pro. On m'a felicite tout le week-end !" .
+mm:comment-19219-9 mm:date "23/03/2007 19:22" .
+mm:comment-19219-9 mm:usefulness "174.84" .
+mm:comment-19219-10 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-10 .
+mm:comment-19219-10 mm:author-name "mamancoco" .
+mm:comment-19219-10 mm:note "5/5" .
+mm:comment-19219-10 mm:information "Parfaite !! ??" .
+mm:comment-19219-10 mm:date "03/09/2020 23:40" .
+mm:comment-19219-10 mm:usefulness "40.15" .
+mm:comment-19219-11 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-11 .
+mm:comment-19219-11 mm:author-name "julia_314751" .
+mm:comment-19219-11 mm:note "5/5" .
+mm:comment-19219-11 mm:information "Rapide et surtout excellentissime!!" .
+mm:comment-19219-11 mm:date "29/01/2008 10:21" .
+mm:comment-19219-11 mm:usefulness "80.43" .
+mm:comment-19219-12 rdf:type mm:comment .
+<https://www.marmiton.org/recettes/recette_blanquette-de-veau-facile_19219.aspx> mm:comment mm:comment-19219-12 .
+mm:comment-19219-12 mm:author-name "lily_16267641" .
+mm:comment-19219-12 mm:note "5/5" .
+mm:comment-19219-12 mm:information "C'est super facile et le resultat est epatant! Je l'ai servi avec du riz pillaf, c'etait vraiment genial!" .
+mm:comment-19219-12 mm:date "29/10/2004 15:08" .
+mm:comment-19219-12 mm:usefulness "138.79" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> rdf:type mm:recipe .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:recipe-title "Mojito cubain" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:recipe-type "aperitif-ou-buffet" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:total-preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:difficulty "facile" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:price-range "moyen" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:default-number-of-people-for-recipe "1" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:preparation-time "5 min" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:resting-time "-" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:cooking-time "-" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:author-name "marjojo" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:average-note "4.6/5" .
+mm:component-80528-0 rdf:type mm:component .
+mm:quantity-de-sucre-de-canne-en-poudre-80528 rdf:type mm:quantity-properties .
+mm:quantity-de-sucre-de-canne-en-poudre-80528 mm:quantity-value "3" .
+mm:quantity-de-sucre-de-canne-en-poudre-80528 mm:mesurement-value "c.a.c" .
+mm:de-sucre-de-canne-en-poudre mm:type mm:ingredient .
+mm:de-sucre-de-canne-en-poudre mm:ingredient-name "de sucre de canne en poudre" .
+mm:component-80528-0 mm:quantity mm:quantity-de-sucre-de-canne-en-poudre-80528 .
+mm:component-80528-0 mm:is-a mm:de-sucre-de-canne-en-poudre .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:component mm:component-80528-0 .
+mm:component-80528-1 rdf:type mm:component .
+mm:quantity-rhum-cubain-de-preference-cest-le-pays-du-mojito-80528 rdf:type mm:quantity-properties .
+mm:quantity-rhum-cubain-de-preference-cest-le-pays-du-mojito-80528 mm:quantity-value "" .
+mm:quantity-rhum-cubain-de-preference-cest-le-pays-du-mojito-80528 mm:mesurement-value "" .
+mm:rhum-cubain-de-preference-cest-le-pays-du-mojito mm:type mm:ingredient .
+mm:rhum-cubain-de-preference-cest-le-pays-du-mojito mm:ingredient-name "rhum (cubain de préférence, c'est le pays du mojito)" .
+mm:component-80528-1 mm:quantity mm:quantity-rhum-cubain-de-preference-cest-le-pays-du-mojito-80528 .
+mm:component-80528-1 mm:is-a mm:rhum-cubain-de-preference-cest-le-pays-du-mojito .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:component mm:component-80528-1 .
+mm:component-80528-2 rdf:type mm:component .
+mm:quantity-Citron-vert-80528 rdf:type mm:quantity-properties .
+mm:quantity-Citron-vert-80528 mm:quantity-value "1/2" .
+mm:quantity-Citron-vert-80528 mm:mesurement-value "" .
+mm:Citron-vert mm:type mm:ingredient .
+mm:Citron-vert mm:ingredient-name "Citron vert" .
+mm:component-80528-2 mm:quantity mm:quantity-Citron-vert-80528 .
+mm:component-80528-2 mm:is-a mm:Citron-vert .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:component mm:component-80528-2 .
+mm:component-80528-3 rdf:type mm:component .
+mm:quantity-de-menthe-bien-fournie-80528 rdf:type mm:quantity-properties .
+mm:quantity-de-menthe-bien-fournie-80528 mm:quantity-value "1" .
+mm:quantity-de-menthe-bien-fournie-80528 mm:mesurement-value "branche" .
+mm:de-menthe-bien-fournie mm:type mm:ingredient .
+mm:de-menthe-bien-fournie mm:ingredient-name "de menthe bien fournie" .
+mm:component-80528-3 mm:quantity mm:quantity-de-menthe-bien-fournie-80528 .
+mm:component-80528-3 mm:is-a mm:de-menthe-bien-fournie .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:component mm:component-80528-3 .
+mm:component-80528-4 rdf:type mm:component .
+mm:quantity-eau-gazeuse-80528 rdf:type mm:quantity-properties .
+mm:quantity-eau-gazeuse-80528 mm:quantity-value "" .
+mm:quantity-eau-gazeuse-80528 mm:mesurement-value "" .
+mm:eau-gazeuse mm:type mm:ingredient .
+mm:eau-gazeuse mm:ingredient-name "eau gazeuse" .
+mm:component-80528-4 mm:quantity mm:quantity-eau-gazeuse-80528 .
+mm:component-80528-4 mm:is-a mm:eau-gazeuse .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:component mm:component-80528-4 .
+mm:component-80528-5 rdf:type mm:component .
+mm:quantity-glacon-80528 rdf:type mm:quantity-properties .
+mm:quantity-glacon-80528 mm:quantity-value "" .
+mm:quantity-glacon-80528 mm:mesurement-value "" .
+mm:glacon mm:type mm:ingredient .
+mm:glacon mm:ingredient-name "glaçon" .
+mm:component-80528-5 mm:quantity mm:quantity-glacon-80528 .
+mm:component-80528-5 mm:is-a mm:glacon .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:component mm:component-80528-5 .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:used-tool "1 Couteau" .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:used-tool "1 balance de cuisine" .
+mm:step-list-80528 rdf:type rdf:Seq .
+<https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx> mm:my-step-list mm:step-list-80528 .
+mm:step-80528-0 rdf:type mm:step .
+mm:step-list-80528 rdf:_1 mm:step-80528-0 .
+mm:step-80528-0 mm:information "Dans un verre de taille moyenne (contenance 40 cl environ), mettez 3 cuillères à café de sucre de canne." .
+mm:step-80528-0 mm:required-ingredient mm:de-sucre-de-canne-en-poudre .
+mm:step-80528-1 rdf:type mm:step .
+mm:step-list-80528 rdf:_2 mm:step-80528-1 .
+mm:step-80528-1 mm:information "Ajoutez-y le jus d'1/2 citron vert." .
+mm:citron-vert rdf:type mm:ingredient .
+mm:citron-vert mm:ingredient-name "citron vert" .
+mm:step-80528-1 mm:required-ingredient mm:citron-vert .
+mm:step-80528-2 rdf:type mm:step .
+mm:step-list-80528 rdf:_3 mm:step-80528-2 .
+mm:step-80528-2 mm:information "Coupez en 3 ou 4 votre branche de menthe et mettez-la dans le verre (le fait de la couper permet à la saveur de la menthe de mieux se diffuser)." .
+mm:step-80528-2 mm:required-ingredient mm:de-menthe-bien-fournie .
+mm:step-80528-3 rdf:type mm:step .
+mm:step-list-80528 rdf:_4 mm:step-80528-3 .
+mm:step-80528-3 mm:information "Ajoutez un peu d'eau gazeuse (environ 3 cl) puis avec une cuillère à café, remuez bien le tout et écrasez la menthe (insistez sur les branches plus que sur les feuilles, sinon il y aura pleins de petits bouts de menthe assez désagréables au moment de déguster votre cocktail!)." .
+mm:step-80528-3 mm:required-ingredient mm:eau-gazeuse .
+mm:step-80528-3 mm:required-ingredient mm:de-menthe-bien-fournie .
+mm:step-80528-4 rdf:type mm:step .
+mm:step-list-80528 rdf:_5 mm:step-80528-4 .
+mm:step-80528-4 mm:information "Ajoutez 5 glaçons environ." .
+mm:step-80528-4 mm:required-ingredient mm:glacon .
+mm:step-80528-5 rdf:type mm:step .
+mm:step-list-80528 rdf:_6 mm:step-80528-5 .
+mm:step-80528-5 mm:information "Ensuite versez 6 cl de rhum (en versant à débit moyen). Pour la dose plutôt chargée, comptez jusqu'à 5; pour la dose légère jusqu'à 4." .
+mm:step-80528-5 mm:required-ingredient mm:rhum-cubain-de-preference-cest-le-pays-du-mojito .
+mm:step-80528-6 rdf:type mm:step .
+mm:step-list-80528 rdf:_7 mm:step-80528-6 .
+mm:step-80528-6 mm:information "Enfin, complétez avec de l'eau gazeuse." .
+mm:step-80528-6 mm:required-ingredient mm:eau-gazeuse .
