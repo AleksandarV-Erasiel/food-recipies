@@ -24,6 +24,8 @@ commentAuthorNameList, commentAuthorNoteList, commentAuthorInformationList, comm
 ingredientsNameDatabaseList = []
 ingredientsSimilarityList = []
 ingredientsNameSaver = []
+usedIngredientsForRecipe = []
+shortestCommentLengthForRecipe = 1
 
 with open('scraping/ingredients_list.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
@@ -61,7 +63,15 @@ def removeEverythingThatIsntChar(s):
     regex = re.compile('[^a-zA-Z]')
     return regex.sub('', s)
 
+def evaluateCommentUsefulness(commentInformation):
+    commentEvaluation = 0
+    for ingredient in usedIngredientsForRecipe:
+        commentEvaluation = commentEvaluation + similar(commentInformation, ingredient)
+    commentEvaluation = commentEvaluation * (len(commentInformation)/shortestCommentLengthForRecipe)
+    return commentEvaluation
+
 def commentsDataExtraction():
+    numberCharsForShortestComment = 10000
     for commentAuthorName in soup.find_all("p", "MuiTypography-root MuiTypography-h6"):
         commentAuthorName = commentAuthorName.text.strip()
         if (commentAuthorName == ""):
@@ -78,6 +88,9 @@ def commentsDataExtraction():
         commentAuthorInformation = commentAuthorInformation.text.strip()
         if (commentAuthorInformation == ""):
             commentAuthorInformation = "Inconnu"
+        if (len(commentAuthorInformation) < numberCharsForShortestComment):
+            shortestCommentLengthForRecipe = len(commentAuthorInformation)
+            numberCharsForShortestComment = len(commentAuthorInformation)
         commentAuthorInformationList.append(funidecode(commentAuthorInformation).replace("\n", "").replace("\t", "").replace("\r", "").replace('"', "'"))
 
     for commentAuthorDate in soup.find_all("p", "MuiTypography-root MuiTypography-body2"):
@@ -93,6 +106,7 @@ def commentsDataFileWriter():
         #print(commentAuthorInformationList[i].encode("utf-8"))
         commentAuthorName = commentAuthorNameList[i].replace('"', "'")
         commentAuthorInformation = commentAuthorInformationList[i].replace("\n", "").replace("\t", "").replace("\r", "").replace('"', "'")
+        commentUsefulnessRatio = round(evaluateCommentUsefulness(commentAuthorInformation), 2)
         #print(commentAuthorInformation)
         fData.write("mm:comment-{}-{} rdf:type mm:comment .\n".format(recipeUri, i))
         fData.write("<{}> mm:comment mm:comment-{}-{} .\n".format(recipeUrl, recipeUri, i))
@@ -100,6 +114,7 @@ def commentsDataFileWriter():
         fData.write("mm:comment-{}-{} mm:note \"{}\" .\n".format(recipeUri, i, commentAuthorNoteList[i]))
         fData.write("mm:comment-{}-{} mm:information \"{}\" .\n".format(recipeUri, i, commentAuthorInformation))
         fData.write("mm:comment-{}-{} mm:date \"{}\" .\n".format(recipeUri, i, commentAuthorDateList[i]))
+        fData.write("mm:comment-{}-{} mm:usefulness \"{}\" .\n".format(recipeUri, i, commentUsefulnessRatio))        
 
 def findReferencedIngredients(ingredient):
     choosedIngredient = ""
@@ -179,10 +194,10 @@ fData.write("@prefix mm: <http://mamarmite.com/> .\n@prefix rdf: <http://www.w3.
 for recipeType in recipeTypeList :
     urlPage = "https://www.marmiton.org/recettes/index/categorie/{}?rcp=0".format(recipeType)
     page = urlopen(urlPage)
-    html = page.read().decode("iso8859-1")
+    html = page.read().decode("utf-8")
     #html = page.read().decode("utf-8")
     soup = BeautifulSoup(html, "html.parser")
-    soupCode = soup.encode('iso8859-1')
+    soupCode = soup.encode('utf-8')
     #soupCode = soup.encode('utf-8')
 
     recipeTitleList, recipeLinkList = [], []
@@ -215,12 +230,14 @@ for recipeType in recipeTypeList :
         commentAuthorNoteList.clear()
         commentAuthorInformationList.clear()
         commentAuthorDateList.clear()
+        usedIngredientsForRecipe.clear()
+        numberCharsForShortestComment  = 10000
 
         recipeUrl = recipeLinkList[i]
         # TODO: remettre recipeUrl pour qu'il parcourt tous les liens
-        #recipeUrl = "https://www.marmiton.org/recettes/recette_aperol-spritz-cocktail-italien-petillant_305639.aspx"
-        #if (i == 1):
-        #    recipeUrl = "https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx"
+        recipeUrl = "https://www.marmiton.org/recettes/recette_houmous-puree-de-pois-chiches_29761.aspx"
+        if (i == 1):
+           recipeUrl = "https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx"
         page = urlopen(recipeUrl)
         
         urlData = urlparse(recipeUrl)
@@ -344,13 +361,14 @@ for recipeType in recipeTypeList :
                 ingredient = "mm:{}".format(snake_case_v2(remove_accents(insertedIngredientName)))
                 if ingredient not in ingredientsIsDefined :
                     fData.write("{} mm:type mm:ingredient .\n".format(ingredient))
-                    fData.write("{} mm:ingredient-name \"{}\" .\n".format(ingredient, ingredientName))
+                    fData.write("{} mm:ingredient-name \"{}\" .\n".format(ingredient, ingredientName.replace('Ã©', 'é').replace('Ã', 'à').replace('Ã¢', 'â').replace('Ã‰', 'é').replace('Ã¨', 'è')))
                     ingredientsIsDefined.append(ingredient)
 
                 fData.write("mm:component-{}-{} mm:quantity mm:quantity-{}-{} .\n".format(recipeUri, componentCounter, snake_case_v2(remove_accents(insertedIngredientName)), recipeUri))
                 fData.write("mm:component-{}-{} mm:is-a mm:{} .\n".format(recipeUri, componentCounter, snake_case_v2(remove_accents(insertedIngredientName))))
                 fData.write("<{}> mm:component mm:component-{}-{} .\n".format(recipeUrl, recipeUri, componentCounter))
                 ingredientRepetitionData.append(ingredientName)
+                usedIngredientsForRecipe.append(ingredientName)
 
             except:
                 exception_type, exception_object, exception_traceback = sys.exc_info()
@@ -414,7 +432,7 @@ for recipeType in recipeTypeList :
                     ingredient = "mm:{}".format(snake_case_v2(remove_accents(referencedIngredient)))
                     if ingredient not in ingredientsIsDefined :
                         fData.write("{} rdf:type mm:ingredient .\n".format(ingredient, referencedIngredient))
-                        fData.write("{} mm:ingredient-name \"{}\" .\n".format(ingredient, referencedIngredient))
+                        fData.write("{} mm:ingredient-name \"{}\" .\n".format(ingredient, referencedIngredient.replace('Ã©', 'é').replace('Ã', 'à').replace('Ã¢', 'â').replace('Ã‰', 'é').replace('Ã¨', 'è')))
                         ingredientsIsDefined.append(ingredient)
                     fData.write("mm:step-{}-{} mm:required-ingredient mm:{} .\n".format(recipeUri, stepCounter, snake_case_v2(remove_accents(referencedIngredient))))
                     ingredientNumber = ingredientNumber + 1
