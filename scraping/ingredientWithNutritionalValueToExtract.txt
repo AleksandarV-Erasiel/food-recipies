@@ -1,49 +1,48 @@
-Mandarine
-de levure chimique
-d'huile d'olive
-Poudre de lait
-Oeuf
-de sucre
-Cannelle
-Noix de muscade
+farine
+levure chimique
+huile d'hysope
+lait
+oeuf
+sucre
+cannelle
+muscade
 jaune d'oeuf
-d'ail
-Feuille de curry
-Citron
-Jus de citron
-Vanille
-Huile d'ecorce de citron vert
-de gruyere rape
-Sel
-Poivre
-Sel et poivre
-d'huile
-Babeurre
-Oignon
-de concentre de tomate
-Tambour d'eau douce
-de sel
-Pomme de terre
-Carotte
-Persil
-Vin blanc
-Levure
-de sucre en poudre
-de creme fraiche
+ail
+feuille de curry
+citron
+jus de citron
+vanille
+huile d'ecorce de citron vert
+oignon a  peau rouge
+gruyere rape
+sel
+poivre
+huile
+moutarde
+creme fraiche
+babeurre
+poireau
+oignon
+concentre de tomate
+pomme de terre
+carotte
+thym
+persil
+houblon
+vin blanc
+levure
+sucre en poudre
+bouillon de viande
 jaunes d'oeuf
-Poireau
-de celeri
-Courgette
-Clou de girofle
+celeri
+courgette
+clou de girofle
 pate brisee
-Bouillon de legume
-Huile d'hysope
+bouillon de legume
 bouquet garni
-Chip de pomme de terre
-Fromage Parmesan
-de vin blanc sec
-de maizena
-de beurre tendre
-de sucre semoule
-de chocolat noir
-de sucre vanille
+parmesan
+maizena
+beurre tendre
+sucre semoule
+chocolat
+sucre vanille

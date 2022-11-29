@@ -22,7 +22,7 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 def remove_accents(text):
-    return unidecode.unidecode(text).replace('A(c)', 'e').replace('ASS', 'c').replace('A"', 'e').replace('AC/', 'a').replace('Aa', 'e').replace("A(r)", "i").replace("A>>", "u")
+    return unidecode.unidecode(text).replace('a(c)', 'e').replace('ass', 'c').replace('a"', 'e').replace('ac/', 'a').replace('aa', 'e').replace("a(r)", "i").replace("a>>", "u")
 
 def snake_case_v2(s):
     s = s.replace(' ', '-').replace('\'', '').replace('à', 'a').replace('ç', 'c').replace('é', 'e').replace('è', 'e').replace('(', '').replace(')', '').replace(',', '').replace(';', '').replace('+', '').replace('.', '').replace('/', '-').replace('!', '').replace('?', '')
