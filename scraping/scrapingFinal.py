@@ -101,6 +101,8 @@ def commentsDataFileWriter():
         commentAuthorInformation = commentAuthorInformationList[i].replace("\n", "").replace("\t", "").replace("\r", "").replace('"', "'")
         commentUsefulnessRatio = round(evaluateCommentUsefulness(commentAuthorInformation), 2)
         commentUsefulnessRatioNormalized = commentUsefulnessRatio/commentUsefulnessRatioMax
+        if (commentUsefulnessRatioNormalized > 1):
+            commentUsefulnessRatioNormalized = 1
         #print(commentAuthorInformation)
         fData.write("mm:comment-{}-{} rdf:type mm:comment .\n".format(recipeUri, i))
         fData.write("<{}> mm:comment mm:comment-{}-{} .\n".format(recipeUrl, recipeUri, i))
@@ -225,7 +227,7 @@ for recipeType in recipeTypeList :
         commentAuthorInformationList.clear()
         commentAuthorDateList.clear()
         usedIngredientsForRecipe.clear()
-        numberCharsForShortestComment  = 1000
+        numberCharsForShortestComment = 1000
 
         recipeUrl = recipeLinkList[i]
         # TODO: remettre recipeUrl pour qu'il parcourt tous les liens
